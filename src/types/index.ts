@@ -47,6 +47,8 @@ export interface Worker {
   bedId?: string
   roomId?: string
   checkInDate?: string
+  checkOutDate?: string
+  expectedCheckOutDate?: string
   createdAt: string
   updatedAt: string
 }
@@ -117,6 +119,95 @@ export interface MaintenanceRecord {
   remark?: string
 }
 
+export interface UtilityReading {
+  id: string
+  roomId: string
+  roomNumber: string
+  buildingId: string
+  buildingName: string
+  readingDate: string
+  electricityReading: number
+  waterReading: number
+  lastElectricityReading: number
+  lastWaterReading: number
+  electricityUsage: number
+  waterUsage: number
+  operator: string
+  remark?: string
+  createdAt: string
+  updatedAt: string
+}
+
+export interface UtilityPrice {
+  electricityPrice: number
+  waterPrice: number
+  updatedAt: string
+}
+
+export interface UtilityBill {
+  id: string
+  roomId: string
+  roomNumber: string
+  buildingId: string
+  buildingName: string
+  billingPeriod: string
+  startDate: string
+  endDate: string
+  electricityUsage: number
+  waterUsage: number
+  electricityCost: number
+  waterCost: number
+  totalCost: number
+  readingId: string
+  status: 'pending' | 'confirmed' | 'paid'
+  confirmedAt?: string
+  paidAt?: string
+  operator?: string
+  remark?: string
+  createdAt: string
+  updatedAt: string
+}
+
+export interface ExpenseLedger {
+  id: string
+  type: 'electricity' | 'water' | 'room' | 'other'
+  roomId?: string
+  roomNumber?: string
+  buildingId?: string
+  buildingName?: string
+  workerId?: string
+  workerName?: string
+  amount: number
+  description: string
+  billingPeriod?: string
+  recordDate: string
+  operator: string
+  status: 'pending' | 'confirmed' | 'paid'
+  relatedBillId?: string
+  remark?: string
+  createdAt: string
+  updatedAt: string
+}
+
+export interface StayReminder {
+  id: string
+  workerId: string
+  workerName: string
+  workerPhone: string
+  roomId?: string
+  roomNumber?: string
+  checkInDate: string
+  expectedCheckOutDate: string
+  daysRemaining: number
+  reminderType: 'week' | 'three_days' | 'one_day' | 'overdue'
+  status: 'pending' | 'notified' | 'resolved'
+  notifiedAt?: string
+  resolvedAt?: string
+  remark?: string
+  createdAt: string
+  updatedAt: string
+}
+
 export interface Database {
   buildings: Building[]
   rooms: Room[]
@@ -125,6 +216,11 @@ export interface Database {
   records: DormitoryRecord[]
   devices: Device[]
   maintenanceRecords: MaintenanceRecord[]
+  utilityReadings: UtilityReading[]
+  utilityBills: UtilityBill[]
+  expenseLedgers: ExpenseLedger[]
+  stayReminders: StayReminder[]
+  utilityPrice: UtilityPrice
 }
 
 export const GenderLabel: Record<'male' | 'female', string> = {
@@ -202,6 +298,38 @@ export const MaintenancePriorityLabel: Record<MaintenancePriority, string> = {
   medium: '中',
   high: '高',
   urgent: '紧急',
+}
+
+export const UtilityBillStatusLabel: Record<UtilityBill['status'], string> = {
+  pending: '待确认',
+  confirmed: '已确认',
+  paid: '已缴费',
+}
+
+export const ExpenseLedgerTypeLabel: Record<ExpenseLedger['type'], string> = {
+  electricity: '电费',
+  water: '水费',
+  room: '房费',
+  other: '其他',
+}
+
+export const ExpenseLedgerStatusLabel: Record<ExpenseLedger['status'], string> = {
+  pending: '待确认',
+  confirmed: '已确认',
+  paid: '已缴费',
+}
+
+export const ReminderTypeLabel: Record<StayReminder['reminderType'], string> = {
+  week: '一周内到期',
+  three_days: '三天内到期',
+  one_day: '一天内到期',
+  overdue: '已逾期',
+}
+
+export const ReminderStatusLabel: Record<StayReminder['status'], string> = {
+  pending: '待处理',
+  notified: '已通知',
+  resolved: '已处理',
 }
 
 export type { DormitoryRecord as Record }

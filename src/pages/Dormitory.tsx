@@ -61,6 +61,8 @@ function CheckInForm() {
   const [bedId, setBedId] = useState('')
   const [operator, setOperator] = useState('')
   const [reason, setReason] = useState('')
+  const [checkInDate, setCheckInDate] = useState(new Date().toISOString().split('T')[0])
+  const [expectedCheckOutDate, setExpectedCheckOutDate] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [success, setSuccess] = useState(false)
 
@@ -118,7 +120,7 @@ function CheckInForm() {
     }
     setSubmitting(true)
     try {
-      await checkIn({ workerId, bedId, operator, reason })
+      await checkIn({ workerId, bedId, operator, reason, expectedCheckOutDate })
       setSuccess(true)
       setTimeout(() => setSuccess(false), 3000)
       setWorkerId('')
@@ -127,6 +129,8 @@ function CheckInForm() {
       setBedId('')
       setOperator('')
       setReason('')
+      setCheckInDate(new Date().toISOString().split('T')[0])
+      setExpectedCheckOutDate('')
     } catch (e: any) {
       alert(e.message || '操作失败')
     } finally {
@@ -202,6 +206,21 @@ function CheckInForm() {
                   label: b.bedNumber,
                 })),
             ]}
+          />
+        </div>
+        <div className="grid grid-cols-2 gap-4">
+          <Input
+            label="入住日期"
+            type="date"
+            value={checkInDate}
+            onChange={(e) => setCheckInDate(e.target.value)}
+          />
+          <Input
+            label="预计退宿日期"
+            type="date"
+            value={expectedCheckOutDate}
+            onChange={(e) => setExpectedCheckOutDate(e.target.value)}
+            placeholder="选填，用于住宿到期提醒"
           />
         </div>
         <Input

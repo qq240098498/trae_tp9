@@ -12,6 +12,10 @@ import {
   Home,
   Wrench,
   ClipboardList,
+  Bell,
+  BookOpen,
+  Gauge,
+  DollarSign,
 } from 'lucide-react'
 import { cn } from '../lib/utils'
 
@@ -22,6 +26,10 @@ const navItems = [
   { to: '/workers', label: '工人信息', icon: Users },
   { to: '/dormitory', label: '入住退宿', icon: BedDouble },
   { to: '/room-status', label: '房间状态', icon: Search },
+  { to: '/utility-reading', label: '水电抄表', icon: Gauge },
+  { to: '/bills', label: '费用核算', icon: DollarSign },
+  { to: '/expense-ledger', label: '费用台账', icon: BookOpen },
+  { to: '/reminders', label: '到期提醒', icon: Bell },
   { to: '/devices', label: '设备管理', icon: Wrench },
   { to: '/maintenance', label: '维修工单', icon: ClipboardList },
   { to: '/records', label: '异动记录', icon: FileText },

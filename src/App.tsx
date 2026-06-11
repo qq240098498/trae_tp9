@@ -9,6 +9,10 @@ import RoomStatus from '@/pages/RoomStatus'
 import Records from '@/pages/Records'
 import Devices from '@/pages/Devices'
 import Maintenance from '@/pages/Maintenance'
+import UtilityReading from '@/pages/UtilityReading'
+import Bills from '@/pages/Bills'
+import ExpenseLedger from '@/pages/ExpenseLedger'
+import Reminders from '@/pages/Reminders'
 
 export default function App() {
   return (
@@ -23,6 +27,10 @@ export default function App() {
           <Route path="room-status" element={<RoomStatus />} />
           <Route path="devices" element={<Devices />} />
           <Route path="maintenance" element={<Maintenance />} />
+          <Route path="utility-reading" element={<UtilityReading />} />
+          <Route path="bills" element={<Bills />} />
+          <Route path="expense-ledger" element={<ExpenseLedger />} />
+          <Route path="reminders" element={<Reminders />} />
           <Route path="records" element={<Records />} />
         </Route>
       </Routes>

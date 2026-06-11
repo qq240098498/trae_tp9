@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Card, StatsCard, Table, Badge } from '../components/UI'
+import { Card, StatsCard, Table, Badge, Button } from '../components/UI'
 import { useDormitoryStore } from '../store/dormitory'
 import {
   Building2,
@@ -9,15 +9,37 @@ import {
   Home,
   TrendingUp,
   AlertTriangle,
+  Bell,
+  DollarSign,
+  Zap,
+  Droplets,
+  FileText,
 } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export default function Dashboard() {
-  const { fetchOverview, fetchBuildings, overview, buildings } = useDormitoryStore()
+  const {
+    fetchOverview,
+    fetchBuildings,
+    overview,
+    fetchReminders,
+    fetchBillsStats,
+    fetchExpenseStats,
+    fetchReminderStats,
+    stayReminders,
+    reminderStats,
+    billsStats,
+    expenseStats,
+  } = useDormitoryStore()
 
   useEffect(() => {
     fetchOverview()
     fetchBuildings()
-  }, [fetchOverview, fetchBuildings])
+    fetchReminders()
+    fetchReminderStats()
+    fetchBillsStats()
+    fetchExpenseStats()
+  }, [fetchOverview, fetchBuildings, fetchReminders, fetchReminderStats, fetchBillsStats, fetchExpenseStats])
 
   const occupancyRate =
     overview && overview.totalBeds > 0
@@ -81,6 +103,58 @@ export default function Dashboard() {
       },
     },
   ]
+
+  const ReminderTypeLabel: Record<string, string> = {
+    week: '一周内到期',
+    three_days: '三天内到期',
+    one_day: '一天内到期',
+    overdue: '已逾期',
+  }
+
+  const ReminderTypeVariant: Record<string, string> = {
+    week: 'info',
+    three_days: 'warning',
+    one_day: 'danger',
+    overdue: 'danger',
+  }
+
+  const reminderColumns = [
+    { key: 'workerName', label: '工人姓名' },
+    { key: 'workerPhone', label: '联系电话' },
+    { key: 'expectedCheckOutDate', label: '预计退宿' },
+    {
+      key: 'daysRemaining',
+      label: '剩余天数',
+      render: (row: any) => {
+        const color =
+          row.daysRemaining > 0
+            ? 'text-green-600'
+            : row.daysRemaining === 0
+              ? 'text-yellow-600'
+              : 'text-red-600'
+        return (
+          <span className={`font-medium ${color}`}>
+            {row.daysRemaining > 0
+              ? `${row.daysRemaining}天`
+              : row.daysRemaining === 0
+                ? '今天'
+                : `逾期${Math.abs(row.daysRemaining)}天`}
+          </span>
+        )
+      },
+    },
+    {
+      key: 'reminderType',
+      label: '提醒类型',
+      render: (row: any) => (
+        <Badge variant={ReminderTypeVariant[row.reminderType] as any}>
+          {ReminderTypeLabel[row.reminderType]}
+        </Badge>
+      ),
+    },
+  ]
+
+  const topReminders = stayReminders ? stayReminders.slice(0, 5) : []
 
   return (
     <div className="space-y-6">
@@ -190,6 +264,86 @@ export default function Dashboard() {
           </div>
         </Card>
       </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <StatsCard
+          title="待处理提醒"
+          value={reminderStats?.pending || 0}
+          icon={<Bell className="h-6 w-6" />}
+          color="orange"
+        />
+        <StatsCard
+          title="已逾期"
+          value={reminderStats?.overdue || 0}
+          icon={<AlertTriangle className="h-6 w-6" />}
+          color="purple"
+        />
+        <StatsCard
+          title="已收费用"
+          value={`¥${expenseStats?.paidAmount?.toFixed(2) || '0.00'}`}
+          icon={<DollarSign className="h-6 w-6" />}
+          color="green"
+        />
+        <StatsCard
+          title="待收费用"
+          value={`¥${expenseStats?.pendingAmount?.toFixed(2) || '0.00'}`}
+          icon={<FileText className="h-6 w-6" />}
+          color="blue"
+        />
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Card>
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-sm text-slate-500 mb-1">本月用电量</p>
+              <p className="text-2xl font-bold text-orange-600">
+                {billsStats?.totalElectricityUsage?.toFixed(2) || '0.00'} 度
+              </p>
+            </div>
+            <Zap className="h-8 w-8 text-orange-500" />
+          </div>
+        </Card>
+        <Card>
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-sm text-slate-500 mb-1">本月用水量</p>
+              <p className="text-2xl font-bold text-blue-600">
+                {billsStats?.totalWaterUsage?.toFixed(2) || '0.00'} 吨
+              </p>
+            </div>
+            <Droplets className="h-8 w-8 text-blue-500" />
+          </div>
+        </Card>
+        <Card>
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-sm text-slate-500 mb-1">本月费用总额</p>
+              <p className="text-2xl font-bold text-purple-600">
+                ¥{billsStats?.totalAmount?.toFixed(2) || '0.00'}
+              </p>
+            </div>
+            <DollarSign className="h-8 w-8 text-purple-500" />
+          </div>
+        </Card>
+      </div>
+
+      <Card
+        title="住宿到期提醒"
+        actions={
+          <Link to="/reminders">
+            <Button variant="ghost" size="sm">
+              查看全部
+            </Button>
+          </Link>
+        }
+      >
+        {topReminders.length > 0 ? (
+          <Table columns={reminderColumns} data={topReminders} />
+        ) : (
+          <div className="text-center py-8 text-slate-400">暂无到期提醒</div>
+        )}
+      </Card>
     </div>
   )
 }

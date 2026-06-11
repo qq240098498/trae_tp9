@@ -3517,7 +3517,8 @@
       "id": "bed_1370_mq8385xq",
       "bedNumber": "2-102-2",
       "roomId": "room_1011_mq8385xp",
-      "status": "available"
+      "status": "occupied",
+      "workerId": "wk_1841_mq8385xq"
     },
     {
       "id": "bed_1371_mq8385xq",
@@ -6452,7 +6453,10 @@
       "emergencyPhone": "18328077640",
       "status": "active",
       "createdAt": "2026-03-12T13:11:39.899Z",
-      "updatedAt": "2026-03-12T13:11:39.899Z"
+      "updatedAt": "2026-06-11T13:36:02.667Z",
+      "bedId": "bed_1370_mq8385xq",
+      "roomId": "room_1011_mq8385xp",
+      "checkInDate": "2026-06-11T13:36:02.667Z"
     },
     {
       "id": "wk_1842_mq8385xq",
@@ -7504,6 +7508,17 @@
       "reason": "f",
       "operator": "fff",
       "operatedAt": "2026-06-11T09:26:16.148Z"
+    },
+    {
+      "id": "rec_1781184962667_2hk3mzf2",
+      "type": "checkin",
+      "workerId": "wk_1841_mq8385xq",
+      "workerName": "赵芳",
+      "bedId": "bed_1370_mq8385xq",
+      "roomNumber": "2-102",
+      "reason": "12321 ",
+      "operator": "烦烦烦",
+      "operatedAt": "2026-06-11T13:36:02.667Z"
     }
   ],
   "devices": [
@@ -14862,5 +14877,14 @@
       "startedAt": "2026-05-18T15:34:52.457Z",
       "remark": ""
     }
-  ]
+  ],
+  "utilityReadings": [],
+  "utilityBills": [],
+  "expenseLedgers": [],
+  "stayReminders": [],
+  "utilityPrice": {
+    "electricityPrice": 1.2,
+    "waterPrice": 4.5,
+    "updatedAt": "2026-06-01T00:00:00.000Z"
+  }
 }

@@ -19,6 +19,10 @@ import workersRoutes from './routes/workers.js'
 import dormitoryRoutes from './routes/dormitory.js'
 import devicesRoutes from './routes/devices.js'
 import maintenanceRoutes from './routes/maintenance.js'
+import utilityRoutes from './routes/utility.js'
+import billsRoutes from './routes/bills.js'
+import expenseRoutes from './routes/expense.js'
+import remindersRoutes from './routes/reminders.js'
 
 // for esm mode
 const __filename = fileURLToPath(import.meta.url)
@@ -44,6 +48,10 @@ app.use('/api/workers', workersRoutes)
 app.use('/api/dormitory', dormitoryRoutes)
 app.use('/api/devices', devicesRoutes)
 app.use('/api/maintenance', maintenanceRoutes)
+app.use('/api/utility', utilityRoutes)
+app.use('/api/bills', billsRoutes)
+app.use('/api/expense', expenseRoutes)
+app.use('/api/reminders', remindersRoutes)
 
 /**
  * health

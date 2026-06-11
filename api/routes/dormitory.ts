@@ -5,7 +5,7 @@ const router = Router()
 
 router.post('/checkin', async (req: Request, res: Response): Promise<void> => {
   const db = readDB()
-  const { workerId, bedId, operator, reason } = req.body
+  const { workerId, bedId, operator, reason, expectedCheckOutDate } = req.body
   const worker = db.workers.find((w) => w.id === workerId)
   if (!worker) {
     res.status(404).json({ success: false, error: '工人不存在' })
@@ -42,6 +42,7 @@ router.post('/checkin', async (req: Request, res: Response): Promise<void> => {
     bedId,
     roomId: bed.roomId,
     checkInDate: now,
+    expectedCheckOutDate,
     updatedAt: now,
   }
 

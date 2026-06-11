@@ -6,6 +6,11 @@ import type {
   DormitoryRecord,
   Device,
   MaintenanceRecord,
+  UtilityReading,
+  UtilityPrice,
+  UtilityBill,
+  ExpenseLedger,
+  StayReminder,
 } from '../types'
 
 const BASE_URL = '/api'
@@ -115,4 +120,79 @@ export const api = {
     request<MaintenanceRecord>(`/maintenance/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
   deleteMaintenanceRecord: (id: string) =>
     request<void>(`/maintenance/${id}`, { method: 'DELETE' }),
+
+  getUtilityReadings: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<UtilityReading[]>('/utility/readings' + qs)
+  },
+  getUtilityReading: (id: string) => request<UtilityReading>(`/utility/readings/${id}`),
+  getLastUtilityReading: (roomId: string) => request<UtilityReading | null>(`/utility/readings/last/${roomId}`),
+  createUtilityReading: (data: Partial<UtilityReading>) =>
+    request<UtilityReading>('/utility/readings', { method: 'POST', body: JSON.stringify(data) }),
+  updateUtilityReading: (id: string, data: Partial<UtilityReading>) =>
+    request<UtilityReading>(`/utility/readings/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteUtilityReading: (id: string) =>
+    request<void>(`/utility/readings/${id}`, { method: 'DELETE' }),
+  getUtilityPrice: () => request<UtilityPrice>('/utility/price'),
+  updateUtilityPrice: (data: Partial<UtilityPrice>) =>
+    request<UtilityPrice>('/utility/price', { method: 'PUT', body: JSON.stringify(data) }),
+
+  getBills: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<UtilityBill[]>('/bills' + qs)
+  },
+  getBill: (id: string) => request<UtilityBill>(`/bills/${id}`),
+  generateBill: (data: { readingId: string; operator?: string }) =>
+    request<UtilityBill>('/bills/generate', { method: 'POST', body: JSON.stringify(data) }),
+  batchGenerateBills: (data: { readingIds: string[]; operator?: string }) =>
+    request<{ generated: UtilityBill[]; errors: string[] }>('/bills/batch-generate', { method: 'POST', body: JSON.stringify(data) }),
+  confirmBill: (id: string) =>
+    request<UtilityBill>(`/bills/${id}/confirm`, { method: 'PUT' }),
+  payBill: (id: string) =>
+    request<UtilityBill>(`/bills/${id}/pay`, { method: 'PUT' }),
+  updateBill: (id: string, data: Partial<UtilityBill>) =>
+    request<UtilityBill>(`/bills/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteBill: (id: string) =>
+    request<void>(`/bills/${id}`, { method: 'DELETE' }),
+  getBillsStats: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<any>('/bills/stats/summary' + qs)
+  },
+
+  getExpenseLedgers: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<ExpenseLedger[]>('/expense/ledgers' + qs)
+  },
+  getExpenseLedger: (id: string) => request<ExpenseLedger>(`/expense/ledgers/${id}`),
+  createExpenseLedger: (data: Partial<ExpenseLedger>) =>
+    request<ExpenseLedger>('/expense/ledgers', { method: 'POST', body: JSON.stringify(data) }),
+  updateExpenseLedger: (id: string, data: Partial<ExpenseLedger>) =>
+    request<ExpenseLedger>(`/expense/ledgers/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteExpenseLedger: (id: string) =>
+    request<void>(`/expense/ledgers/${id}`, { method: 'DELETE' }),
+  exportExpenseLedgers: (params?: Record<string, string | number>) => {
+    const qs = params ? '&' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return `/api/expense/ledgers/export?format=csv${qs}`
+  },
+  getExpenseStats: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<any>('/expense/stats/summary' + qs)
+  },
+
+  getReminders: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<StayReminder[]>('/reminders' + qs)
+  },
+  getReminder: (id: string) => request<StayReminder>(`/reminders/${id}`),
+  generateReminders: () =>
+    request<{ newCount: number; updatedCount: number; totalActive: number; reminders: StayReminder[] }>('/reminders/generate/auto'),
+  notifyReminder: (id: string) =>
+    request<StayReminder>(`/reminders/${id}/notify`, { method: 'PUT' }),
+  resolveReminder: (id: string, data?: { remark?: string }) =>
+    request<StayReminder>(`/reminders/${id}/resolve`, { method: 'PUT', body: JSON.stringify(data || {}) }),
+  updateReminder: (id: string, data: Partial<StayReminder>) =>
+    request<StayReminder>(`/reminders/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteReminder: (id: string) =>
+    request<void>(`/reminders/${id}`, { method: 'DELETE' }),
+  getReminderStats: () => request<any>('/reminders/stats/count'),
 }
