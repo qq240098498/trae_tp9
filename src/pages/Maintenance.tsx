@@ -36,6 +36,9 @@ export default function Maintenance() {
   const [detailModalOpen, setDetailModalOpen] = useState(false)
   const [selectedRecord, setSelectedRecord] = useState<MaintenanceRecord | null>(null)
   const [formData, setFormData] = useState<Partial<MaintenanceRecord>>({})
+  const [formBuildingId, setFormBuildingId] = useState('')
+  const [formRoomId, setFormRoomId] = useState('')
+  const [formRooms, setFormRooms] = useState<Room[]>([])
 
   useEffect(() => {
     fetchData()
@@ -52,6 +55,24 @@ export default function Maintenance() {
       setRoomId('')
     }
   }, [buildingId])
+
+  useEffect(() => {
+    if (formBuildingId) {
+      fetchFormRooms(formBuildingId)
+    } else {
+      setFormRooms([])
+      setFormRoomId('')
+    }
+  }, [formBuildingId])
+
+  const fetchFormRooms = async (bldId: string) => {
+    try {
+      const data = await api.getRooms({ buildingId: bldId })
+      setFormRooms(data)
+    } catch (e) {
+      console.error(e)
+    }
+  }
 
   const fetchData = async () => {
     setLoading(true)
@@ -144,6 +165,9 @@ export default function Maintenance() {
       faultType: '',
       remark: '',
     })
+    setFormBuildingId('')
+    setFormRoomId('')
+    setFormRooms([])
     setCreateModalOpen(true)
   }
 
@@ -470,12 +494,10 @@ export default function Maintenance() {
           <div className="grid grid-cols-2 gap-4">
             <Select
               label="所属楼栋"
-              value={
-                formData.deviceId
-                  ? devices.find((d) => d.id === formData.deviceId)?.buildingId || ''
-                  : ''
-              }
+              value={formBuildingId}
               onChange={(e) => {
+                setFormBuildingId(e.target.value)
+                setFormRoomId('')
                 setFormData({ ...formData, deviceId: '' })
               }}
               options={[
@@ -485,17 +507,14 @@ export default function Maintenance() {
             />
             <Select
               label="房间"
-              value={
-                formData.deviceId
-                  ? devices.find((d) => d.id === formData.deviceId)?.roomId || ''
-                  : ''
-              }
+              value={formRoomId}
               onChange={(e) => {
+                setFormRoomId(e.target.value)
                 setFormData({ ...formData, deviceId: '' })
               }}
               options={[
                 { value: '', label: '请选择房间' },
-                ...rooms.map((r) => ({ value: r.id, label: r.roomNumber })),
+                ...formRooms.map((r) => ({ value: r.id, label: r.roomNumber })),
               ]}
             />
           </div>
@@ -508,8 +527,8 @@ export default function Maintenance() {
               ...devices
                 .filter(
                   (d) =>
-                    !formData.deviceId ||
-                    d.id === formData.deviceId,
+                    (!formBuildingId || d.buildingId === formBuildingId) &&
+                    (!formRoomId || d.roomId === formRoomId),
                 )
                 .map((d) => ({
                   value: d.id,
