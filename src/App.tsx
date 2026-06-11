@@ -7,6 +7,8 @@ import Workers from '@/pages/Workers'
 import Dormitory from '@/pages/Dormitory'
 import RoomStatus from '@/pages/RoomStatus'
 import Records from '@/pages/Records'
+import Devices from '@/pages/Devices'
+import Maintenance from '@/pages/Maintenance'
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
           <Route path="workers" element={<Workers />} />
           <Route path="dormitory" element={<Dormitory />} />
           <Route path="room-status" element={<RoomStatus />} />
+          <Route path="devices" element={<Devices />} />
+          <Route path="maintenance" element={<Maintenance />} />
           <Route path="records" element={<Records />} />
         </Route>
       </Routes>

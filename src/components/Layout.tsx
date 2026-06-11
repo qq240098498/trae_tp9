@@ -10,6 +10,8 @@ import {
   Menu,
   X,
   Home,
+  Wrench,
+  ClipboardList,
 } from 'lucide-react'
 import { cn } from '../lib/utils'
 
@@ -20,6 +22,8 @@ const navItems = [
   { to: '/workers', label: '工人信息', icon: Users },
   { to: '/dormitory', label: '入住退宿', icon: BedDouble },
   { to: '/room-status', label: '房间状态', icon: Search },
+  { to: '/devices', label: '设备管理', icon: Wrench },
+  { to: '/maintenance', label: '维修工单', icon: ClipboardList },
   { to: '/records', label: '异动记录', icon: FileText },
 ]
 

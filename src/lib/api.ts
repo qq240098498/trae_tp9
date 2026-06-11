@@ -4,6 +4,8 @@ import type {
   Bed,
   Worker,
   DormitoryRecord,
+  Device,
+  MaintenanceRecord,
 } from '../types'
 
 const BASE_URL = '/api'
@@ -87,4 +89,30 @@ export const api = {
     return request<DormitoryRecord[]>('/dormitory/records' + qs)
   },
   getOverview: () => request<any>('/dormitory/stats/overview'),
+
+  getDevices: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<Device[]>('/devices' + qs)
+  },
+  getDeviceStats: () => request<any>('/devices/stats'),
+  getDevice: (id: string) => request<Device>(`/devices/${id}`),
+  createDevice: (data: Partial<Device>) =>
+    request<Device>('/devices', { method: 'POST', body: JSON.stringify(data) }),
+  updateDevice: (id: string, data: Partial<Device>) =>
+    request<Device>(`/devices/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteDevice: (id: string) =>
+    request<void>(`/devices/${id}`, { method: 'DELETE' }),
+
+  getMaintenanceRecords: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<MaintenanceRecord[]>('/maintenance' + qs)
+  },
+  getMaintenanceStats: () => request<any>('/maintenance/stats'),
+  getMaintenanceRecord: (id: string) => request<MaintenanceRecord>(`/maintenance/${id}`),
+  createMaintenanceRecord: (data: Partial<MaintenanceRecord>) =>
+    request<MaintenanceRecord>('/maintenance', { method: 'POST', body: JSON.stringify(data) }),
+  updateMaintenanceRecord: (id: string, data: Partial<MaintenanceRecord>) =>
+    request<MaintenanceRecord>(`/maintenance/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteMaintenanceRecord: (id: string) =>
+    request<void>(`/maintenance/${id}`, { method: 'DELETE' }),
 }
