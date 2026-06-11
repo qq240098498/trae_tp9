@@ -37,9 +37,11 @@
       "roomType": "standard",
       "bedCount": 6,
       "maxOccupancy": 6,
-      "status": "normal",
+      "status": "cleaning",
       "createdAt": "2026-02-01T13:11:39.899Z",
-      "updatedAt": "2026-02-01T13:11:39.899Z"
+      "updatedAt": "2026-06-11T09:26:02.032Z",
+      "remark": "",
+      "gender": "male"
     },
     {
       "id": "room_963_mq8385xp",
@@ -51,7 +53,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-12T13:11:39.899Z",
-      "updatedAt": "2026-05-12T13:11:39.899Z"
+      "updatedAt": "2026-05-12T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_964_mq8385xp",
@@ -64,7 +67,8 @@
       "status": "maintenance",
       "remark": "设施维修中",
       "createdAt": "2026-01-21T13:11:39.899Z",
-      "updatedAt": "2026-01-21T13:11:39.899Z"
+      "updatedAt": "2026-01-21T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_965_mq8385xp",
@@ -76,7 +80,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-31T13:11:39.899Z",
-      "updatedAt": "2026-01-31T13:11:39.899Z"
+      "updatedAt": "2026-01-31T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_966_mq8385xp",
@@ -88,7 +93,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-30T13:11:39.899Z",
-      "updatedAt": "2026-04-30T13:11:39.899Z"
+      "updatedAt": "2026-04-30T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_967_mq8385xp",
@@ -100,7 +106,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-11T13:11:39.899Z",
-      "updatedAt": "2026-01-11T13:11:39.899Z"
+      "updatedAt": "2026-01-11T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_968_mq8385xp",
@@ -112,7 +119,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-18T13:11:39.899Z",
-      "updatedAt": "2026-03-18T13:11:39.899Z"
+      "updatedAt": "2026-03-18T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_969_mq8385xp",
@@ -124,7 +132,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-15T13:11:39.899Z",
-      "updatedAt": "2026-01-15T13:11:39.899Z"
+      "updatedAt": "2026-01-15T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_970_mq8385xp",
@@ -136,7 +145,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-03T13:11:39.899Z",
-      "updatedAt": "2026-02-03T13:11:39.899Z"
+      "updatedAt": "2026-02-03T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_971_mq8385xp",
@@ -148,7 +158,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-02T13:11:39.899Z",
-      "updatedAt": "2026-05-02T13:11:39.899Z"
+      "updatedAt": "2026-05-02T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_972_mq8385xp",
@@ -161,7 +172,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-04-29T13:11:39.899Z",
-      "updatedAt": "2026-04-29T13:11:39.899Z"
+      "updatedAt": "2026-04-29T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_973_mq8385xp",
@@ -173,7 +185,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-07T13:11:39.899Z",
-      "updatedAt": "2026-05-07T13:11:39.899Z"
+      "updatedAt": "2026-05-07T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_974_mq8385xp",
@@ -185,7 +198,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-01T13:11:39.899Z",
-      "updatedAt": "2026-03-01T13:11:39.899Z"
+      "updatedAt": "2026-03-01T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_975_mq8385xp",
@@ -197,7 +211,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-17T13:11:39.899Z",
-      "updatedAt": "2026-05-17T13:11:39.899Z"
+      "updatedAt": "2026-05-17T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_976_mq8385xp",
@@ -209,7 +224,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-14T13:11:39.899Z",
-      "updatedAt": "2026-05-14T13:11:39.899Z"
+      "updatedAt": "2026-05-14T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_977_mq8385xp",
@@ -221,7 +237,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-29T13:11:39.899Z",
-      "updatedAt": "2026-01-29T13:11:39.899Z"
+      "updatedAt": "2026-01-29T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_978_mq8385xp",
@@ -233,7 +250,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-25T13:11:39.899Z",
-      "updatedAt": "2026-04-25T13:11:39.899Z"
+      "updatedAt": "2026-04-25T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_979_mq8385xp",
@@ -245,7 +263,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-16T13:11:39.899Z",
-      "updatedAt": "2026-04-16T13:11:39.899Z"
+      "updatedAt": "2026-04-16T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_980_mq8385xp",
@@ -257,7 +276,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-03T13:11:39.899Z",
-      "updatedAt": "2026-02-03T13:11:39.899Z"
+      "updatedAt": "2026-02-03T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_981_mq8385xp",
@@ -269,7 +289,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-07T13:11:39.899Z",
-      "updatedAt": "2026-03-07T13:11:39.899Z"
+      "updatedAt": "2026-03-07T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_982_mq8385xp",
@@ -281,7 +302,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-13T13:11:39.899Z",
-      "updatedAt": "2026-04-13T13:11:39.899Z"
+      "updatedAt": "2026-04-13T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_983_mq8385xp",
@@ -293,7 +315,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-31T13:11:39.899Z",
-      "updatedAt": "2026-03-31T13:11:39.899Z"
+      "updatedAt": "2026-03-31T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_984_mq8385xp",
@@ -305,7 +328,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-13T13:11:39.899Z",
-      "updatedAt": "2026-03-13T13:11:39.899Z"
+      "updatedAt": "2026-03-13T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_985_mq8385xp",
@@ -318,7 +342,8 @@
       "status": "maintenance",
       "remark": "设施维修中",
       "createdAt": "2026-04-14T13:11:39.899Z",
-      "updatedAt": "2026-04-14T13:11:39.899Z"
+      "updatedAt": "2026-04-14T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_986_mq8385xp",
@@ -330,7 +355,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-26T13:11:39.899Z",
-      "updatedAt": "2026-03-26T13:11:39.899Z"
+      "updatedAt": "2026-03-26T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_987_mq8385xp",
@@ -342,7 +368,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-31T13:11:39.899Z",
-      "updatedAt": "2026-03-31T13:11:39.899Z"
+      "updatedAt": "2026-03-31T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_988_mq8385xp",
@@ -354,7 +381,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-16T13:11:39.899Z",
-      "updatedAt": "2026-03-16T13:11:39.899Z"
+      "updatedAt": "2026-03-16T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_989_mq8385xp",
@@ -366,7 +394,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-01-22T13:11:39.899Z",
-      "updatedAt": "2026-01-22T13:11:39.899Z"
+      "updatedAt": "2026-01-22T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_990_mq8385xp",
@@ -378,7 +407,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-11T13:11:39.899Z",
-      "updatedAt": "2026-04-11T13:11:39.899Z"
+      "updatedAt": "2026-04-11T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_991_mq8385xp",
@@ -390,7 +420,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-30T13:11:39.899Z",
-      "updatedAt": "2026-04-30T13:11:39.899Z"
+      "updatedAt": "2026-04-30T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_992_mq8385xp",
@@ -402,7 +433,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-20T13:11:39.899Z",
-      "updatedAt": "2026-01-20T13:11:39.899Z"
+      "updatedAt": "2026-01-20T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_993_mq8385xp",
@@ -414,7 +446,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-04-26T13:11:39.899Z",
-      "updatedAt": "2026-04-26T13:11:39.899Z"
+      "updatedAt": "2026-04-26T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_994_mq8385xp",
@@ -426,7 +459,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-28T13:11:39.899Z",
-      "updatedAt": "2026-03-28T13:11:39.899Z"
+      "updatedAt": "2026-03-28T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_995_mq8385xp",
@@ -438,7 +472,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-04T13:11:39.899Z",
-      "updatedAt": "2026-03-04T13:11:39.899Z"
+      "updatedAt": "2026-03-04T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_996_mq8385xp",
@@ -450,7 +485,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-14T13:11:39.899Z",
-      "updatedAt": "2026-02-14T13:11:39.899Z"
+      "updatedAt": "2026-02-14T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_997_mq8385xp",
@@ -462,7 +498,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-05T13:11:39.899Z",
-      "updatedAt": "2026-02-05T13:11:39.899Z"
+      "updatedAt": "2026-02-05T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_998_mq8385xp",
@@ -474,7 +511,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-04T13:11:39.899Z",
-      "updatedAt": "2026-04-04T13:11:39.899Z"
+      "updatedAt": "2026-04-04T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_999_mq8385xp",
@@ -486,7 +524,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-25T13:11:39.899Z",
-      "updatedAt": "2026-03-25T13:11:39.899Z"
+      "updatedAt": "2026-03-25T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1000_mq8385xp",
@@ -498,7 +537,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-30T13:11:39.899Z",
-      "updatedAt": "2026-01-30T13:11:39.899Z"
+      "updatedAt": "2026-01-30T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1001_mq8385xp",
@@ -510,7 +550,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-03-04T13:11:39.899Z",
-      "updatedAt": "2026-03-04T13:11:39.899Z"
+      "updatedAt": "2026-03-04T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1002_mq8385xp",
@@ -522,7 +563,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-18T13:11:39.899Z",
-      "updatedAt": "2026-04-18T13:11:39.899Z"
+      "updatedAt": "2026-04-18T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1003_mq8385xp",
@@ -534,7 +576,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-26T13:11:39.899Z",
-      "updatedAt": "2026-03-26T13:11:39.899Z"
+      "updatedAt": "2026-03-26T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1004_mq8385xp",
@@ -546,7 +589,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-01-29T13:11:39.899Z",
-      "updatedAt": "2026-01-29T13:11:39.899Z"
+      "updatedAt": "2026-01-29T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1005_mq8385xp",
@@ -558,7 +602,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-29T13:11:39.899Z",
-      "updatedAt": "2026-03-29T13:11:39.899Z"
+      "updatedAt": "2026-03-29T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1006_mq8385xp",
@@ -570,7 +615,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-22T13:11:39.899Z",
-      "updatedAt": "2026-02-22T13:11:39.899Z"
+      "updatedAt": "2026-02-22T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1007_mq8385xp",
@@ -582,7 +628,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-24T13:11:39.899Z",
-      "updatedAt": "2026-02-24T13:11:39.899Z"
+      "updatedAt": "2026-02-24T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1008_mq8385xp",
@@ -594,7 +641,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-15T13:11:39.899Z",
-      "updatedAt": "2026-02-15T13:11:39.899Z"
+      "updatedAt": "2026-02-15T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1009_mq8385xp",
@@ -606,7 +654,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-03-18T13:11:39.899Z",
-      "updatedAt": "2026-03-18T13:11:39.899Z"
+      "updatedAt": "2026-03-18T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1010_mq8385xp",
@@ -618,7 +667,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-21T13:11:39.899Z",
-      "updatedAt": "2026-01-21T13:11:39.899Z"
+      "updatedAt": "2026-01-21T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1011_mq8385xp",
@@ -630,7 +680,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-10T13:11:39.899Z",
-      "updatedAt": "2026-05-10T13:11:39.899Z"
+      "updatedAt": "2026-05-10T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1012_mq8385xp",
@@ -642,7 +693,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-23T13:11:39.899Z",
-      "updatedAt": "2026-02-23T13:11:39.899Z"
+      "updatedAt": "2026-02-23T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1013_mq8385xp",
@@ -654,7 +706,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-16T13:11:39.899Z",
-      "updatedAt": "2026-05-16T13:11:39.899Z"
+      "updatedAt": "2026-05-16T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1014_mq8385xp",
@@ -666,7 +719,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-05T13:11:39.899Z",
-      "updatedAt": "2026-02-05T13:11:39.899Z"
+      "updatedAt": "2026-02-05T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1015_mq8385xp",
@@ -678,7 +732,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-04T13:11:39.899Z",
-      "updatedAt": "2026-02-04T13:11:39.899Z"
+      "updatedAt": "2026-02-04T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1016_mq8385xp",
@@ -690,7 +745,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-27T13:11:39.899Z",
-      "updatedAt": "2026-02-27T13:11:39.899Z"
+      "updatedAt": "2026-02-27T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1017_mq8385xp",
@@ -702,7 +758,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-07T13:11:39.899Z",
-      "updatedAt": "2026-02-07T13:11:39.899Z"
+      "updatedAt": "2026-02-07T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1018_mq8385xp",
@@ -714,7 +771,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-21T13:11:39.899Z",
-      "updatedAt": "2026-04-21T13:11:39.899Z"
+      "updatedAt": "2026-04-21T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1019_mq8385xp",
@@ -727,7 +785,8 @@
       "status": "maintenance",
       "remark": "设施维修中",
       "createdAt": "2026-01-30T13:11:39.899Z",
-      "updatedAt": "2026-01-30T13:11:39.899Z"
+      "updatedAt": "2026-01-30T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1020_mq8385xp",
@@ -739,7 +798,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-18T13:11:39.899Z",
-      "updatedAt": "2026-03-18T13:11:39.899Z"
+      "updatedAt": "2026-03-18T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1021_mq8385xp",
@@ -751,7 +811,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-16T13:11:39.899Z",
-      "updatedAt": "2026-05-16T13:11:39.899Z"
+      "updatedAt": "2026-05-16T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1022_mq8385xp",
@@ -764,7 +825,8 @@
       "status": "maintenance",
       "remark": "设施维修中",
       "createdAt": "2026-04-07T13:11:39.899Z",
-      "updatedAt": "2026-04-07T13:11:39.899Z"
+      "updatedAt": "2026-04-07T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1023_mq8385xp",
@@ -776,7 +838,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-06T13:11:39.899Z",
-      "updatedAt": "2026-05-06T13:11:39.899Z"
+      "updatedAt": "2026-05-06T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1024_mq8385xp",
@@ -788,7 +851,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-01-26T13:11:39.899Z",
-      "updatedAt": "2026-01-26T13:11:39.899Z"
+      "updatedAt": "2026-01-26T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1025_mq8385xp",
@@ -800,7 +864,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-02T13:11:39.899Z",
-      "updatedAt": "2026-05-02T13:11:39.899Z"
+      "updatedAt": "2026-05-02T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1026_mq8385xp",
@@ -812,7 +877,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-28T13:11:39.899Z",
-      "updatedAt": "2026-04-28T13:11:39.899Z"
+      "updatedAt": "2026-04-28T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1027_mq8385xp",
@@ -824,7 +890,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-18T13:11:39.899Z",
-      "updatedAt": "2026-05-18T13:11:39.899Z"
+      "updatedAt": "2026-05-18T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1028_mq8385xp",
@@ -836,7 +903,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-25T13:11:39.899Z",
-      "updatedAt": "2026-03-25T13:11:39.899Z"
+      "updatedAt": "2026-03-25T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1029_mq8385xp",
@@ -848,7 +916,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-13T13:11:39.899Z",
-      "updatedAt": "2026-03-13T13:11:39.899Z"
+      "updatedAt": "2026-03-13T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1030_mq8385xp",
@@ -860,7 +929,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-08T13:11:39.899Z",
-      "updatedAt": "2026-03-08T13:11:39.899Z"
+      "updatedAt": "2026-03-08T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1031_mq8385xp",
@@ -873,7 +943,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-02-23T13:11:39.899Z",
-      "updatedAt": "2026-02-23T13:11:39.899Z"
+      "updatedAt": "2026-02-23T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1032_mq8385xp",
@@ -886,7 +957,8 @@
       "status": "maintenance",
       "remark": "设施维修中",
       "createdAt": "2026-05-15T13:11:39.899Z",
-      "updatedAt": "2026-05-15T13:11:39.899Z"
+      "updatedAt": "2026-05-15T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1033_mq8385xp",
@@ -898,7 +970,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-03-27T13:11:39.899Z",
-      "updatedAt": "2026-03-27T13:11:39.899Z"
+      "updatedAt": "2026-03-27T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1034_mq8385xp",
@@ -910,7 +983,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-29T13:11:39.899Z",
-      "updatedAt": "2026-03-29T13:11:39.899Z"
+      "updatedAt": "2026-03-29T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1035_mq8385xp",
@@ -922,7 +996,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-14T13:11:39.899Z",
-      "updatedAt": "2026-02-14T13:11:39.899Z"
+      "updatedAt": "2026-02-14T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1036_mq8385xp",
@@ -934,7 +1009,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-18T13:11:39.899Z",
-      "updatedAt": "2026-04-18T13:11:39.899Z"
+      "updatedAt": "2026-04-18T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1037_mq8385xp",
@@ -946,7 +1022,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-13T13:11:39.899Z",
-      "updatedAt": "2026-02-13T13:11:39.899Z"
+      "updatedAt": "2026-02-13T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1038_mq8385xp",
@@ -958,7 +1035,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-19T13:11:39.899Z",
-      "updatedAt": "2026-01-19T13:11:39.899Z"
+      "updatedAt": "2026-01-19T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1039_mq8385xp",
@@ -970,7 +1048,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-14T13:11:39.899Z",
-      "updatedAt": "2026-05-14T13:11:39.899Z"
+      "updatedAt": "2026-05-14T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1040_mq8385xp",
@@ -983,7 +1062,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-05-18T13:11:39.899Z",
-      "updatedAt": "2026-05-18T13:11:39.899Z"
+      "updatedAt": "2026-05-18T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1041_mq8385xp",
@@ -995,7 +1075,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-14T13:11:39.899Z",
-      "updatedAt": "2026-01-14T13:11:39.899Z"
+      "updatedAt": "2026-01-14T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1042_mq8385xp",
@@ -1007,7 +1088,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-20T13:11:39.899Z",
-      "updatedAt": "2026-02-20T13:11:39.899Z"
+      "updatedAt": "2026-02-20T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1043_mq8385xq",
@@ -1019,7 +1101,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-01-18T13:11:39.899Z",
-      "updatedAt": "2026-01-18T13:11:39.899Z"
+      "updatedAt": "2026-01-18T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1044_mq8385xq",
@@ -1031,7 +1114,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-19T13:11:39.899Z",
-      "updatedAt": "2026-04-19T13:11:39.899Z"
+      "updatedAt": "2026-04-19T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1045_mq8385xq",
@@ -1043,7 +1127,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-26T13:11:39.899Z",
-      "updatedAt": "2026-03-26T13:11:39.899Z"
+      "updatedAt": "2026-03-26T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1046_mq8385xq",
@@ -1055,7 +1140,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-10T13:11:39.899Z",
-      "updatedAt": "2026-05-10T13:11:39.899Z"
+      "updatedAt": "2026-05-10T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1047_mq8385xq",
@@ -1067,7 +1153,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-24T13:11:39.899Z",
-      "updatedAt": "2026-04-24T13:11:39.899Z"
+      "updatedAt": "2026-04-24T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1048_mq8385xq",
@@ -1079,7 +1166,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-13T13:11:39.899Z",
-      "updatedAt": "2026-04-13T13:11:39.899Z"
+      "updatedAt": "2026-04-13T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1049_mq8385xq",
@@ -1091,7 +1179,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-04T13:11:39.899Z",
-      "updatedAt": "2026-04-04T13:11:39.899Z"
+      "updatedAt": "2026-04-04T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1050_mq8385xq",
@@ -1103,7 +1192,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-10T13:11:39.899Z",
-      "updatedAt": "2026-02-10T13:11:39.899Z"
+      "updatedAt": "2026-02-10T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1051_mq8385xq",
@@ -1115,7 +1205,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-02T13:11:39.899Z",
-      "updatedAt": "2026-02-02T13:11:39.899Z"
+      "updatedAt": "2026-02-02T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1052_mq8385xq",
@@ -1127,7 +1218,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-25T13:11:39.899Z",
-      "updatedAt": "2026-02-25T13:11:39.899Z"
+      "updatedAt": "2026-02-25T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1053_mq8385xq",
@@ -1139,7 +1231,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-06T13:11:39.899Z",
-      "updatedAt": "2026-05-06T13:11:39.899Z"
+      "updatedAt": "2026-05-06T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1054_mq8385xq",
@@ -1151,7 +1244,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-18T13:11:39.899Z",
-      "updatedAt": "2026-01-18T13:11:39.899Z"
+      "updatedAt": "2026-01-18T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1055_mq8385xq",
@@ -1163,7 +1257,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-25T13:11:39.899Z",
-      "updatedAt": "2026-02-25T13:11:39.899Z"
+      "updatedAt": "2026-02-25T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1056_mq8385xq",
@@ -1175,7 +1270,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-22T13:11:39.899Z",
-      "updatedAt": "2026-02-22T13:11:39.899Z"
+      "updatedAt": "2026-02-22T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1057_mq8385xq",
@@ -1187,7 +1283,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-05T13:11:39.899Z",
-      "updatedAt": "2026-05-05T13:11:39.899Z"
+      "updatedAt": "2026-05-05T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1058_mq8385xq",
@@ -1199,7 +1296,8 @@
       "maxOccupancy": 2,
       "status": "normal",
       "createdAt": "2026-01-22T13:11:39.899Z",
-      "updatedAt": "2026-01-22T13:11:39.899Z"
+      "updatedAt": "2026-01-22T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1059_mq8385xq",
@@ -1211,7 +1309,8 @@
       "maxOccupancy": 2,
       "status": "normal",
       "createdAt": "2026-03-17T13:11:39.899Z",
-      "updatedAt": "2026-03-17T13:11:39.899Z"
+      "updatedAt": "2026-03-17T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1060_mq8385xq",
@@ -1223,7 +1322,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-23T13:11:39.899Z",
-      "updatedAt": "2026-01-23T13:11:39.899Z"
+      "updatedAt": "2026-01-23T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1061_mq8385xq",
@@ -1235,7 +1335,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-01-27T13:11:39.899Z",
-      "updatedAt": "2026-01-27T13:11:39.899Z"
+      "updatedAt": "2026-01-27T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1062_mq8385xq",
@@ -1247,7 +1348,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-16T13:11:39.899Z",
-      "updatedAt": "2026-01-16T13:11:39.899Z"
+      "updatedAt": "2026-01-16T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1063_mq8385xq",
@@ -1259,7 +1361,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-09T13:11:39.899Z",
-      "updatedAt": "2026-05-09T13:11:39.899Z"
+      "updatedAt": "2026-05-09T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1064_mq8385xq",
@@ -1271,7 +1374,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-17T13:11:39.899Z",
-      "updatedAt": "2026-04-17T13:11:39.899Z"
+      "updatedAt": "2026-04-17T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1065_mq8385xq",
@@ -1283,7 +1387,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-27T13:11:39.899Z",
-      "updatedAt": "2026-03-27T13:11:39.899Z"
+      "updatedAt": "2026-03-27T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1066_mq8385xq",
@@ -1295,7 +1400,8 @@
       "maxOccupancy": 2,
       "status": "normal",
       "createdAt": "2026-04-14T13:11:39.899Z",
-      "updatedAt": "2026-04-14T13:11:39.899Z"
+      "updatedAt": "2026-04-14T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1067_mq8385xq",
@@ -1307,7 +1413,8 @@
       "maxOccupancy": 2,
       "status": "normal",
       "createdAt": "2026-04-30T13:11:39.899Z",
-      "updatedAt": "2026-04-30T13:11:39.899Z"
+      "updatedAt": "2026-04-30T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1068_mq8385xq",
@@ -1319,7 +1426,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-06T13:11:39.899Z",
-      "updatedAt": "2026-05-06T13:11:39.899Z"
+      "updatedAt": "2026-05-06T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1069_mq8385xq",
@@ -1331,7 +1439,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-27T13:11:39.899Z",
-      "updatedAt": "2026-01-27T13:11:39.899Z"
+      "updatedAt": "2026-01-27T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1070_mq8385xq",
@@ -1343,7 +1452,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-06T13:11:39.899Z",
-      "updatedAt": "2026-04-06T13:11:39.899Z"
+      "updatedAt": "2026-04-06T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1071_mq8385xq",
@@ -1355,7 +1465,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-13T13:11:39.899Z",
-      "updatedAt": "2026-05-13T13:11:39.899Z"
+      "updatedAt": "2026-05-13T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1072_mq8385xq",
@@ -1367,7 +1478,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-26T13:11:39.899Z",
-      "updatedAt": "2026-04-26T13:11:39.899Z"
+      "updatedAt": "2026-04-26T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1073_mq8385xq",
@@ -1379,7 +1491,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-11T13:11:39.899Z",
-      "updatedAt": "2026-05-11T13:11:39.899Z"
+      "updatedAt": "2026-05-11T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1074_mq8385xq",
@@ -1391,7 +1504,8 @@
       "maxOccupancy": 3,
       "status": "normal",
       "createdAt": "2026-05-21T13:11:39.899Z",
-      "updatedAt": "2026-05-21T13:11:39.899Z"
+      "updatedAt": "2026-05-21T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1075_mq8385xq",
@@ -1403,7 +1517,8 @@
       "maxOccupancy": 2,
       "status": "normal",
       "createdAt": "2026-02-08T13:11:39.899Z",
-      "updatedAt": "2026-02-08T13:11:39.899Z"
+      "updatedAt": "2026-02-08T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1076_mq8385xq",
@@ -1415,7 +1530,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-03-07T13:11:39.899Z",
-      "updatedAt": "2026-03-07T13:11:39.899Z"
+      "updatedAt": "2026-03-07T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1077_mq8385xq",
@@ -1427,7 +1543,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-04-07T13:11:39.899Z",
-      "updatedAt": "2026-04-07T13:11:39.899Z"
+      "updatedAt": "2026-04-07T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1078_mq8385xq",
@@ -1440,7 +1557,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-05-09T13:11:39.899Z",
-      "updatedAt": "2026-05-09T13:11:39.899Z"
+      "updatedAt": "2026-05-09T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1079_mq8385xq",
@@ -1452,7 +1570,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-05-15T13:11:39.899Z",
-      "updatedAt": "2026-05-15T13:11:39.899Z"
+      "updatedAt": "2026-05-15T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1080_mq8385xq",
@@ -1464,7 +1583,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-08T13:11:39.899Z",
-      "updatedAt": "2026-04-08T13:11:39.899Z"
+      "updatedAt": "2026-04-08T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1081_mq8385xq",
@@ -1476,7 +1596,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-21T13:11:39.899Z",
-      "updatedAt": "2026-03-21T13:11:39.899Z"
+      "updatedAt": "2026-03-21T13:11:39.899Z",
+      "gender": "male"
     },
     {
       "id": "room_1082_mq8385xq",
@@ -1488,7 +1609,8 @@
       "maxOccupancy": 3,
       "status": "normal",
       "createdAt": "2026-05-15T13:11:39.899Z",
-      "updatedAt": "2026-05-15T13:11:39.899Z"
+      "updatedAt": "2026-05-15T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1083_mq8385xq",
@@ -1501,7 +1623,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-05-06T13:11:39.899Z",
-      "updatedAt": "2026-05-06T13:11:39.899Z"
+      "updatedAt": "2026-05-06T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1084_mq8385xq",
@@ -1514,7 +1637,8 @@
       "status": "maintenance",
       "remark": "设施维修中",
       "createdAt": "2026-04-23T13:11:39.899Z",
-      "updatedAt": "2026-04-23T13:11:39.899Z"
+      "updatedAt": "2026-04-23T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1085_mq8385xq",
@@ -1526,7 +1650,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-03-03T13:11:39.899Z",
-      "updatedAt": "2026-03-03T13:11:39.899Z"
+      "updatedAt": "2026-03-03T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1086_mq8385xq",
@@ -1539,7 +1664,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-02-16T13:11:39.899Z",
-      "updatedAt": "2026-02-16T13:11:39.899Z"
+      "updatedAt": "2026-02-16T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1087_mq8385xq",
@@ -1552,7 +1678,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-02-24T13:11:39.899Z",
-      "updatedAt": "2026-02-24T13:11:39.899Z"
+      "updatedAt": "2026-02-24T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1088_mq8385xq",
@@ -1564,7 +1691,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-20T13:11:39.899Z",
-      "updatedAt": "2026-03-20T13:11:39.899Z"
+      "updatedAt": "2026-03-20T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1089_mq8385xq",
@@ -1576,7 +1704,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-05-20T13:11:39.899Z",
-      "updatedAt": "2026-05-20T13:11:39.899Z"
+      "updatedAt": "2026-05-20T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1090_mq8385xq",
@@ -1588,7 +1717,8 @@
       "maxOccupancy": 3,
       "status": "normal",
       "createdAt": "2026-03-16T13:11:39.899Z",
-      "updatedAt": "2026-03-16T13:11:39.899Z"
+      "updatedAt": "2026-03-16T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1091_mq8385xq",
@@ -1600,7 +1730,8 @@
       "maxOccupancy": 2,
       "status": "normal",
       "createdAt": "2026-04-09T13:11:39.899Z",
-      "updatedAt": "2026-04-09T13:11:39.899Z"
+      "updatedAt": "2026-04-09T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1092_mq8385xq",
@@ -1612,7 +1743,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-01T13:11:39.899Z",
-      "updatedAt": "2026-02-01T13:11:39.899Z"
+      "updatedAt": "2026-02-01T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1093_mq8385xq",
@@ -1624,7 +1756,8 @@
       "maxOccupancy": 4,
       "status": "normal",
       "createdAt": "2026-05-01T13:11:39.899Z",
-      "updatedAt": "2026-05-01T13:11:39.899Z"
+      "updatedAt": "2026-05-01T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1094_mq8385xq",
@@ -1636,7 +1769,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-03-22T13:11:39.899Z",
-      "updatedAt": "2026-03-22T13:11:39.899Z"
+      "updatedAt": "2026-03-22T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1095_mq8385xq",
@@ -1648,7 +1782,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-11T13:11:39.899Z",
-      "updatedAt": "2026-02-11T13:11:39.899Z"
+      "updatedAt": "2026-02-11T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1096_mq8385xq",
@@ -1660,7 +1795,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-19T13:11:39.899Z",
-      "updatedAt": "2026-03-19T13:11:39.899Z"
+      "updatedAt": "2026-03-19T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1097_mq8385xq",
@@ -1672,7 +1808,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-04-26T13:11:39.899Z",
-      "updatedAt": "2026-04-26T13:11:39.899Z"
+      "updatedAt": "2026-04-26T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1098_mq8385xq",
@@ -1684,7 +1821,8 @@
       "maxOccupancy": 3,
       "status": "normal",
       "createdAt": "2026-04-05T13:11:39.899Z",
-      "updatedAt": "2026-04-05T13:11:39.899Z"
+      "updatedAt": "2026-04-05T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1099_mq8385xq",
@@ -1696,7 +1834,8 @@
       "maxOccupancy": 2,
       "status": "normal",
       "createdAt": "2026-02-21T13:11:39.899Z",
-      "updatedAt": "2026-02-21T13:11:39.899Z"
+      "updatedAt": "2026-02-21T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1100_mq8385xq",
@@ -1709,7 +1848,8 @@
       "status": "cleaning",
       "remark": "卫生清扫中",
       "createdAt": "2026-03-17T13:11:39.899Z",
-      "updatedAt": "2026-03-17T13:11:39.899Z"
+      "updatedAt": "2026-03-17T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1101_mq8385xq",
@@ -1721,7 +1861,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-01-28T13:11:39.899Z",
-      "updatedAt": "2026-01-28T13:11:39.899Z"
+      "updatedAt": "2026-01-28T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1102_mq8385xq",
@@ -1733,7 +1874,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-02-03T13:11:39.899Z",
-      "updatedAt": "2026-02-03T13:11:39.899Z"
+      "updatedAt": "2026-02-03T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1103_mq8385xq",
@@ -1745,7 +1887,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-04-09T13:11:39.899Z",
-      "updatedAt": "2026-04-09T13:11:39.899Z"
+      "updatedAt": "2026-04-09T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1104_mq8385xq",
@@ -1757,7 +1900,8 @@
       "maxOccupancy": 6,
       "status": "normal",
       "createdAt": "2026-02-12T13:11:39.899Z",
-      "updatedAt": "2026-02-12T13:11:39.899Z"
+      "updatedAt": "2026-02-12T13:11:39.899Z",
+      "gender": "female"
     },
     {
       "id": "room_1105_mq8385xq",
@@ -1769,7 +1913,8 @@
       "maxOccupancy": 5,
       "status": "normal",
       "createdAt": "2026-03-08T13:11:39.899Z",
-      "updatedAt": "2026-03-08T13:11:39.899Z"
+      "updatedAt": "2026-03-08T13:11:39.899Z",
+      "gender": "female"
     }
   ],
   "beds": [
@@ -1783,7 +1928,8 @@
       "id": "bed_1107_mq8385xq",
       "bedNumber": "1-101-2",
       "roomId": "room_962_mq8385xp",
-      "status": "available"
+      "status": "occupied",
+      "workerId": "wk_1840_mq8385xq"
     },
     {
       "id": "bed_1108_mq8385xq",
@@ -6288,7 +6434,10 @@
       "emergencyPhone": "18951920657",
       "status": "active",
       "createdAt": "2026-02-20T13:11:39.899Z",
-      "updatedAt": "2026-02-20T13:11:39.899Z"
+      "updatedAt": "2026-06-11T09:26:16.148Z",
+      "bedId": "bed_1107_mq8385xq",
+      "roomId": "room_962_mq8385xp",
+      "checkInDate": "2026-06-11T09:26:16.148Z"
     },
     {
       "id": "wk_1841_mq8385xq",
@@ -7344,6 +7493,17 @@
       "reason": "新工人入住",
       "operator": "李管理员",
       "operatedAt": "2026-06-09T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1781169976148_b8avkyn6",
+      "type": "checkin",
+      "workerId": "wk_1840_mq8385xq",
+      "workerName": "王桂莉",
+      "bedId": "bed_1107_mq8385xq",
+      "roomNumber": "1-101",
+      "reason": "f",
+      "operator": "fff",
+      "operatedAt": "2026-06-11T09:26:16.148Z"
     }
   ]
 }

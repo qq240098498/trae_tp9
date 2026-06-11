@@ -96,18 +96,21 @@ export default function Dashboard() {
           value={overview?.totalRooms || 0}
           icon={<Home className="h-6 w-6" />}
           color="blue"
+          trend={`男${overview?.maleRooms || 0} / 女${overview?.femaleRooms || 0}`}
         />
         <StatsCard
           title="床位总数"
           value={overview?.totalBeds || 0}
           icon={<BedDouble className="h-6 w-6" />}
           color="purple"
+          trend={`男${overview?.maleBeds || 0} / 女${overview?.femaleBeds || 0}`}
         />
         <StatsCard
           title="工人总数"
           value={overview?.totalWorkers || 0}
           icon={<Users className="h-6 w-6" />}
           color="green"
+          trend={`男${overview?.maleWorkers || 0} / 女${overview?.femaleWorkers || 0}`}
         />
       </div>
 
@@ -117,7 +120,7 @@ export default function Dashboard() {
           value={overview?.occupiedBeds || 0}
           icon={<UserCheck className="h-6 w-6" />}
           color="orange"
-          trend={`入住率 ${occupancyRate}%`}
+          trend={`入住率 ${occupancyRate}%（男${overview?.occupiedMaleBeds || 0}/女${overview?.occupiedFemaleBeds || 0}）`}
           trendUp={occupancyRate > 50}
         />
         <StatsCard

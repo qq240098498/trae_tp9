@@ -9,6 +9,7 @@ import {
   RoomTypeLabel,
   RoomStatusLabel,
   BedStatusLabel,
+  RoomGenderLabel,
 } from '../types'
 import { cn } from '../lib/utils'
 
@@ -20,6 +21,7 @@ export default function RoomStatus() {
   const [filterFloor, setFilterFloor] = useState('')
   const [filterRoomType, setFilterRoomType] = useState('')
   const [filterRoomStatus, setFilterRoomStatus] = useState('')
+  const [filterGender, setFilterGender] = useState('')
   const [selectedRoom, setSelectedRoom] = useState<Room | null>(null)
 
   useEffect(() => {
@@ -42,6 +44,7 @@ export default function RoomStatus() {
     if (filterFloor && r.floor !== Number(filterFloor)) return false
     if (filterRoomType && r.roomType !== filterRoomType) return false
     if (filterRoomStatus && r.status !== filterRoomStatus) return false
+    if (filterGender && r.gender !== filterGender) return false
     return true
   })
 
@@ -135,6 +138,16 @@ export default function RoomStatus() {
               { value: 'cleaning', label: '清扫中' },
             ]}
           />
+          <Select
+            label="宿舍性别"
+            value={filterGender}
+            onChange={(e) => setFilterGender(e.target.value)}
+            options={[
+              { value: '', label: '全部' },
+              { value: 'male', label: '男宿舍' },
+              { value: 'female', label: '女宿舍' },
+            ]}
+          />
         </div>
       </Card>
 
@@ -155,18 +168,30 @@ export default function RoomStatus() {
                 <div className="flex items-start justify-between mb-3">
                   <div>
                     <h4 className="font-semibold text-lg text-slate-800">{room.roomNumber}</h4>
-                    <p className="text-xs text-slate-500">{RoomTypeLabel[room.roomType]}</p>
+                    <p className="text-xs text-slate-500">
+                      {RoomGenderLabel[room.gender]} · {RoomTypeLabel[room.roomType]}
+                    </p>
                   </div>
-                  <span
-                    className={cn(
-                      'px-2 py-0.5 rounded-full text-xs font-medium',
-                      room.status === 'normal' && 'bg-green-100 text-green-700',
-                      room.status === 'maintenance' && 'bg-red-100 text-red-700',
-                      room.status === 'cleaning' && 'bg-yellow-100 text-yellow-700'
-                    )}
-                  >
-                    {RoomStatusLabel[room.status]}
-                  </span>
+                  <div className="flex flex-col gap-1 items-end">
+                    <span
+                      className={cn(
+                        'px-2 py-0.5 rounded-full text-xs font-medium',
+                        room.gender === 'male' ? 'bg-blue-100 text-blue-700' : 'bg-pink-100 text-pink-700'
+                      )}
+                    >
+                      {RoomGenderLabel[room.gender]}
+                    </span>
+                    <span
+                      className={cn(
+                        'px-2 py-0.5 rounded-full text-xs font-medium',
+                        room.status === 'normal' && 'bg-green-100 text-green-700',
+                        room.status === 'maintenance' && 'bg-red-100 text-red-700',
+                        room.status === 'cleaning' && 'bg-yellow-100 text-yellow-700'
+                      )}
+                    >
+                      {RoomStatusLabel[room.status]}
+                    </span>
+                  </div>
                 </div>
 
                 <div className="flex items-center justify-between mb-3">
@@ -220,6 +245,17 @@ export default function RoomStatus() {
               <div>
                 <span className="text-slate-500">房间号：</span>
                 <span className="text-slate-800 font-medium">{selectedRoom.roomNumber}</span>
+              </div>
+              <div>
+                <span className="text-slate-500">宿舍性别：</span>
+                <span
+                  className={cn(
+                    'px-2 py-0.5 rounded-full text-xs font-medium',
+                    selectedRoom.gender === 'male' ? 'bg-blue-100 text-blue-700' : 'bg-pink-100 text-pink-700'
+                  )}
+                >
+                  {RoomGenderLabel[selectedRoom.gender]}
+                </span>
               </div>
               <div>
                 <span className="text-slate-500">房间类型：</span>

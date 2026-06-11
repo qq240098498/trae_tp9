@@ -57,6 +57,7 @@ router.post('/', async (req: Request, res: Response): Promise<void> => {
     roomNumber: req.body.roomNumber,
     buildingId: req.body.buildingId,
     floor: req.body.floor,
+    gender: req.body.gender || 'male',
     roomType: req.body.roomType || 'standard',
     bedCount: req.body.bedCount,
     maxOccupancy: req.body.maxOccupancy || req.body.bedCount,

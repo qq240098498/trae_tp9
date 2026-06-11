@@ -5,6 +5,8 @@ import {
   Building,
   Room,
   Bed,
+  RoomGenderLabel,
+  WorkerGenderLabel,
   RoomTypeLabel,
   RoomStatusLabel,
   BedStatusLabel,
@@ -38,6 +40,7 @@ export default function Rooms() {
     roomNumber: '',
     buildingId: '',
     floor: 1,
+    gender: 'male' as Room['gender'],
     roomType: 'standard' as Room['roomType'],
     bedCount: 5,
     status: 'normal' as Room['status'],
@@ -113,6 +116,7 @@ export default function Rooms() {
       roomNumber: '',
       buildingId: '',
       floor: 1,
+      gender: 'male',
       roomType: 'standard',
       bedCount: 5,
       status: 'normal',
@@ -133,6 +137,7 @@ export default function Rooms() {
   const handleEdit = async () => {
     if (!selectedRoom) return
     await updateRoom(selectedRoom.id, {
+      gender: formData.gender,
       status: formData.status,
       remark: formData.remark,
     })
@@ -158,6 +163,7 @@ export default function Rooms() {
       roomNumber: room.roomNumber,
       buildingId: room.buildingId,
       floor: room.floor,
+      gender: room.gender,
       roomType: room.roomType,
       bedCount: room.bedCount,
       status: room.status,
@@ -200,6 +206,18 @@ export default function Rooms() {
       key: 'roomType',
       label: '类型',
       render: (row: Room) => RoomTypeLabel[row.roomType],
+    },
+    {
+      key: 'gender',
+      label: '性别',
+      render: (row: Room) =>
+        row.gender === 'male' ? (
+          <Badge variant="info">{RoomGenderLabel[row.gender]}</Badge>
+        ) : (
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium text-pink-600 bg-pink-50">
+            {RoomGenderLabel[row.gender]}
+          </span>
+        ),
     },
     { key: 'bedCount', label: '床位数' },
     {
@@ -277,6 +295,15 @@ export default function Rooms() {
         />
       </div>
       <Select
+        label="性别"
+        value={formData.gender}
+        onChange={(e) => setFormData({ ...formData, gender: e.target.value as Room['gender'] })}
+        options={[
+          { value: 'male', label: '男宿舍' },
+          { value: 'female', label: '女宿舍' },
+        ]}
+      />
+      <Select
         label="房间类型"
         value={formData.roomType}
         onChange={(e) => setFormData({ ...formData, roomType: e.target.value as Room['roomType'] })}
@@ -313,6 +340,15 @@ export default function Rooms() {
         <p className="text-slate-600">类型：{RoomTypeLabel[formData.roomType]}</p>
         <p className="text-slate-600">床位数：{formData.bedCount}</p>
       </div>
+      <Select
+        label="性别"
+        value={formData.gender}
+        onChange={(e) => setFormData({ ...formData, gender: e.target.value as Room['gender'] })}
+        options={[
+          { value: 'male', label: '男宿舍' },
+          { value: 'female', label: '女宿舍' },
+        ]}
+      />
       <Select
         label="房间状态"
         value={formData.status}
@@ -398,6 +434,13 @@ export default function Rooms() {
               <span className="text-slate-600 w-24">{getBuildingName(room.buildingId)}</span>
               <span className="text-slate-600 w-16">{room.floor}层</span>
               <span className="text-slate-600 w-20">{RoomTypeLabel[room.roomType]}</span>
+              {room.gender === 'male' ? (
+                <Badge variant="info">{RoomGenderLabel[room.gender]}</Badge>
+              ) : (
+                <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium text-pink-600 bg-pink-50">
+                  {RoomGenderLabel[room.gender]}
+                </span>
+              )}
               <span className="text-slate-600 w-16">{room.bedCount}床</span>
               <Badge variant={getStatusBadgeVariant(room.status)}>
                 {RoomStatusLabel[room.status]}

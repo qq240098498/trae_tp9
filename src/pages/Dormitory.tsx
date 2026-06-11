@@ -7,6 +7,8 @@ import {
   Bed,
   Worker,
   RoomTypeLabel,
+  RoomGenderLabel,
+  WorkerGenderLabel,
 } from '../types'
 import { cn } from '../lib/utils'
 
@@ -62,6 +64,10 @@ function CheckInForm() {
   const [submitting, setSubmitting] = useState(false)
   const [success, setSuccess] = useState(false)
 
+  const selectedWorker = (workers as Worker[]).find((w) => w.id === workerId)
+  const selectedRoom = (rooms as Room[]).find((r) => r.id === roomId)
+  const genderMismatch = selectedWorker && selectedRoom && selectedWorker.gender !== selectedRoom.gender
+
   useEffect(() => {
     fetchBuildings()
     fetchWorkers()
@@ -84,10 +90,26 @@ function CheckInForm() {
     }
   }, [roomId, fetchBeds])
 
+  useEffect(() => {
+    if (selectedWorker && roomId) {
+      const room = (rooms as Room[]).find((r) => r.id === roomId)
+      if (room && room.gender !== selectedWorker.gender) {
+        setRoomId('')
+        setBedId('')
+      }
+    }
+  }, [workerId, rooms, roomId, selectedWorker])
+
   const availableWorkers = (workers as Worker[]).filter(
     (w) => w.status === 'active' && !w.bedId
   )
   const availableBeds = (beds as Bed[]).filter((b) => b.status === 'available')
+
+  const filteredRooms = (rooms as Room[]).filter((r) => {
+    if (r.buildingId !== buildingId) return false
+    if (selectedWorker && r.gender !== selectedWorker.gender) return false
+    return true
+  })
 
   const handleSubmit = async () => {
     if (!workerId || !bedId || !operator) {
@@ -119,6 +141,11 @@ function CheckInForm() {
           入住办理成功！
         </div>
       )}
+      {genderMismatch && (
+        <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm">
+          ⚠️ 警告：工人性别（{WorkerGenderLabel[selectedWorker!.gender]}）与房间性别（{RoomGenderLabel[selectedRoom!.gender]}）不匹配！
+        </div>
+      )}
       <div className="space-y-4 max-w-xl">
         <Select
           label="选择工人"
@@ -128,35 +155,38 @@ function CheckInForm() {
             { value: '', label: '请选择工人' },
             ...availableWorkers.map((w) => ({
               value: w.id,
-              label: `${w.name} - ${w.workerNumber} (${w.team})`,
+              label: `${w.name}(${WorkerGenderLabel[w.gender]}) - ${w.workerNumber} (${w.team})`,
             })),
           ]}
         />
         <div className="grid grid-cols-3 gap-4">
-          <Select
-            label="选择楼栋"
-            value={buildingId}
-            onChange={(e) => setBuildingId(e.target.value)}
-            options={[
-              { value: '', label: '请选择楼栋' },
-              ...(buildings as Building[]).map((b) => ({
-                value: b.id,
-                label: b.name,
-              })),
-            ]}
-          />
+          <div>
+            <Select
+              label="选择楼栋"
+              value={buildingId}
+              onChange={(e) => setBuildingId(e.target.value)}
+              options={[
+                { value: '', label: '请选择楼栋' },
+                ...(buildings as Building[]).map((b) => ({
+                  value: b.id,
+                  label: b.name,
+                })),
+              ]}
+            />
+            {workerId && !buildingId && (
+              <p className="mt-1 text-xs text-orange-600">请先选择工人以按性别筛选房间</p>
+            )}
+          </div>
           <Select
             label="选择房间"
             value={roomId}
             onChange={(e) => setRoomId(e.target.value)}
             options={[
               { value: '', label: '请选择房间' },
-              ...(rooms as Room[])
-                .filter((r) => r.buildingId === buildingId)
-                .map((r) => ({
-                  value: r.id,
-                  label: `${r.roomNumber} (${RoomTypeLabel[r.roomType]})`,
-                })),
+              ...filteredRooms.map((r) => ({
+                value: r.id,
+                label: `${r.roomNumber} (${RoomGenderLabel[r.gender]}, ${RoomTypeLabel[r.roomType]})`,
+              })),
             ]}
           />
           <Select
@@ -367,6 +397,24 @@ function TransferForm() {
   const currentBed = (beds as Bed[]).find((b) => b.id === selectedWorker?.bedId)
   const currentRoom = (rooms as Room[]).find((r) => r.id === currentBed?.roomId)
   const currentBuilding = (buildings as Building[]).find((b) => b.id === currentRoom?.buildingId)
+  const toSelectedRoom = (rooms as Room[]).find((r) => r.id === toRoomId)
+  const transferGenderMismatch = selectedWorker && toSelectedRoom && selectedWorker.gender !== toSelectedRoom.gender
+
+  useEffect(() => {
+    if (selectedWorker && toRoomId) {
+      const room = (rooms as Room[]).find((r) => r.id === toRoomId)
+      if (room && room.gender !== selectedWorker.gender) {
+        setToRoomId('')
+        setToBedId('')
+      }
+    }
+  }, [workerId, rooms, toRoomId, selectedWorker])
+
+  const filteredToRooms = (rooms as Room[]).filter((r) => {
+    if (r.buildingId !== toBuildingId) return false
+    if (selectedWorker && r.gender !== selectedWorker.gender) return false
+    return true
+  })
 
   const handleSubmit = async () => {
     if (!workerId || !toBedId || !operator) {
@@ -398,6 +446,11 @@ function TransferForm() {
           调房办理成功！
         </div>
       )}
+      {transferGenderMismatch && (
+        <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm">
+          ⚠️ 警告：工人性别（{WorkerGenderLabel[selectedWorker!.gender]}）与目标房间性别（{RoomGenderLabel[toSelectedRoom!.gender]}）不匹配！
+        </div>
+      )}
       <div className="space-y-4 max-w-xl">
         <Select
           label="选择工人"
@@ -407,7 +460,7 @@ function TransferForm() {
             { value: '', label: '请选择已入住工人' },
             ...occupiedWorkers.map((w) => ({
               value: w.id,
-              label: `${w.name} - ${w.workerNumber} (${w.team})`,
+              label: `${w.name}(${WorkerGenderLabel[w.gender]}) - ${w.workerNumber} (${w.team})`,
             })),
           ]}
         />
@@ -439,30 +492,33 @@ function TransferForm() {
         <div className="pt-2">
           <h4 className="font-medium text-slate-700 mb-3">选择目标空闲床位</h4>
           <div className="grid grid-cols-3 gap-4">
-            <Select
-              label="目标楼栋"
-              value={toBuildingId}
-              onChange={(e) => setToBuildingId(e.target.value)}
-              options={[
-                { value: '', label: '请选择楼栋' },
-                ...(buildings as Building[]).map((b) => ({
-                  value: b.id,
-                  label: b.name,
-                })),
-              ]}
-            />
+            <div>
+              <Select
+                label="目标楼栋"
+                value={toBuildingId}
+                onChange={(e) => setToBuildingId(e.target.value)}
+                options={[
+                  { value: '', label: '请选择楼栋' },
+                  ...(buildings as Building[]).map((b) => ({
+                    value: b.id,
+                    label: b.name,
+                  })),
+                ]}
+              />
+              {workerId && !toBuildingId && (
+                <p className="mt-1 text-xs text-orange-600">请先选择工人以按性别筛选房间</p>
+              )}
+            </div>
             <Select
               label="目标房间"
               value={toRoomId}
               onChange={(e) => setToRoomId(e.target.value)}
               options={[
                 { value: '', label: '请选择房间' },
-                ...(rooms as Room[])
-                  .filter((r) => r.buildingId === toBuildingId)
-                  .map((r) => ({
-                    value: r.id,
-                    label: `${r.roomNumber} (${RoomTypeLabel[r.roomType]})`,
-                  })),
+                ...filteredToRooms.map((r) => ({
+                  value: r.id,
+                  label: `${r.roomNumber} (${RoomGenderLabel[r.gender]}, ${RoomTypeLabel[r.roomType]})`,
+                })),
               ]}
             />
             <Select

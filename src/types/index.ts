@@ -13,6 +13,7 @@ export interface Room {
   roomNumber: string
   buildingId: string
   floor: number
+  gender: 'male' | 'female'
   roomType: 'standard' | 'deluxe' | 'manager'
   bedCount: number
   maxOccupancy: number
@@ -72,6 +73,21 @@ export interface Database {
   beds: Bed[]
   workers: Worker[]
   records: DormitoryRecord[]
+}
+
+export const GenderLabel: Record<'male' | 'female', string> = {
+  male: '男',
+  female: '女',
+}
+
+export const RoomGenderLabel: Record<Room['gender'], string> = {
+  male: '男宿舍',
+  female: '女宿舍',
+}
+
+export const WorkerGenderLabel: Record<Worker['gender'], string> = {
+  male: '男',
+  female: '女',
 }
 
 export const RoomTypeLabel: Record<Room['roomType'], string> = {

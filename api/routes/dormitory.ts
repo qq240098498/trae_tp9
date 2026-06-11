@@ -25,6 +25,12 @@ router.post('/checkin', async (req: Request, res: Response): Promise<void> => {
     return
   }
   const room = db.rooms.find((r) => r.id === bed.roomId)
+  if (room && room.gender !== worker.gender) {
+    const roomGenderText = room.gender === 'male' ? '男宿舍' : '女宿舍'
+    const workerGenderText = worker.gender === 'male' ? '男' : '女'
+    res.status(400).json({ success: false, error: `性别不匹配：该房间是${roomGenderText}，该工人为${workerGenderText}性` })
+    return
+  }
   const now = new Date().toISOString()
 
   const bedIdx = db.beds.findIndex((b) => b.id === bedId)
@@ -127,8 +133,14 @@ router.post('/transfer', async (req: Request, res: Response): Promise<void> => {
     res.status(400).json({ success: false, error: '不能调至当前床位' })
     return
   }
-  const fromRoom = fromBed ? db.rooms.find((r) => r.id === fromBed.roomId) : null
   const toRoom = db.rooms.find((r) => r.id === toBed.roomId)
+  if (toRoom && toRoom.gender !== worker.gender) {
+    const roomGenderText = toRoom.gender === 'male' ? '男宿舍' : '女宿舍'
+    const workerGenderText = worker.gender === 'male' ? '男' : '女'
+    res.status(400).json({ success: false, error: `性别不匹配：目标房间是${roomGenderText}，该工人为${workerGenderText}性` })
+    return
+  }
+  const fromRoom = fromBed ? db.rooms.find((r) => r.id === fromBed.roomId) : null
   const now = new Date().toISOString()
 
   if (fromBed) {
@@ -197,15 +209,27 @@ router.get('/stats/overview', async (req: Request, res: Response): Promise<void>
   const totalWorkers = db.workers.length
   const activeWorkers = db.workers.filter((w) => w.status === 'active').length
   const checkedInWorkers = db.workers.filter((w) => w.bedId).length
+  const maleWorkers = db.workers.filter((w) => w.gender === 'male').length
+  const femaleWorkers = db.workers.filter((w) => w.gender === 'female').length
   const totalRooms = db.rooms.length
   const normalRooms = db.rooms.filter((r) => r.status === 'normal').length
   const maintenanceRooms = db.rooms.filter((r) => r.status === 'maintenance').length
   const cleaningRooms = db.rooms.filter((r) => r.status === 'cleaning').length
+  const maleRooms = db.rooms.filter((r) => r.gender === 'male').length
+  const femaleRooms = db.rooms.filter((r) => r.gender === 'female').length
   const totalBuildings = db.buildings.length
   const teamStats = db.workers.reduce<Record<string, number>>((acc, w) => {
     acc[w.team] = (acc[w.team] || 0) + 1
     return acc
   }, {})
+  const bedsWithRoom = db.beds.map((b) => {
+    const room = db.rooms.find((r) => r.id === b.roomId)
+    return { ...b, roomGender: room?.gender }
+  })
+  const maleBeds = bedsWithRoom.filter((b) => b.roomGender === 'male').length
+  const femaleBeds = bedsWithRoom.filter((b) => b.roomGender === 'female').length
+  const occupiedMaleBeds = bedsWithRoom.filter((b) => b.roomGender === 'male' && b.status === 'occupied').length
+  const occupiedFemaleBeds = bedsWithRoom.filter((b) => b.roomGender === 'female' && b.status === 'occupied').length
   const buildingStats = db.buildings.map((b) => {
     const rooms = db.rooms.filter((r) => r.buildingId === b.id)
     const beds = db.beds.filter((bed) => rooms.some((r) => r.id === bed.roomId))
@@ -229,10 +253,18 @@ router.get('/stats/overview', async (req: Request, res: Response): Promise<void>
       totalWorkers,
       activeWorkers,
       checkedInWorkers,
+      maleWorkers,
+      femaleWorkers,
       totalRooms,
       normalRooms,
       maintenanceRooms,
       cleaningRooms,
+      maleRooms,
+      femaleRooms,
+      maleBeds,
+      femaleBeds,
+      occupiedMaleBeds,
+      occupiedFemaleBeds,
       totalBuildings,
       teamStats,
       buildingStats,
