@@ -1,0 +1,7349 @@
+{
+  "buildings": [
+    {
+      "id": "bld_959_mq8385xp",
+      "name": "1号楼",
+      "code": "BLD001",
+      "floorCount": 6,
+      "remark": "工人宿舍楼A区",
+      "createdAt": "2026-04-18T13:11:39.899Z",
+      "updatedAt": "2026-04-18T13:11:39.899Z"
+    },
+    {
+      "id": "bld_960_mq8385xp",
+      "name": "2号楼",
+      "code": "BLD002",
+      "floorCount": 6,
+      "remark": "工人宿舍楼B区",
+      "createdAt": "2025-12-17T13:11:39.899Z",
+      "updatedAt": "2025-12-17T13:11:39.899Z"
+    },
+    {
+      "id": "bld_961_mq8385xp",
+      "name": "3号楼",
+      "code": "BLD003",
+      "floorCount": 6,
+      "remark": "管理人员及技术工人宿舍",
+      "createdAt": "2026-05-06T13:11:39.899Z",
+      "updatedAt": "2026-05-06T13:11:39.899Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room_962_mq8385xp",
+      "roomNumber": "1-101",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-01T13:11:39.899Z",
+      "updatedAt": "2026-02-01T13:11:39.899Z"
+    },
+    {
+      "id": "room_963_mq8385xp",
+      "roomNumber": "1-102",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-12T13:11:39.899Z",
+      "updatedAt": "2026-05-12T13:11:39.899Z"
+    },
+    {
+      "id": "room_964_mq8385xp",
+      "roomNumber": "1-103",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "maintenance",
+      "remark": "设施维修中",
+      "createdAt": "2026-01-21T13:11:39.899Z",
+      "updatedAt": "2026-01-21T13:11:39.899Z"
+    },
+    {
+      "id": "room_965_mq8385xp",
+      "roomNumber": "1-104",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-31T13:11:39.899Z",
+      "updatedAt": "2026-01-31T13:11:39.899Z"
+    },
+    {
+      "id": "room_966_mq8385xp",
+      "roomNumber": "1-105",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-30T13:11:39.899Z",
+      "updatedAt": "2026-04-30T13:11:39.899Z"
+    },
+    {
+      "id": "room_967_mq8385xp",
+      "roomNumber": "1-106",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-11T13:11:39.899Z",
+      "updatedAt": "2026-01-11T13:11:39.899Z"
+    },
+    {
+      "id": "room_968_mq8385xp",
+      "roomNumber": "1-107",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-18T13:11:39.899Z",
+      "updatedAt": "2026-03-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_969_mq8385xp",
+      "roomNumber": "1-108",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 1,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-15T13:11:39.899Z",
+      "updatedAt": "2026-01-15T13:11:39.899Z"
+    },
+    {
+      "id": "room_970_mq8385xp",
+      "roomNumber": "1-201",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-03T13:11:39.899Z",
+      "updatedAt": "2026-02-03T13:11:39.899Z"
+    },
+    {
+      "id": "room_971_mq8385xp",
+      "roomNumber": "1-202",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-02T13:11:39.899Z",
+      "updatedAt": "2026-05-02T13:11:39.899Z"
+    },
+    {
+      "id": "room_972_mq8385xp",
+      "roomNumber": "1-203",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-04-29T13:11:39.899Z",
+      "updatedAt": "2026-04-29T13:11:39.899Z"
+    },
+    {
+      "id": "room_973_mq8385xp",
+      "roomNumber": "1-204",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-07T13:11:39.899Z",
+      "updatedAt": "2026-05-07T13:11:39.899Z"
+    },
+    {
+      "id": "room_974_mq8385xp",
+      "roomNumber": "1-205",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-01T13:11:39.899Z",
+      "updatedAt": "2026-03-01T13:11:39.899Z"
+    },
+    {
+      "id": "room_975_mq8385xp",
+      "roomNumber": "1-206",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-17T13:11:39.899Z",
+      "updatedAt": "2026-05-17T13:11:39.899Z"
+    },
+    {
+      "id": "room_976_mq8385xp",
+      "roomNumber": "1-207",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-14T13:11:39.899Z",
+      "updatedAt": "2026-05-14T13:11:39.899Z"
+    },
+    {
+      "id": "room_977_mq8385xp",
+      "roomNumber": "1-208",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 2,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-29T13:11:39.899Z",
+      "updatedAt": "2026-01-29T13:11:39.899Z"
+    },
+    {
+      "id": "room_978_mq8385xp",
+      "roomNumber": "1-301",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-25T13:11:39.899Z",
+      "updatedAt": "2026-04-25T13:11:39.899Z"
+    },
+    {
+      "id": "room_979_mq8385xp",
+      "roomNumber": "1-302",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-16T13:11:39.899Z",
+      "updatedAt": "2026-04-16T13:11:39.899Z"
+    },
+    {
+      "id": "room_980_mq8385xp",
+      "roomNumber": "1-303",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-03T13:11:39.899Z",
+      "updatedAt": "2026-02-03T13:11:39.899Z"
+    },
+    {
+      "id": "room_981_mq8385xp",
+      "roomNumber": "1-304",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-07T13:11:39.899Z",
+      "updatedAt": "2026-03-07T13:11:39.899Z"
+    },
+    {
+      "id": "room_982_mq8385xp",
+      "roomNumber": "1-305",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-13T13:11:39.899Z",
+      "updatedAt": "2026-04-13T13:11:39.899Z"
+    },
+    {
+      "id": "room_983_mq8385xp",
+      "roomNumber": "1-306",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-31T13:11:39.899Z",
+      "updatedAt": "2026-03-31T13:11:39.899Z"
+    },
+    {
+      "id": "room_984_mq8385xp",
+      "roomNumber": "1-307",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-13T13:11:39.899Z",
+      "updatedAt": "2026-03-13T13:11:39.899Z"
+    },
+    {
+      "id": "room_985_mq8385xp",
+      "roomNumber": "1-308",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 3,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "maintenance",
+      "remark": "设施维修中",
+      "createdAt": "2026-04-14T13:11:39.899Z",
+      "updatedAt": "2026-04-14T13:11:39.899Z"
+    },
+    {
+      "id": "room_986_mq8385xp",
+      "roomNumber": "1-401",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-26T13:11:39.899Z",
+      "updatedAt": "2026-03-26T13:11:39.899Z"
+    },
+    {
+      "id": "room_987_mq8385xp",
+      "roomNumber": "1-402",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-31T13:11:39.899Z",
+      "updatedAt": "2026-03-31T13:11:39.899Z"
+    },
+    {
+      "id": "room_988_mq8385xp",
+      "roomNumber": "1-403",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-16T13:11:39.899Z",
+      "updatedAt": "2026-03-16T13:11:39.899Z"
+    },
+    {
+      "id": "room_989_mq8385xp",
+      "roomNumber": "1-404",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-01-22T13:11:39.899Z",
+      "updatedAt": "2026-01-22T13:11:39.899Z"
+    },
+    {
+      "id": "room_990_mq8385xp",
+      "roomNumber": "1-405",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-11T13:11:39.899Z",
+      "updatedAt": "2026-04-11T13:11:39.899Z"
+    },
+    {
+      "id": "room_991_mq8385xp",
+      "roomNumber": "1-406",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-30T13:11:39.899Z",
+      "updatedAt": "2026-04-30T13:11:39.899Z"
+    },
+    {
+      "id": "room_992_mq8385xp",
+      "roomNumber": "1-407",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-20T13:11:39.899Z",
+      "updatedAt": "2026-01-20T13:11:39.899Z"
+    },
+    {
+      "id": "room_993_mq8385xp",
+      "roomNumber": "1-408",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 4,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-04-26T13:11:39.899Z",
+      "updatedAt": "2026-04-26T13:11:39.899Z"
+    },
+    {
+      "id": "room_994_mq8385xp",
+      "roomNumber": "1-501",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-28T13:11:39.899Z",
+      "updatedAt": "2026-03-28T13:11:39.899Z"
+    },
+    {
+      "id": "room_995_mq8385xp",
+      "roomNumber": "1-502",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-04T13:11:39.899Z",
+      "updatedAt": "2026-03-04T13:11:39.899Z"
+    },
+    {
+      "id": "room_996_mq8385xp",
+      "roomNumber": "1-503",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-14T13:11:39.899Z",
+      "updatedAt": "2026-02-14T13:11:39.899Z"
+    },
+    {
+      "id": "room_997_mq8385xp",
+      "roomNumber": "1-504",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-05T13:11:39.899Z",
+      "updatedAt": "2026-02-05T13:11:39.899Z"
+    },
+    {
+      "id": "room_998_mq8385xp",
+      "roomNumber": "1-505",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-04T13:11:39.899Z",
+      "updatedAt": "2026-04-04T13:11:39.899Z"
+    },
+    {
+      "id": "room_999_mq8385xp",
+      "roomNumber": "1-506",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-25T13:11:39.899Z",
+      "updatedAt": "2026-03-25T13:11:39.899Z"
+    },
+    {
+      "id": "room_1000_mq8385xp",
+      "roomNumber": "1-507",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-30T13:11:39.899Z",
+      "updatedAt": "2026-01-30T13:11:39.899Z"
+    },
+    {
+      "id": "room_1001_mq8385xp",
+      "roomNumber": "1-508",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 5,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-03-04T13:11:39.899Z",
+      "updatedAt": "2026-03-04T13:11:39.899Z"
+    },
+    {
+      "id": "room_1002_mq8385xp",
+      "roomNumber": "1-601",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-18T13:11:39.899Z",
+      "updatedAt": "2026-04-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1003_mq8385xp",
+      "roomNumber": "1-602",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-26T13:11:39.899Z",
+      "updatedAt": "2026-03-26T13:11:39.899Z"
+    },
+    {
+      "id": "room_1004_mq8385xp",
+      "roomNumber": "1-603",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-01-29T13:11:39.899Z",
+      "updatedAt": "2026-01-29T13:11:39.899Z"
+    },
+    {
+      "id": "room_1005_mq8385xp",
+      "roomNumber": "1-604",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-29T13:11:39.899Z",
+      "updatedAt": "2026-03-29T13:11:39.899Z"
+    },
+    {
+      "id": "room_1006_mq8385xp",
+      "roomNumber": "1-605",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-22T13:11:39.899Z",
+      "updatedAt": "2026-02-22T13:11:39.899Z"
+    },
+    {
+      "id": "room_1007_mq8385xp",
+      "roomNumber": "1-606",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-24T13:11:39.899Z",
+      "updatedAt": "2026-02-24T13:11:39.899Z"
+    },
+    {
+      "id": "room_1008_mq8385xp",
+      "roomNumber": "1-607",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-15T13:11:39.899Z",
+      "updatedAt": "2026-02-15T13:11:39.899Z"
+    },
+    {
+      "id": "room_1009_mq8385xp",
+      "roomNumber": "1-608",
+      "buildingId": "bld_959_mq8385xp",
+      "floor": 6,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-03-18T13:11:39.899Z",
+      "updatedAt": "2026-03-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1010_mq8385xp",
+      "roomNumber": "2-101",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-21T13:11:39.899Z",
+      "updatedAt": "2026-01-21T13:11:39.899Z"
+    },
+    {
+      "id": "room_1011_mq8385xp",
+      "roomNumber": "2-102",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-10T13:11:39.899Z",
+      "updatedAt": "2026-05-10T13:11:39.899Z"
+    },
+    {
+      "id": "room_1012_mq8385xp",
+      "roomNumber": "2-103",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-23T13:11:39.899Z",
+      "updatedAt": "2026-02-23T13:11:39.899Z"
+    },
+    {
+      "id": "room_1013_mq8385xp",
+      "roomNumber": "2-104",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-16T13:11:39.899Z",
+      "updatedAt": "2026-05-16T13:11:39.899Z"
+    },
+    {
+      "id": "room_1014_mq8385xp",
+      "roomNumber": "2-105",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-05T13:11:39.899Z",
+      "updatedAt": "2026-02-05T13:11:39.899Z"
+    },
+    {
+      "id": "room_1015_mq8385xp",
+      "roomNumber": "2-106",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-04T13:11:39.899Z",
+      "updatedAt": "2026-02-04T13:11:39.899Z"
+    },
+    {
+      "id": "room_1016_mq8385xp",
+      "roomNumber": "2-107",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-27T13:11:39.899Z",
+      "updatedAt": "2026-02-27T13:11:39.899Z"
+    },
+    {
+      "id": "room_1017_mq8385xp",
+      "roomNumber": "2-108",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 1,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-07T13:11:39.899Z",
+      "updatedAt": "2026-02-07T13:11:39.899Z"
+    },
+    {
+      "id": "room_1018_mq8385xp",
+      "roomNumber": "2-201",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-21T13:11:39.899Z",
+      "updatedAt": "2026-04-21T13:11:39.899Z"
+    },
+    {
+      "id": "room_1019_mq8385xp",
+      "roomNumber": "2-202",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "maintenance",
+      "remark": "设施维修中",
+      "createdAt": "2026-01-30T13:11:39.899Z",
+      "updatedAt": "2026-01-30T13:11:39.899Z"
+    },
+    {
+      "id": "room_1020_mq8385xp",
+      "roomNumber": "2-203",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-18T13:11:39.899Z",
+      "updatedAt": "2026-03-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1021_mq8385xp",
+      "roomNumber": "2-204",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-16T13:11:39.899Z",
+      "updatedAt": "2026-05-16T13:11:39.899Z"
+    },
+    {
+      "id": "room_1022_mq8385xp",
+      "roomNumber": "2-205",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "maintenance",
+      "remark": "设施维修中",
+      "createdAt": "2026-04-07T13:11:39.899Z",
+      "updatedAt": "2026-04-07T13:11:39.899Z"
+    },
+    {
+      "id": "room_1023_mq8385xp",
+      "roomNumber": "2-206",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-06T13:11:39.899Z",
+      "updatedAt": "2026-05-06T13:11:39.899Z"
+    },
+    {
+      "id": "room_1024_mq8385xp",
+      "roomNumber": "2-207",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-01-26T13:11:39.899Z",
+      "updatedAt": "2026-01-26T13:11:39.899Z"
+    },
+    {
+      "id": "room_1025_mq8385xp",
+      "roomNumber": "2-208",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 2,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-02T13:11:39.899Z",
+      "updatedAt": "2026-05-02T13:11:39.899Z"
+    },
+    {
+      "id": "room_1026_mq8385xp",
+      "roomNumber": "2-301",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-28T13:11:39.899Z",
+      "updatedAt": "2026-04-28T13:11:39.899Z"
+    },
+    {
+      "id": "room_1027_mq8385xp",
+      "roomNumber": "2-302",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-18T13:11:39.899Z",
+      "updatedAt": "2026-05-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1028_mq8385xp",
+      "roomNumber": "2-303",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-25T13:11:39.899Z",
+      "updatedAt": "2026-03-25T13:11:39.899Z"
+    },
+    {
+      "id": "room_1029_mq8385xp",
+      "roomNumber": "2-304",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-13T13:11:39.899Z",
+      "updatedAt": "2026-03-13T13:11:39.899Z"
+    },
+    {
+      "id": "room_1030_mq8385xp",
+      "roomNumber": "2-305",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-08T13:11:39.899Z",
+      "updatedAt": "2026-03-08T13:11:39.899Z"
+    },
+    {
+      "id": "room_1031_mq8385xp",
+      "roomNumber": "2-306",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-02-23T13:11:39.899Z",
+      "updatedAt": "2026-02-23T13:11:39.899Z"
+    },
+    {
+      "id": "room_1032_mq8385xp",
+      "roomNumber": "2-307",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "maintenance",
+      "remark": "设施维修中",
+      "createdAt": "2026-05-15T13:11:39.899Z",
+      "updatedAt": "2026-05-15T13:11:39.899Z"
+    },
+    {
+      "id": "room_1033_mq8385xp",
+      "roomNumber": "2-308",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 3,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-03-27T13:11:39.899Z",
+      "updatedAt": "2026-03-27T13:11:39.899Z"
+    },
+    {
+      "id": "room_1034_mq8385xp",
+      "roomNumber": "2-401",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-29T13:11:39.899Z",
+      "updatedAt": "2026-03-29T13:11:39.899Z"
+    },
+    {
+      "id": "room_1035_mq8385xp",
+      "roomNumber": "2-402",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-14T13:11:39.899Z",
+      "updatedAt": "2026-02-14T13:11:39.899Z"
+    },
+    {
+      "id": "room_1036_mq8385xp",
+      "roomNumber": "2-403",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-18T13:11:39.899Z",
+      "updatedAt": "2026-04-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1037_mq8385xp",
+      "roomNumber": "2-404",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-13T13:11:39.899Z",
+      "updatedAt": "2026-02-13T13:11:39.899Z"
+    },
+    {
+      "id": "room_1038_mq8385xp",
+      "roomNumber": "2-405",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-19T13:11:39.899Z",
+      "updatedAt": "2026-01-19T13:11:39.899Z"
+    },
+    {
+      "id": "room_1039_mq8385xp",
+      "roomNumber": "2-406",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-14T13:11:39.899Z",
+      "updatedAt": "2026-05-14T13:11:39.899Z"
+    },
+    {
+      "id": "room_1040_mq8385xp",
+      "roomNumber": "2-407",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-05-18T13:11:39.899Z",
+      "updatedAt": "2026-05-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1041_mq8385xp",
+      "roomNumber": "2-408",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 4,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-14T13:11:39.899Z",
+      "updatedAt": "2026-01-14T13:11:39.899Z"
+    },
+    {
+      "id": "room_1042_mq8385xp",
+      "roomNumber": "2-501",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-20T13:11:39.899Z",
+      "updatedAt": "2026-02-20T13:11:39.899Z"
+    },
+    {
+      "id": "room_1043_mq8385xq",
+      "roomNumber": "2-502",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-01-18T13:11:39.899Z",
+      "updatedAt": "2026-01-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1044_mq8385xq",
+      "roomNumber": "2-503",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-19T13:11:39.899Z",
+      "updatedAt": "2026-04-19T13:11:39.899Z"
+    },
+    {
+      "id": "room_1045_mq8385xq",
+      "roomNumber": "2-504",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-26T13:11:39.899Z",
+      "updatedAt": "2026-03-26T13:11:39.899Z"
+    },
+    {
+      "id": "room_1046_mq8385xq",
+      "roomNumber": "2-505",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-10T13:11:39.899Z",
+      "updatedAt": "2026-05-10T13:11:39.899Z"
+    },
+    {
+      "id": "room_1047_mq8385xq",
+      "roomNumber": "2-506",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-24T13:11:39.899Z",
+      "updatedAt": "2026-04-24T13:11:39.899Z"
+    },
+    {
+      "id": "room_1048_mq8385xq",
+      "roomNumber": "2-507",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-13T13:11:39.899Z",
+      "updatedAt": "2026-04-13T13:11:39.899Z"
+    },
+    {
+      "id": "room_1049_mq8385xq",
+      "roomNumber": "2-508",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 5,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-04T13:11:39.899Z",
+      "updatedAt": "2026-04-04T13:11:39.899Z"
+    },
+    {
+      "id": "room_1050_mq8385xq",
+      "roomNumber": "2-601",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-10T13:11:39.899Z",
+      "updatedAt": "2026-02-10T13:11:39.899Z"
+    },
+    {
+      "id": "room_1051_mq8385xq",
+      "roomNumber": "2-602",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-02T13:11:39.899Z",
+      "updatedAt": "2026-02-02T13:11:39.899Z"
+    },
+    {
+      "id": "room_1052_mq8385xq",
+      "roomNumber": "2-603",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-25T13:11:39.899Z",
+      "updatedAt": "2026-02-25T13:11:39.899Z"
+    },
+    {
+      "id": "room_1053_mq8385xq",
+      "roomNumber": "2-604",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-06T13:11:39.899Z",
+      "updatedAt": "2026-05-06T13:11:39.899Z"
+    },
+    {
+      "id": "room_1054_mq8385xq",
+      "roomNumber": "2-605",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-18T13:11:39.899Z",
+      "updatedAt": "2026-01-18T13:11:39.899Z"
+    },
+    {
+      "id": "room_1055_mq8385xq",
+      "roomNumber": "2-606",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-25T13:11:39.899Z",
+      "updatedAt": "2026-02-25T13:11:39.899Z"
+    },
+    {
+      "id": "room_1056_mq8385xq",
+      "roomNumber": "2-607",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-22T13:11:39.899Z",
+      "updatedAt": "2026-02-22T13:11:39.899Z"
+    },
+    {
+      "id": "room_1057_mq8385xq",
+      "roomNumber": "2-608",
+      "buildingId": "bld_960_mq8385xp",
+      "floor": 6,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-05T13:11:39.899Z",
+      "updatedAt": "2026-05-05T13:11:39.899Z"
+    },
+    {
+      "id": "room_1058_mq8385xq",
+      "roomNumber": "3-101",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "manager",
+      "bedCount": 2,
+      "maxOccupancy": 2,
+      "status": "normal",
+      "createdAt": "2026-01-22T13:11:39.899Z",
+      "updatedAt": "2026-01-22T13:11:39.899Z"
+    },
+    {
+      "id": "room_1059_mq8385xq",
+      "roomNumber": "3-102",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "manager",
+      "bedCount": 2,
+      "maxOccupancy": 2,
+      "status": "normal",
+      "createdAt": "2026-03-17T13:11:39.899Z",
+      "updatedAt": "2026-03-17T13:11:39.899Z"
+    },
+    {
+      "id": "room_1060_mq8385xq",
+      "roomNumber": "3-103",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-23T13:11:39.899Z",
+      "updatedAt": "2026-01-23T13:11:39.899Z"
+    },
+    {
+      "id": "room_1061_mq8385xq",
+      "roomNumber": "3-104",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-01-27T13:11:39.899Z",
+      "updatedAt": "2026-01-27T13:11:39.899Z"
+    },
+    {
+      "id": "room_1062_mq8385xq",
+      "roomNumber": "3-105",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-16T13:11:39.899Z",
+      "updatedAt": "2026-01-16T13:11:39.899Z"
+    },
+    {
+      "id": "room_1063_mq8385xq",
+      "roomNumber": "3-106",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-09T13:11:39.899Z",
+      "updatedAt": "2026-05-09T13:11:39.899Z"
+    },
+    {
+      "id": "room_1064_mq8385xq",
+      "roomNumber": "3-107",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-17T13:11:39.899Z",
+      "updatedAt": "2026-04-17T13:11:39.899Z"
+    },
+    {
+      "id": "room_1065_mq8385xq",
+      "roomNumber": "3-108",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 1,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-27T13:11:39.899Z",
+      "updatedAt": "2026-03-27T13:11:39.899Z"
+    },
+    {
+      "id": "room_1066_mq8385xq",
+      "roomNumber": "3-201",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "manager",
+      "bedCount": 2,
+      "maxOccupancy": 2,
+      "status": "normal",
+      "createdAt": "2026-04-14T13:11:39.899Z",
+      "updatedAt": "2026-04-14T13:11:39.899Z"
+    },
+    {
+      "id": "room_1067_mq8385xq",
+      "roomNumber": "3-202",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "manager",
+      "bedCount": 2,
+      "maxOccupancy": 2,
+      "status": "normal",
+      "createdAt": "2026-04-30T13:11:39.899Z",
+      "updatedAt": "2026-04-30T13:11:39.899Z"
+    },
+    {
+      "id": "room_1068_mq8385xq",
+      "roomNumber": "3-203",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-06T13:11:39.899Z",
+      "updatedAt": "2026-05-06T13:11:39.899Z"
+    },
+    {
+      "id": "room_1069_mq8385xq",
+      "roomNumber": "3-204",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-27T13:11:39.899Z",
+      "updatedAt": "2026-01-27T13:11:39.899Z"
+    },
+    {
+      "id": "room_1070_mq8385xq",
+      "roomNumber": "3-205",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-06T13:11:39.899Z",
+      "updatedAt": "2026-04-06T13:11:39.899Z"
+    },
+    {
+      "id": "room_1071_mq8385xq",
+      "roomNumber": "3-206",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-13T13:11:39.899Z",
+      "updatedAt": "2026-05-13T13:11:39.899Z"
+    },
+    {
+      "id": "room_1072_mq8385xq",
+      "roomNumber": "3-207",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-26T13:11:39.899Z",
+      "updatedAt": "2026-04-26T13:11:39.899Z"
+    },
+    {
+      "id": "room_1073_mq8385xq",
+      "roomNumber": "3-208",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 2,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-11T13:11:39.899Z",
+      "updatedAt": "2026-05-11T13:11:39.899Z"
+    },
+    {
+      "id": "room_1074_mq8385xq",
+      "roomNumber": "3-301",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "manager",
+      "bedCount": 3,
+      "maxOccupancy": 3,
+      "status": "normal",
+      "createdAt": "2026-05-21T13:11:39.899Z",
+      "updatedAt": "2026-05-21T13:11:39.899Z"
+    },
+    {
+      "id": "room_1075_mq8385xq",
+      "roomNumber": "3-302",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "manager",
+      "bedCount": 2,
+      "maxOccupancy": 2,
+      "status": "normal",
+      "createdAt": "2026-02-08T13:11:39.899Z",
+      "updatedAt": "2026-02-08T13:11:39.899Z"
+    },
+    {
+      "id": "room_1076_mq8385xq",
+      "roomNumber": "3-303",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-03-07T13:11:39.899Z",
+      "updatedAt": "2026-03-07T13:11:39.899Z"
+    },
+    {
+      "id": "room_1077_mq8385xq",
+      "roomNumber": "3-304",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-04-07T13:11:39.899Z",
+      "updatedAt": "2026-04-07T13:11:39.899Z"
+    },
+    {
+      "id": "room_1078_mq8385xq",
+      "roomNumber": "3-305",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-05-09T13:11:39.899Z",
+      "updatedAt": "2026-05-09T13:11:39.899Z"
+    },
+    {
+      "id": "room_1079_mq8385xq",
+      "roomNumber": "3-306",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-05-15T13:11:39.899Z",
+      "updatedAt": "2026-05-15T13:11:39.899Z"
+    },
+    {
+      "id": "room_1080_mq8385xq",
+      "roomNumber": "3-307",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-08T13:11:39.899Z",
+      "updatedAt": "2026-04-08T13:11:39.899Z"
+    },
+    {
+      "id": "room_1081_mq8385xq",
+      "roomNumber": "3-308",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 3,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-21T13:11:39.899Z",
+      "updatedAt": "2026-03-21T13:11:39.899Z"
+    },
+    {
+      "id": "room_1082_mq8385xq",
+      "roomNumber": "3-401",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "manager",
+      "bedCount": 3,
+      "maxOccupancy": 3,
+      "status": "normal",
+      "createdAt": "2026-05-15T13:11:39.899Z",
+      "updatedAt": "2026-05-15T13:11:39.899Z"
+    },
+    {
+      "id": "room_1083_mq8385xq",
+      "roomNumber": "3-402",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "manager",
+      "bedCount": 3,
+      "maxOccupancy": 3,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-05-06T13:11:39.899Z",
+      "updatedAt": "2026-05-06T13:11:39.899Z"
+    },
+    {
+      "id": "room_1084_mq8385xq",
+      "roomNumber": "3-403",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "maintenance",
+      "remark": "设施维修中",
+      "createdAt": "2026-04-23T13:11:39.899Z",
+      "updatedAt": "2026-04-23T13:11:39.899Z"
+    },
+    {
+      "id": "room_1085_mq8385xq",
+      "roomNumber": "3-404",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-03-03T13:11:39.899Z",
+      "updatedAt": "2026-03-03T13:11:39.899Z"
+    },
+    {
+      "id": "room_1086_mq8385xq",
+      "roomNumber": "3-405",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-02-16T13:11:39.899Z",
+      "updatedAt": "2026-02-16T13:11:39.899Z"
+    },
+    {
+      "id": "room_1087_mq8385xq",
+      "roomNumber": "3-406",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-02-24T13:11:39.899Z",
+      "updatedAt": "2026-02-24T13:11:39.899Z"
+    },
+    {
+      "id": "room_1088_mq8385xq",
+      "roomNumber": "3-407",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-20T13:11:39.899Z",
+      "updatedAt": "2026-03-20T13:11:39.899Z"
+    },
+    {
+      "id": "room_1089_mq8385xq",
+      "roomNumber": "3-408",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 4,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-05-20T13:11:39.899Z",
+      "updatedAt": "2026-05-20T13:11:39.899Z"
+    },
+    {
+      "id": "room_1090_mq8385xq",
+      "roomNumber": "3-501",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "manager",
+      "bedCount": 3,
+      "maxOccupancy": 3,
+      "status": "normal",
+      "createdAt": "2026-03-16T13:11:39.899Z",
+      "updatedAt": "2026-03-16T13:11:39.899Z"
+    },
+    {
+      "id": "room_1091_mq8385xq",
+      "roomNumber": "3-502",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "manager",
+      "bedCount": 2,
+      "maxOccupancy": 2,
+      "status": "normal",
+      "createdAt": "2026-04-09T13:11:39.899Z",
+      "updatedAt": "2026-04-09T13:11:39.899Z"
+    },
+    {
+      "id": "room_1092_mq8385xq",
+      "roomNumber": "3-503",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-01T13:11:39.899Z",
+      "updatedAt": "2026-02-01T13:11:39.899Z"
+    },
+    {
+      "id": "room_1093_mq8385xq",
+      "roomNumber": "3-504",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "deluxe",
+      "bedCount": 4,
+      "maxOccupancy": 4,
+      "status": "normal",
+      "createdAt": "2026-05-01T13:11:39.899Z",
+      "updatedAt": "2026-05-01T13:11:39.899Z"
+    },
+    {
+      "id": "room_1094_mq8385xq",
+      "roomNumber": "3-505",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-03-22T13:11:39.899Z",
+      "updatedAt": "2026-03-22T13:11:39.899Z"
+    },
+    {
+      "id": "room_1095_mq8385xq",
+      "roomNumber": "3-506",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-11T13:11:39.899Z",
+      "updatedAt": "2026-02-11T13:11:39.899Z"
+    },
+    {
+      "id": "room_1096_mq8385xq",
+      "roomNumber": "3-507",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-19T13:11:39.899Z",
+      "updatedAt": "2026-03-19T13:11:39.899Z"
+    },
+    {
+      "id": "room_1097_mq8385xq",
+      "roomNumber": "3-508",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 5,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-04-26T13:11:39.899Z",
+      "updatedAt": "2026-04-26T13:11:39.899Z"
+    },
+    {
+      "id": "room_1098_mq8385xq",
+      "roomNumber": "3-601",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "manager",
+      "bedCount": 3,
+      "maxOccupancy": 3,
+      "status": "normal",
+      "createdAt": "2026-04-05T13:11:39.899Z",
+      "updatedAt": "2026-04-05T13:11:39.899Z"
+    },
+    {
+      "id": "room_1099_mq8385xq",
+      "roomNumber": "3-602",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "manager",
+      "bedCount": 2,
+      "maxOccupancy": 2,
+      "status": "normal",
+      "createdAt": "2026-02-21T13:11:39.899Z",
+      "updatedAt": "2026-02-21T13:11:39.899Z"
+    },
+    {
+      "id": "room_1100_mq8385xq",
+      "roomNumber": "3-603",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "cleaning",
+      "remark": "卫生清扫中",
+      "createdAt": "2026-03-17T13:11:39.899Z",
+      "updatedAt": "2026-03-17T13:11:39.899Z"
+    },
+    {
+      "id": "room_1101_mq8385xq",
+      "roomNumber": "3-604",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "deluxe",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-01-28T13:11:39.899Z",
+      "updatedAt": "2026-01-28T13:11:39.899Z"
+    },
+    {
+      "id": "room_1102_mq8385xq",
+      "roomNumber": "3-605",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-02-03T13:11:39.899Z",
+      "updatedAt": "2026-02-03T13:11:39.899Z"
+    },
+    {
+      "id": "room_1103_mq8385xq",
+      "roomNumber": "3-606",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-04-09T13:11:39.899Z",
+      "updatedAt": "2026-04-09T13:11:39.899Z"
+    },
+    {
+      "id": "room_1104_mq8385xq",
+      "roomNumber": "3-607",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 6,
+      "maxOccupancy": 6,
+      "status": "normal",
+      "createdAt": "2026-02-12T13:11:39.899Z",
+      "updatedAt": "2026-02-12T13:11:39.899Z"
+    },
+    {
+      "id": "room_1105_mq8385xq",
+      "roomNumber": "3-608",
+      "buildingId": "bld_961_mq8385xp",
+      "floor": 6,
+      "roomType": "standard",
+      "bedCount": 5,
+      "maxOccupancy": 5,
+      "status": "normal",
+      "createdAt": "2026-03-08T13:11:39.899Z",
+      "updatedAt": "2026-03-08T13:11:39.899Z"
+    }
+  ],
+  "beds": [
+    {
+      "id": "bed_1106_mq8385xq",
+      "bedNumber": "1-101-1",
+      "roomId": "room_962_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1107_mq8385xq",
+      "bedNumber": "1-101-2",
+      "roomId": "room_962_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1108_mq8385xq",
+      "bedNumber": "1-101-3",
+      "roomId": "room_962_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1109_mq8385xq",
+      "bedNumber": "1-101-4",
+      "roomId": "room_962_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1110_mq8385xq",
+      "bedNumber": "1-101-5",
+      "roomId": "room_962_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1111_mq8385xq",
+      "bedNumber": "1-101-6",
+      "roomId": "room_962_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1112_mq8385xq",
+      "bedNumber": "1-102-1",
+      "roomId": "room_963_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1113_mq8385xq",
+      "bedNumber": "1-102-2",
+      "roomId": "room_963_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1114_mq8385xq",
+      "bedNumber": "1-102-3",
+      "roomId": "room_963_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1115_mq8385xq",
+      "bedNumber": "1-102-4",
+      "roomId": "room_963_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1116_mq8385xq",
+      "bedNumber": "1-102-5",
+      "roomId": "room_963_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1117_mq8385xq",
+      "bedNumber": "1-102-6",
+      "roomId": "room_963_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1118_mq8385xq",
+      "bedNumber": "1-103-1",
+      "roomId": "room_964_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1119_mq8385xq",
+      "bedNumber": "1-103-2",
+      "roomId": "room_964_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1120_mq8385xq",
+      "bedNumber": "1-103-3",
+      "roomId": "room_964_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1121_mq8385xq",
+      "bedNumber": "1-103-4",
+      "roomId": "room_964_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1122_mq8385xq",
+      "bedNumber": "1-103-5",
+      "roomId": "room_964_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1123_mq8385xq",
+      "bedNumber": "1-104-1",
+      "roomId": "room_965_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1124_mq8385xq",
+      "bedNumber": "1-104-2",
+      "roomId": "room_965_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1125_mq8385xq",
+      "bedNumber": "1-104-3",
+      "roomId": "room_965_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1126_mq8385xq",
+      "bedNumber": "1-104-4",
+      "roomId": "room_965_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1127_mq8385xq",
+      "bedNumber": "1-104-5",
+      "roomId": "room_965_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1128_mq8385xq",
+      "bedNumber": "1-105-1",
+      "roomId": "room_966_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1129_mq8385xq",
+      "bedNumber": "1-105-2",
+      "roomId": "room_966_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1130_mq8385xq",
+      "bedNumber": "1-105-3",
+      "roomId": "room_966_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1131_mq8385xq",
+      "bedNumber": "1-105-4",
+      "roomId": "room_966_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1132_mq8385xq",
+      "bedNumber": "1-105-5",
+      "roomId": "room_966_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1133_mq8385xq",
+      "bedNumber": "1-106-1",
+      "roomId": "room_967_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1134_mq8385xq",
+      "bedNumber": "1-106-2",
+      "roomId": "room_967_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1135_mq8385xq",
+      "bedNumber": "1-106-3",
+      "roomId": "room_967_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1136_mq8385xq",
+      "bedNumber": "1-106-4",
+      "roomId": "room_967_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1137_mq8385xq",
+      "bedNumber": "1-106-5",
+      "roomId": "room_967_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1138_mq8385xq",
+      "bedNumber": "1-107-1",
+      "roomId": "room_968_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1139_mq8385xq",
+      "bedNumber": "1-107-2",
+      "roomId": "room_968_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1140_mq8385xq",
+      "bedNumber": "1-107-3",
+      "roomId": "room_968_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1141_mq8385xq",
+      "bedNumber": "1-107-4",
+      "roomId": "room_968_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1142_mq8385xq",
+      "bedNumber": "1-107-5",
+      "roomId": "room_968_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1143_mq8385xq",
+      "bedNumber": "1-108-1",
+      "roomId": "room_969_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1144_mq8385xq",
+      "bedNumber": "1-108-2",
+      "roomId": "room_969_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1145_mq8385xq",
+      "bedNumber": "1-108-3",
+      "roomId": "room_969_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1146_mq8385xq",
+      "bedNumber": "1-108-4",
+      "roomId": "room_969_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1147_mq8385xq",
+      "bedNumber": "1-108-5",
+      "roomId": "room_969_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1148_mq8385xq",
+      "bedNumber": "1-201-1",
+      "roomId": "room_970_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1149_mq8385xq",
+      "bedNumber": "1-201-2",
+      "roomId": "room_970_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1150_mq8385xq",
+      "bedNumber": "1-201-3",
+      "roomId": "room_970_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1151_mq8385xq",
+      "bedNumber": "1-201-4",
+      "roomId": "room_970_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1152_mq8385xq",
+      "bedNumber": "1-201-5",
+      "roomId": "room_970_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1153_mq8385xq",
+      "bedNumber": "1-202-1",
+      "roomId": "room_971_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1154_mq8385xq",
+      "bedNumber": "1-202-2",
+      "roomId": "room_971_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1155_mq8385xq",
+      "bedNumber": "1-202-3",
+      "roomId": "room_971_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1156_mq8385xq",
+      "bedNumber": "1-202-4",
+      "roomId": "room_971_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1157_mq8385xq",
+      "bedNumber": "1-202-5",
+      "roomId": "room_971_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1158_mq8385xq",
+      "bedNumber": "1-203-1",
+      "roomId": "room_972_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1159_mq8385xq",
+      "bedNumber": "1-203-2",
+      "roomId": "room_972_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1160_mq8385xq",
+      "bedNumber": "1-203-3",
+      "roomId": "room_972_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1161_mq8385xq",
+      "bedNumber": "1-203-4",
+      "roomId": "room_972_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1162_mq8385xq",
+      "bedNumber": "1-203-5",
+      "roomId": "room_972_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1163_mq8385xq",
+      "bedNumber": "1-204-1",
+      "roomId": "room_973_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1164_mq8385xq",
+      "bedNumber": "1-204-2",
+      "roomId": "room_973_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1165_mq8385xq",
+      "bedNumber": "1-204-3",
+      "roomId": "room_973_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1166_mq8385xq",
+      "bedNumber": "1-204-4",
+      "roomId": "room_973_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1167_mq8385xq",
+      "bedNumber": "1-204-5",
+      "roomId": "room_973_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1168_mq8385xq",
+      "bedNumber": "1-205-1",
+      "roomId": "room_974_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1169_mq8385xq",
+      "bedNumber": "1-205-2",
+      "roomId": "room_974_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1170_mq8385xq",
+      "bedNumber": "1-205-3",
+      "roomId": "room_974_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1171_mq8385xq",
+      "bedNumber": "1-205-4",
+      "roomId": "room_974_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1172_mq8385xq",
+      "bedNumber": "1-205-5",
+      "roomId": "room_974_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1173_mq8385xq",
+      "bedNumber": "1-205-6",
+      "roomId": "room_974_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1174_mq8385xq",
+      "bedNumber": "1-206-1",
+      "roomId": "room_975_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1175_mq8385xq",
+      "bedNumber": "1-206-2",
+      "roomId": "room_975_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1176_mq8385xq",
+      "bedNumber": "1-206-3",
+      "roomId": "room_975_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1177_mq8385xq",
+      "bedNumber": "1-206-4",
+      "roomId": "room_975_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1178_mq8385xq",
+      "bedNumber": "1-206-5",
+      "roomId": "room_975_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1179_mq8385xq",
+      "bedNumber": "1-207-1",
+      "roomId": "room_976_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1180_mq8385xq",
+      "bedNumber": "1-207-2",
+      "roomId": "room_976_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1181_mq8385xq",
+      "bedNumber": "1-207-3",
+      "roomId": "room_976_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1182_mq8385xq",
+      "bedNumber": "1-207-4",
+      "roomId": "room_976_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1183_mq8385xq",
+      "bedNumber": "1-207-5",
+      "roomId": "room_976_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1184_mq8385xq",
+      "bedNumber": "1-207-6",
+      "roomId": "room_976_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1185_mq8385xq",
+      "bedNumber": "1-208-1",
+      "roomId": "room_977_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1186_mq8385xq",
+      "bedNumber": "1-208-2",
+      "roomId": "room_977_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1187_mq8385xq",
+      "bedNumber": "1-208-3",
+      "roomId": "room_977_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1188_mq8385xq",
+      "bedNumber": "1-208-4",
+      "roomId": "room_977_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1189_mq8385xq",
+      "bedNumber": "1-208-5",
+      "roomId": "room_977_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1190_mq8385xq",
+      "bedNumber": "1-301-1",
+      "roomId": "room_978_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1191_mq8385xq",
+      "bedNumber": "1-301-2",
+      "roomId": "room_978_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1192_mq8385xq",
+      "bedNumber": "1-301-3",
+      "roomId": "room_978_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1193_mq8385xq",
+      "bedNumber": "1-301-4",
+      "roomId": "room_978_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1194_mq8385xq",
+      "bedNumber": "1-301-5",
+      "roomId": "room_978_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1195_mq8385xq",
+      "bedNumber": "1-301-6",
+      "roomId": "room_978_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1196_mq8385xq",
+      "bedNumber": "1-302-1",
+      "roomId": "room_979_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1197_mq8385xq",
+      "bedNumber": "1-302-2",
+      "roomId": "room_979_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1198_mq8385xq",
+      "bedNumber": "1-302-3",
+      "roomId": "room_979_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1199_mq8385xq",
+      "bedNumber": "1-302-4",
+      "roomId": "room_979_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1200_mq8385xq",
+      "bedNumber": "1-302-5",
+      "roomId": "room_979_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1201_mq8385xq",
+      "bedNumber": "1-302-6",
+      "roomId": "room_979_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1202_mq8385xq",
+      "bedNumber": "1-303-1",
+      "roomId": "room_980_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1203_mq8385xq",
+      "bedNumber": "1-303-2",
+      "roomId": "room_980_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1204_mq8385xq",
+      "bedNumber": "1-303-3",
+      "roomId": "room_980_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1205_mq8385xq",
+      "bedNumber": "1-303-4",
+      "roomId": "room_980_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1206_mq8385xq",
+      "bedNumber": "1-303-5",
+      "roomId": "room_980_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1207_mq8385xq",
+      "bedNumber": "1-303-6",
+      "roomId": "room_980_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1208_mq8385xq",
+      "bedNumber": "1-304-1",
+      "roomId": "room_981_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1209_mq8385xq",
+      "bedNumber": "1-304-2",
+      "roomId": "room_981_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1210_mq8385xq",
+      "bedNumber": "1-304-3",
+      "roomId": "room_981_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1211_mq8385xq",
+      "bedNumber": "1-304-4",
+      "roomId": "room_981_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1212_mq8385xq",
+      "bedNumber": "1-304-5",
+      "roomId": "room_981_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1213_mq8385xq",
+      "bedNumber": "1-305-1",
+      "roomId": "room_982_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1214_mq8385xq",
+      "bedNumber": "1-305-2",
+      "roomId": "room_982_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1215_mq8385xq",
+      "bedNumber": "1-305-3",
+      "roomId": "room_982_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1216_mq8385xq",
+      "bedNumber": "1-305-4",
+      "roomId": "room_982_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1217_mq8385xq",
+      "bedNumber": "1-305-5",
+      "roomId": "room_982_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1218_mq8385xq",
+      "bedNumber": "1-306-1",
+      "roomId": "room_983_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1219_mq8385xq",
+      "bedNumber": "1-306-2",
+      "roomId": "room_983_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1220_mq8385xq",
+      "bedNumber": "1-306-3",
+      "roomId": "room_983_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1221_mq8385xq",
+      "bedNumber": "1-306-4",
+      "roomId": "room_983_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1222_mq8385xq",
+      "bedNumber": "1-306-5",
+      "roomId": "room_983_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1223_mq8385xq",
+      "bedNumber": "1-306-6",
+      "roomId": "room_983_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1224_mq8385xq",
+      "bedNumber": "1-307-1",
+      "roomId": "room_984_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1225_mq8385xq",
+      "bedNumber": "1-307-2",
+      "roomId": "room_984_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1226_mq8385xq",
+      "bedNumber": "1-307-3",
+      "roomId": "room_984_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1227_mq8385xq",
+      "bedNumber": "1-307-4",
+      "roomId": "room_984_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1228_mq8385xq",
+      "bedNumber": "1-307-5",
+      "roomId": "room_984_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1229_mq8385xq",
+      "bedNumber": "1-308-1",
+      "roomId": "room_985_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1230_mq8385xq",
+      "bedNumber": "1-308-2",
+      "roomId": "room_985_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1231_mq8385xq",
+      "bedNumber": "1-308-3",
+      "roomId": "room_985_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1232_mq8385xq",
+      "bedNumber": "1-308-4",
+      "roomId": "room_985_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1233_mq8385xq",
+      "bedNumber": "1-308-5",
+      "roomId": "room_985_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1234_mq8385xq",
+      "bedNumber": "1-401-1",
+      "roomId": "room_986_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1235_mq8385xq",
+      "bedNumber": "1-401-2",
+      "roomId": "room_986_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1236_mq8385xq",
+      "bedNumber": "1-401-3",
+      "roomId": "room_986_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1237_mq8385xq",
+      "bedNumber": "1-401-4",
+      "roomId": "room_986_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1238_mq8385xq",
+      "bedNumber": "1-401-5",
+      "roomId": "room_986_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1239_mq8385xq",
+      "bedNumber": "1-401-6",
+      "roomId": "room_986_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1240_mq8385xq",
+      "bedNumber": "1-402-1",
+      "roomId": "room_987_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1241_mq8385xq",
+      "bedNumber": "1-402-2",
+      "roomId": "room_987_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1242_mq8385xq",
+      "bedNumber": "1-402-3",
+      "roomId": "room_987_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1243_mq8385xq",
+      "bedNumber": "1-402-4",
+      "roomId": "room_987_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1244_mq8385xq",
+      "bedNumber": "1-402-5",
+      "roomId": "room_987_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1245_mq8385xq",
+      "bedNumber": "1-403-1",
+      "roomId": "room_988_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1246_mq8385xq",
+      "bedNumber": "1-403-2",
+      "roomId": "room_988_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1247_mq8385xq",
+      "bedNumber": "1-403-3",
+      "roomId": "room_988_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1248_mq8385xq",
+      "bedNumber": "1-403-4",
+      "roomId": "room_988_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1249_mq8385xq",
+      "bedNumber": "1-403-5",
+      "roomId": "room_988_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1250_mq8385xq",
+      "bedNumber": "1-403-6",
+      "roomId": "room_988_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1251_mq8385xq",
+      "bedNumber": "1-404-1",
+      "roomId": "room_989_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1252_mq8385xq",
+      "bedNumber": "1-404-2",
+      "roomId": "room_989_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1253_mq8385xq",
+      "bedNumber": "1-404-3",
+      "roomId": "room_989_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1254_mq8385xq",
+      "bedNumber": "1-404-4",
+      "roomId": "room_989_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1255_mq8385xq",
+      "bedNumber": "1-404-5",
+      "roomId": "room_989_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1256_mq8385xq",
+      "bedNumber": "1-404-6",
+      "roomId": "room_989_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1257_mq8385xq",
+      "bedNumber": "1-405-1",
+      "roomId": "room_990_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1258_mq8385xq",
+      "bedNumber": "1-405-2",
+      "roomId": "room_990_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1259_mq8385xq",
+      "bedNumber": "1-405-3",
+      "roomId": "room_990_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1260_mq8385xq",
+      "bedNumber": "1-405-4",
+      "roomId": "room_990_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1261_mq8385xq",
+      "bedNumber": "1-405-5",
+      "roomId": "room_990_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1262_mq8385xq",
+      "bedNumber": "1-405-6",
+      "roomId": "room_990_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1263_mq8385xq",
+      "bedNumber": "1-406-1",
+      "roomId": "room_991_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1264_mq8385xq",
+      "bedNumber": "1-406-2",
+      "roomId": "room_991_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1265_mq8385xq",
+      "bedNumber": "1-406-3",
+      "roomId": "room_991_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1266_mq8385xq",
+      "bedNumber": "1-406-4",
+      "roomId": "room_991_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1267_mq8385xq",
+      "bedNumber": "1-406-5",
+      "roomId": "room_991_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1268_mq8385xq",
+      "bedNumber": "1-406-6",
+      "roomId": "room_991_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1269_mq8385xq",
+      "bedNumber": "1-407-1",
+      "roomId": "room_992_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1270_mq8385xq",
+      "bedNumber": "1-407-2",
+      "roomId": "room_992_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1271_mq8385xq",
+      "bedNumber": "1-407-3",
+      "roomId": "room_992_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1272_mq8385xq",
+      "bedNumber": "1-407-4",
+      "roomId": "room_992_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1273_mq8385xq",
+      "bedNumber": "1-407-5",
+      "roomId": "room_992_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1274_mq8385xq",
+      "bedNumber": "1-408-1",
+      "roomId": "room_993_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1275_mq8385xq",
+      "bedNumber": "1-408-2",
+      "roomId": "room_993_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1276_mq8385xq",
+      "bedNumber": "1-408-3",
+      "roomId": "room_993_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1277_mq8385xq",
+      "bedNumber": "1-408-4",
+      "roomId": "room_993_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1278_mq8385xq",
+      "bedNumber": "1-501-1",
+      "roomId": "room_994_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1279_mq8385xq",
+      "bedNumber": "1-501-2",
+      "roomId": "room_994_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1280_mq8385xq",
+      "bedNumber": "1-501-3",
+      "roomId": "room_994_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1281_mq8385xq",
+      "bedNumber": "1-501-4",
+      "roomId": "room_994_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1282_mq8385xq",
+      "bedNumber": "1-501-5",
+      "roomId": "room_994_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1283_mq8385xq",
+      "bedNumber": "1-501-6",
+      "roomId": "room_994_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1284_mq8385xq",
+      "bedNumber": "1-502-1",
+      "roomId": "room_995_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1285_mq8385xq",
+      "bedNumber": "1-502-2",
+      "roomId": "room_995_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1286_mq8385xq",
+      "bedNumber": "1-502-3",
+      "roomId": "room_995_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1287_mq8385xq",
+      "bedNumber": "1-502-4",
+      "roomId": "room_995_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1288_mq8385xq",
+      "bedNumber": "1-502-5",
+      "roomId": "room_995_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1289_mq8385xq",
+      "bedNumber": "1-502-6",
+      "roomId": "room_995_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1290_mq8385xq",
+      "bedNumber": "1-503-1",
+      "roomId": "room_996_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1291_mq8385xq",
+      "bedNumber": "1-503-2",
+      "roomId": "room_996_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1292_mq8385xq",
+      "bedNumber": "1-503-3",
+      "roomId": "room_996_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1293_mq8385xq",
+      "bedNumber": "1-503-4",
+      "roomId": "room_996_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1294_mq8385xq",
+      "bedNumber": "1-503-5",
+      "roomId": "room_996_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1295_mq8385xq",
+      "bedNumber": "1-504-1",
+      "roomId": "room_997_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1296_mq8385xq",
+      "bedNumber": "1-504-2",
+      "roomId": "room_997_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1297_mq8385xq",
+      "bedNumber": "1-504-3",
+      "roomId": "room_997_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1298_mq8385xq",
+      "bedNumber": "1-504-4",
+      "roomId": "room_997_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1299_mq8385xq",
+      "bedNumber": "1-504-5",
+      "roomId": "room_997_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1300_mq8385xq",
+      "bedNumber": "1-504-6",
+      "roomId": "room_997_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1301_mq8385xq",
+      "bedNumber": "1-505-1",
+      "roomId": "room_998_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1302_mq8385xq",
+      "bedNumber": "1-505-2",
+      "roomId": "room_998_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1303_mq8385xq",
+      "bedNumber": "1-505-3",
+      "roomId": "room_998_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1304_mq8385xq",
+      "bedNumber": "1-505-4",
+      "roomId": "room_998_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1305_mq8385xq",
+      "bedNumber": "1-505-5",
+      "roomId": "room_998_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1306_mq8385xq",
+      "bedNumber": "1-506-1",
+      "roomId": "room_999_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1307_mq8385xq",
+      "bedNumber": "1-506-2",
+      "roomId": "room_999_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1308_mq8385xq",
+      "bedNumber": "1-506-3",
+      "roomId": "room_999_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1309_mq8385xq",
+      "bedNumber": "1-506-4",
+      "roomId": "room_999_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1310_mq8385xq",
+      "bedNumber": "1-506-5",
+      "roomId": "room_999_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1311_mq8385xq",
+      "bedNumber": "1-506-6",
+      "roomId": "room_999_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1312_mq8385xq",
+      "bedNumber": "1-507-1",
+      "roomId": "room_1000_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1313_mq8385xq",
+      "bedNumber": "1-507-2",
+      "roomId": "room_1000_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1314_mq8385xq",
+      "bedNumber": "1-507-3",
+      "roomId": "room_1000_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1315_mq8385xq",
+      "bedNumber": "1-507-4",
+      "roomId": "room_1000_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1316_mq8385xq",
+      "bedNumber": "1-507-5",
+      "roomId": "room_1000_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1317_mq8385xq",
+      "bedNumber": "1-508-1",
+      "roomId": "room_1001_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1318_mq8385xq",
+      "bedNumber": "1-508-2",
+      "roomId": "room_1001_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1319_mq8385xq",
+      "bedNumber": "1-508-3",
+      "roomId": "room_1001_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1320_mq8385xq",
+      "bedNumber": "1-508-4",
+      "roomId": "room_1001_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1321_mq8385xq",
+      "bedNumber": "1-601-1",
+      "roomId": "room_1002_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1322_mq8385xq",
+      "bedNumber": "1-601-2",
+      "roomId": "room_1002_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1323_mq8385xq",
+      "bedNumber": "1-601-3",
+      "roomId": "room_1002_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1324_mq8385xq",
+      "bedNumber": "1-601-4",
+      "roomId": "room_1002_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1325_mq8385xq",
+      "bedNumber": "1-601-5",
+      "roomId": "room_1002_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1326_mq8385xq",
+      "bedNumber": "1-602-1",
+      "roomId": "room_1003_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1327_mq8385xq",
+      "bedNumber": "1-602-2",
+      "roomId": "room_1003_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1328_mq8385xq",
+      "bedNumber": "1-602-3",
+      "roomId": "room_1003_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1329_mq8385xq",
+      "bedNumber": "1-602-4",
+      "roomId": "room_1003_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1330_mq8385xq",
+      "bedNumber": "1-602-5",
+      "roomId": "room_1003_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1331_mq8385xq",
+      "bedNumber": "1-603-1",
+      "roomId": "room_1004_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1332_mq8385xq",
+      "bedNumber": "1-603-2",
+      "roomId": "room_1004_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1333_mq8385xq",
+      "bedNumber": "1-603-3",
+      "roomId": "room_1004_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1334_mq8385xq",
+      "bedNumber": "1-603-4",
+      "roomId": "room_1004_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1335_mq8385xq",
+      "bedNumber": "1-603-5",
+      "roomId": "room_1004_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1336_mq8385xq",
+      "bedNumber": "1-603-6",
+      "roomId": "room_1004_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1337_mq8385xq",
+      "bedNumber": "1-604-1",
+      "roomId": "room_1005_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1338_mq8385xq",
+      "bedNumber": "1-604-2",
+      "roomId": "room_1005_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1339_mq8385xq",
+      "bedNumber": "1-604-3",
+      "roomId": "room_1005_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1340_mq8385xq",
+      "bedNumber": "1-604-4",
+      "roomId": "room_1005_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1341_mq8385xq",
+      "bedNumber": "1-604-5",
+      "roomId": "room_1005_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1342_mq8385xq",
+      "bedNumber": "1-604-6",
+      "roomId": "room_1005_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1343_mq8385xq",
+      "bedNumber": "1-605-1",
+      "roomId": "room_1006_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1344_mq8385xq",
+      "bedNumber": "1-605-2",
+      "roomId": "room_1006_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1345_mq8385xq",
+      "bedNumber": "1-605-3",
+      "roomId": "room_1006_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1346_mq8385xq",
+      "bedNumber": "1-605-4",
+      "roomId": "room_1006_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1347_mq8385xq",
+      "bedNumber": "1-605-5",
+      "roomId": "room_1006_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1348_mq8385xq",
+      "bedNumber": "1-606-1",
+      "roomId": "room_1007_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1349_mq8385xq",
+      "bedNumber": "1-606-2",
+      "roomId": "room_1007_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1350_mq8385xq",
+      "bedNumber": "1-606-3",
+      "roomId": "room_1007_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1351_mq8385xq",
+      "bedNumber": "1-606-4",
+      "roomId": "room_1007_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1352_mq8385xq",
+      "bedNumber": "1-606-5",
+      "roomId": "room_1007_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1353_mq8385xq",
+      "bedNumber": "1-606-6",
+      "roomId": "room_1007_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1354_mq8385xq",
+      "bedNumber": "1-607-1",
+      "roomId": "room_1008_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1355_mq8385xq",
+      "bedNumber": "1-607-2",
+      "roomId": "room_1008_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1356_mq8385xq",
+      "bedNumber": "1-607-3",
+      "roomId": "room_1008_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1357_mq8385xq",
+      "bedNumber": "1-607-4",
+      "roomId": "room_1008_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1358_mq8385xq",
+      "bedNumber": "1-607-5",
+      "roomId": "room_1008_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1359_mq8385xq",
+      "bedNumber": "1-607-6",
+      "roomId": "room_1008_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1360_mq8385xq",
+      "bedNumber": "1-608-1",
+      "roomId": "room_1009_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1361_mq8385xq",
+      "bedNumber": "1-608-2",
+      "roomId": "room_1009_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1362_mq8385xq",
+      "bedNumber": "1-608-3",
+      "roomId": "room_1009_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1363_mq8385xq",
+      "bedNumber": "1-608-4",
+      "roomId": "room_1009_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1364_mq8385xq",
+      "bedNumber": "2-101-1",
+      "roomId": "room_1010_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1365_mq8385xq",
+      "bedNumber": "2-101-2",
+      "roomId": "room_1010_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1366_mq8385xq",
+      "bedNumber": "2-101-3",
+      "roomId": "room_1010_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1367_mq8385xq",
+      "bedNumber": "2-101-4",
+      "roomId": "room_1010_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1368_mq8385xq",
+      "bedNumber": "2-101-5",
+      "roomId": "room_1010_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1369_mq8385xq",
+      "bedNumber": "2-102-1",
+      "roomId": "room_1011_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1370_mq8385xq",
+      "bedNumber": "2-102-2",
+      "roomId": "room_1011_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1371_mq8385xq",
+      "bedNumber": "2-102-3",
+      "roomId": "room_1011_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1372_mq8385xq",
+      "bedNumber": "2-102-4",
+      "roomId": "room_1011_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1373_mq8385xq",
+      "bedNumber": "2-102-5",
+      "roomId": "room_1011_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1374_mq8385xq",
+      "bedNumber": "2-102-6",
+      "roomId": "room_1011_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1375_mq8385xq",
+      "bedNumber": "2-103-1",
+      "roomId": "room_1012_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1376_mq8385xq",
+      "bedNumber": "2-103-2",
+      "roomId": "room_1012_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1377_mq8385xq",
+      "bedNumber": "2-103-3",
+      "roomId": "room_1012_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1378_mq8385xq",
+      "bedNumber": "2-103-4",
+      "roomId": "room_1012_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1379_mq8385xq",
+      "bedNumber": "2-103-5",
+      "roomId": "room_1012_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1380_mq8385xq",
+      "bedNumber": "2-104-1",
+      "roomId": "room_1013_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1381_mq8385xq",
+      "bedNumber": "2-104-2",
+      "roomId": "room_1013_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1382_mq8385xq",
+      "bedNumber": "2-104-3",
+      "roomId": "room_1013_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1383_mq8385xq",
+      "bedNumber": "2-104-4",
+      "roomId": "room_1013_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1384_mq8385xq",
+      "bedNumber": "2-104-5",
+      "roomId": "room_1013_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1385_mq8385xq",
+      "bedNumber": "2-104-6",
+      "roomId": "room_1013_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1386_mq8385xq",
+      "bedNumber": "2-105-1",
+      "roomId": "room_1014_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1387_mq8385xq",
+      "bedNumber": "2-105-2",
+      "roomId": "room_1014_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1388_mq8385xq",
+      "bedNumber": "2-105-3",
+      "roomId": "room_1014_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1389_mq8385xq",
+      "bedNumber": "2-105-4",
+      "roomId": "room_1014_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1390_mq8385xq",
+      "bedNumber": "2-105-5",
+      "roomId": "room_1014_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1391_mq8385xq",
+      "bedNumber": "2-105-6",
+      "roomId": "room_1014_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1392_mq8385xq",
+      "bedNumber": "2-106-1",
+      "roomId": "room_1015_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1393_mq8385xq",
+      "bedNumber": "2-106-2",
+      "roomId": "room_1015_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1394_mq8385xq",
+      "bedNumber": "2-106-3",
+      "roomId": "room_1015_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1395_mq8385xq",
+      "bedNumber": "2-106-4",
+      "roomId": "room_1015_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1396_mq8385xq",
+      "bedNumber": "2-106-5",
+      "roomId": "room_1015_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1397_mq8385xq",
+      "bedNumber": "2-106-6",
+      "roomId": "room_1015_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1398_mq8385xq",
+      "bedNumber": "2-107-1",
+      "roomId": "room_1016_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1399_mq8385xq",
+      "bedNumber": "2-107-2",
+      "roomId": "room_1016_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1400_mq8385xq",
+      "bedNumber": "2-107-3",
+      "roomId": "room_1016_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1401_mq8385xq",
+      "bedNumber": "2-107-4",
+      "roomId": "room_1016_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1402_mq8385xq",
+      "bedNumber": "2-107-5",
+      "roomId": "room_1016_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1403_mq8385xq",
+      "bedNumber": "2-107-6",
+      "roomId": "room_1016_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1404_mq8385xq",
+      "bedNumber": "2-108-1",
+      "roomId": "room_1017_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1405_mq8385xq",
+      "bedNumber": "2-108-2",
+      "roomId": "room_1017_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1406_mq8385xq",
+      "bedNumber": "2-108-3",
+      "roomId": "room_1017_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1407_mq8385xq",
+      "bedNumber": "2-108-4",
+      "roomId": "room_1017_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1408_mq8385xq",
+      "bedNumber": "2-108-5",
+      "roomId": "room_1017_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1409_mq8385xq",
+      "bedNumber": "2-201-1",
+      "roomId": "room_1018_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1410_mq8385xq",
+      "bedNumber": "2-201-2",
+      "roomId": "room_1018_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1411_mq8385xq",
+      "bedNumber": "2-201-3",
+      "roomId": "room_1018_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1412_mq8385xq",
+      "bedNumber": "2-201-4",
+      "roomId": "room_1018_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1413_mq8385xq",
+      "bedNumber": "2-201-5",
+      "roomId": "room_1018_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1414_mq8385xq",
+      "bedNumber": "2-201-6",
+      "roomId": "room_1018_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1415_mq8385xq",
+      "bedNumber": "2-202-1",
+      "roomId": "room_1019_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1416_mq8385xq",
+      "bedNumber": "2-202-2",
+      "roomId": "room_1019_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1417_mq8385xq",
+      "bedNumber": "2-202-3",
+      "roomId": "room_1019_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1418_mq8385xq",
+      "bedNumber": "2-202-4",
+      "roomId": "room_1019_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1419_mq8385xq",
+      "bedNumber": "2-202-5",
+      "roomId": "room_1019_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1420_mq8385xq",
+      "bedNumber": "2-203-1",
+      "roomId": "room_1020_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1421_mq8385xq",
+      "bedNumber": "2-203-2",
+      "roomId": "room_1020_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1422_mq8385xq",
+      "bedNumber": "2-203-3",
+      "roomId": "room_1020_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1423_mq8385xq",
+      "bedNumber": "2-203-4",
+      "roomId": "room_1020_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1424_mq8385xq",
+      "bedNumber": "2-203-5",
+      "roomId": "room_1020_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1425_mq8385xq",
+      "bedNumber": "2-203-6",
+      "roomId": "room_1020_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1426_mq8385xq",
+      "bedNumber": "2-204-1",
+      "roomId": "room_1021_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1427_mq8385xq",
+      "bedNumber": "2-204-2",
+      "roomId": "room_1021_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1428_mq8385xq",
+      "bedNumber": "2-204-3",
+      "roomId": "room_1021_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1429_mq8385xq",
+      "bedNumber": "2-204-4",
+      "roomId": "room_1021_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1430_mq8385xq",
+      "bedNumber": "2-204-5",
+      "roomId": "room_1021_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1431_mq8385xq",
+      "bedNumber": "2-204-6",
+      "roomId": "room_1021_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1432_mq8385xq",
+      "bedNumber": "2-205-1",
+      "roomId": "room_1022_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1433_mq8385xq",
+      "bedNumber": "2-205-2",
+      "roomId": "room_1022_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1434_mq8385xq",
+      "bedNumber": "2-205-3",
+      "roomId": "room_1022_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1435_mq8385xq",
+      "bedNumber": "2-205-4",
+      "roomId": "room_1022_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1436_mq8385xq",
+      "bedNumber": "2-205-5",
+      "roomId": "room_1022_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1437_mq8385xq",
+      "bedNumber": "2-205-6",
+      "roomId": "room_1022_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1438_mq8385xq",
+      "bedNumber": "2-206-1",
+      "roomId": "room_1023_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1439_mq8385xq",
+      "bedNumber": "2-206-2",
+      "roomId": "room_1023_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1440_mq8385xq",
+      "bedNumber": "2-206-3",
+      "roomId": "room_1023_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1441_mq8385xq",
+      "bedNumber": "2-206-4",
+      "roomId": "room_1023_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1442_mq8385xq",
+      "bedNumber": "2-206-5",
+      "roomId": "room_1023_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1443_mq8385xq",
+      "bedNumber": "2-207-1",
+      "roomId": "room_1024_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1444_mq8385xq",
+      "bedNumber": "2-207-2",
+      "roomId": "room_1024_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1445_mq8385xq",
+      "bedNumber": "2-207-3",
+      "roomId": "room_1024_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1446_mq8385xq",
+      "bedNumber": "2-207-4",
+      "roomId": "room_1024_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1447_mq8385xq",
+      "bedNumber": "2-207-5",
+      "roomId": "room_1024_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1448_mq8385xq",
+      "bedNumber": "2-207-6",
+      "roomId": "room_1024_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1449_mq8385xq",
+      "bedNumber": "2-208-1",
+      "roomId": "room_1025_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1450_mq8385xq",
+      "bedNumber": "2-208-2",
+      "roomId": "room_1025_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1451_mq8385xq",
+      "bedNumber": "2-208-3",
+      "roomId": "room_1025_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1452_mq8385xq",
+      "bedNumber": "2-208-4",
+      "roomId": "room_1025_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1453_mq8385xq",
+      "bedNumber": "2-208-5",
+      "roomId": "room_1025_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1454_mq8385xq",
+      "bedNumber": "2-301-1",
+      "roomId": "room_1026_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1455_mq8385xq",
+      "bedNumber": "2-301-2",
+      "roomId": "room_1026_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1456_mq8385xq",
+      "bedNumber": "2-301-3",
+      "roomId": "room_1026_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1457_mq8385xq",
+      "bedNumber": "2-301-4",
+      "roomId": "room_1026_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1458_mq8385xq",
+      "bedNumber": "2-301-5",
+      "roomId": "room_1026_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1459_mq8385xq",
+      "bedNumber": "2-302-1",
+      "roomId": "room_1027_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1460_mq8385xq",
+      "bedNumber": "2-302-2",
+      "roomId": "room_1027_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1461_mq8385xq",
+      "bedNumber": "2-302-3",
+      "roomId": "room_1027_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1462_mq8385xq",
+      "bedNumber": "2-302-4",
+      "roomId": "room_1027_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1463_mq8385xq",
+      "bedNumber": "2-302-5",
+      "roomId": "room_1027_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1464_mq8385xq",
+      "bedNumber": "2-303-1",
+      "roomId": "room_1028_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1465_mq8385xq",
+      "bedNumber": "2-303-2",
+      "roomId": "room_1028_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1466_mq8385xq",
+      "bedNumber": "2-303-3",
+      "roomId": "room_1028_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1467_mq8385xq",
+      "bedNumber": "2-303-4",
+      "roomId": "room_1028_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1468_mq8385xq",
+      "bedNumber": "2-303-5",
+      "roomId": "room_1028_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1469_mq8385xq",
+      "bedNumber": "2-304-1",
+      "roomId": "room_1029_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1470_mq8385xq",
+      "bedNumber": "2-304-2",
+      "roomId": "room_1029_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1471_mq8385xq",
+      "bedNumber": "2-304-3",
+      "roomId": "room_1029_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1472_mq8385xq",
+      "bedNumber": "2-304-4",
+      "roomId": "room_1029_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1473_mq8385xq",
+      "bedNumber": "2-304-5",
+      "roomId": "room_1029_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1474_mq8385xq",
+      "bedNumber": "2-304-6",
+      "roomId": "room_1029_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1475_mq8385xq",
+      "bedNumber": "2-305-1",
+      "roomId": "room_1030_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1476_mq8385xq",
+      "bedNumber": "2-305-2",
+      "roomId": "room_1030_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1477_mq8385xq",
+      "bedNumber": "2-305-3",
+      "roomId": "room_1030_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1478_mq8385xq",
+      "bedNumber": "2-305-4",
+      "roomId": "room_1030_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1479_mq8385xq",
+      "bedNumber": "2-305-5",
+      "roomId": "room_1030_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1480_mq8385xq",
+      "bedNumber": "2-306-1",
+      "roomId": "room_1031_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1864_mq8385xq",
+      "checkInDate": "2026-06-09T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1481_mq8385xq",
+      "bedNumber": "2-306-2",
+      "roomId": "room_1031_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1482_mq8385xq",
+      "bedNumber": "2-306-3",
+      "roomId": "room_1031_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1856_mq8385xq",
+      "checkInDate": "2026-05-21T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1483_mq8385xq",
+      "bedNumber": "2-306-4",
+      "roomId": "room_1031_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1484_mq8385xq",
+      "bedNumber": "2-306-5",
+      "roomId": "room_1031_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1485_mq8385xq",
+      "bedNumber": "2-306-6",
+      "roomId": "room_1031_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1872_mq8385xr",
+      "checkInDate": "2026-05-23T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1486_mq8385xq",
+      "bedNumber": "2-307-1",
+      "roomId": "room_1032_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1487_mq8385xq",
+      "bedNumber": "2-307-2",
+      "roomId": "room_1032_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1488_mq8385xq",
+      "bedNumber": "2-307-3",
+      "roomId": "room_1032_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1489_mq8385xq",
+      "bedNumber": "2-307-4",
+      "roomId": "room_1032_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1490_mq8385xq",
+      "bedNumber": "2-307-5",
+      "roomId": "room_1032_mq8385xp",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1491_mq8385xq",
+      "bedNumber": "2-308-1",
+      "roomId": "room_1033_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1492_mq8385xq",
+      "bedNumber": "2-308-2",
+      "roomId": "room_1033_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1852_mq8385xq",
+      "checkInDate": "2026-05-25T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1493_mq8385xq",
+      "bedNumber": "2-308-3",
+      "roomId": "room_1033_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1494_mq8385xq",
+      "bedNumber": "2-308-4",
+      "roomId": "room_1033_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1495_mq8385xq",
+      "bedNumber": "2-401-1",
+      "roomId": "room_1034_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1496_mq8385xq",
+      "bedNumber": "2-401-2",
+      "roomId": "room_1034_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1849_mq8385xq",
+      "checkInDate": "2026-04-15T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1497_mq8385xq",
+      "bedNumber": "2-401-3",
+      "roomId": "room_1034_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1498_mq8385xq",
+      "bedNumber": "2-401-4",
+      "roomId": "room_1034_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1499_mq8385xq",
+      "bedNumber": "2-401-5",
+      "roomId": "room_1034_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1500_mq8385xq",
+      "bedNumber": "2-401-6",
+      "roomId": "room_1034_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1501_mq8385xq",
+      "bedNumber": "2-402-1",
+      "roomId": "room_1035_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1502_mq8385xq",
+      "bedNumber": "2-402-2",
+      "roomId": "room_1035_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1503_mq8385xq",
+      "bedNumber": "2-402-3",
+      "roomId": "room_1035_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1504_mq8385xq",
+      "bedNumber": "2-402-4",
+      "roomId": "room_1035_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1505_mq8385xq",
+      "bedNumber": "2-402-5",
+      "roomId": "room_1035_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1506_mq8385xq",
+      "bedNumber": "2-403-1",
+      "roomId": "room_1036_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1507_mq8385xq",
+      "bedNumber": "2-403-2",
+      "roomId": "room_1036_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1508_mq8385xq",
+      "bedNumber": "2-403-3",
+      "roomId": "room_1036_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1854_mq8385xq",
+      "checkInDate": "2026-05-25T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1509_mq8385xq",
+      "bedNumber": "2-403-4",
+      "roomId": "room_1036_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1510_mq8385xq",
+      "bedNumber": "2-403-5",
+      "roomId": "room_1036_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1868_mq8385xq",
+      "checkInDate": "2026-03-23T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1511_mq8385xq",
+      "bedNumber": "2-404-1",
+      "roomId": "room_1037_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1845_mq8385xq",
+      "checkInDate": "2026-04-11T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1512_mq8385xq",
+      "bedNumber": "2-404-2",
+      "roomId": "room_1037_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1513_mq8385xq",
+      "bedNumber": "2-404-3",
+      "roomId": "room_1037_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1885_mq8385xr",
+      "checkInDate": "2026-04-02T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1514_mq8385xq",
+      "bedNumber": "2-404-4",
+      "roomId": "room_1037_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1515_mq8385xq",
+      "bedNumber": "2-404-5",
+      "roomId": "room_1037_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1839_mq8385xq",
+      "checkInDate": "2026-04-01T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1516_mq8385xq",
+      "bedNumber": "2-405-1",
+      "roomId": "room_1038_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1517_mq8385xq",
+      "bedNumber": "2-405-2",
+      "roomId": "room_1038_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1518_mq8385xq",
+      "bedNumber": "2-405-3",
+      "roomId": "room_1038_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1519_mq8385xq",
+      "bedNumber": "2-405-4",
+      "roomId": "room_1038_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1520_mq8385xq",
+      "bedNumber": "2-405-5",
+      "roomId": "room_1038_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1875_mq8385xr",
+      "checkInDate": "2026-03-12T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1521_mq8385xq",
+      "bedNumber": "2-406-1",
+      "roomId": "room_1039_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1522_mq8385xq",
+      "bedNumber": "2-406-2",
+      "roomId": "room_1039_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1523_mq8385xq",
+      "bedNumber": "2-406-3",
+      "roomId": "room_1039_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1880_mq8385xr",
+      "checkInDate": "2026-06-06T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1524_mq8385xq",
+      "bedNumber": "2-406-4",
+      "roomId": "room_1039_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1525_mq8385xq",
+      "bedNumber": "2-406-5",
+      "roomId": "room_1039_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1526_mq8385xq",
+      "bedNumber": "2-407-1",
+      "roomId": "room_1040_mq8385xp",
+      "status": "occupied",
+      "workerId": "wk_1851_mq8385xq",
+      "checkInDate": "2026-03-19T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1527_mq8385xq",
+      "bedNumber": "2-407-2",
+      "roomId": "room_1040_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1528_mq8385xq",
+      "bedNumber": "2-407-3",
+      "roomId": "room_1040_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1529_mq8385xq",
+      "bedNumber": "2-407-4",
+      "roomId": "room_1040_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1530_mq8385xq",
+      "bedNumber": "2-407-5",
+      "roomId": "room_1040_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1531_mq8385xq",
+      "bedNumber": "2-407-6",
+      "roomId": "room_1040_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1532_mq8385xq",
+      "bedNumber": "2-408-1",
+      "roomId": "room_1041_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1533_mq8385xq",
+      "bedNumber": "2-408-2",
+      "roomId": "room_1041_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1534_mq8385xq",
+      "bedNumber": "2-408-3",
+      "roomId": "room_1041_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1535_mq8385xq",
+      "bedNumber": "2-408-4",
+      "roomId": "room_1041_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1536_mq8385xq",
+      "bedNumber": "2-408-5",
+      "roomId": "room_1041_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1537_mq8385xq",
+      "bedNumber": "2-501-1",
+      "roomId": "room_1042_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1538_mq8385xq",
+      "bedNumber": "2-501-2",
+      "roomId": "room_1042_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1539_mq8385xq",
+      "bedNumber": "2-501-3",
+      "roomId": "room_1042_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1540_mq8385xq",
+      "bedNumber": "2-501-4",
+      "roomId": "room_1042_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1541_mq8385xq",
+      "bedNumber": "2-501-5",
+      "roomId": "room_1042_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1542_mq8385xq",
+      "bedNumber": "2-501-6",
+      "roomId": "room_1042_mq8385xp",
+      "status": "available"
+    },
+    {
+      "id": "bed_1543_mq8385xq",
+      "bedNumber": "2-502-1",
+      "roomId": "room_1043_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1544_mq8385xq",
+      "bedNumber": "2-502-2",
+      "roomId": "room_1043_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1545_mq8385xq",
+      "bedNumber": "2-502-3",
+      "roomId": "room_1043_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1546_mq8385xq",
+      "bedNumber": "2-502-4",
+      "roomId": "room_1043_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1547_mq8385xq",
+      "bedNumber": "2-502-5",
+      "roomId": "room_1043_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1548_mq8385xq",
+      "bedNumber": "2-502-6",
+      "roomId": "room_1043_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1549_mq8385xq",
+      "bedNumber": "2-503-1",
+      "roomId": "room_1044_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1550_mq8385xq",
+      "bedNumber": "2-503-2",
+      "roomId": "room_1044_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1551_mq8385xq",
+      "bedNumber": "2-503-3",
+      "roomId": "room_1044_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1552_mq8385xq",
+      "bedNumber": "2-503-4",
+      "roomId": "room_1044_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1553_mq8385xq",
+      "bedNumber": "2-503-5",
+      "roomId": "room_1044_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1554_mq8385xq",
+      "bedNumber": "2-503-6",
+      "roomId": "room_1044_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1555_mq8385xq",
+      "bedNumber": "2-504-1",
+      "roomId": "room_1045_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1556_mq8385xq",
+      "bedNumber": "2-504-2",
+      "roomId": "room_1045_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1557_mq8385xq",
+      "bedNumber": "2-504-3",
+      "roomId": "room_1045_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1558_mq8385xq",
+      "bedNumber": "2-504-4",
+      "roomId": "room_1045_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1559_mq8385xq",
+      "bedNumber": "2-504-5",
+      "roomId": "room_1045_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1560_mq8385xq",
+      "bedNumber": "2-505-1",
+      "roomId": "room_1046_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1561_mq8385xq",
+      "bedNumber": "2-505-2",
+      "roomId": "room_1046_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1844_mq8385xq",
+      "checkInDate": "2026-04-29T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1562_mq8385xq",
+      "bedNumber": "2-505-3",
+      "roomId": "room_1046_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1563_mq8385xq",
+      "bedNumber": "2-505-4",
+      "roomId": "room_1046_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1564_mq8385xq",
+      "bedNumber": "2-505-5",
+      "roomId": "room_1046_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1565_mq8385xq",
+      "bedNumber": "2-506-1",
+      "roomId": "room_1047_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1566_mq8385xq",
+      "bedNumber": "2-506-2",
+      "roomId": "room_1047_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1567_mq8385xq",
+      "bedNumber": "2-506-3",
+      "roomId": "room_1047_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1568_mq8385xq",
+      "bedNumber": "2-506-4",
+      "roomId": "room_1047_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1569_mq8385xq",
+      "bedNumber": "2-506-5",
+      "roomId": "room_1047_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1570_mq8385xq",
+      "bedNumber": "2-507-1",
+      "roomId": "room_1048_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1571_mq8385xq",
+      "bedNumber": "2-507-2",
+      "roomId": "room_1048_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1572_mq8385xq",
+      "bedNumber": "2-507-3",
+      "roomId": "room_1048_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1573_mq8385xq",
+      "bedNumber": "2-507-4",
+      "roomId": "room_1048_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1574_mq8385xq",
+      "bedNumber": "2-507-5",
+      "roomId": "room_1048_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1575_mq8385xq",
+      "bedNumber": "2-507-6",
+      "roomId": "room_1048_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1576_mq8385xq",
+      "bedNumber": "2-508-1",
+      "roomId": "room_1049_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1577_mq8385xq",
+      "bedNumber": "2-508-2",
+      "roomId": "room_1049_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1578_mq8385xq",
+      "bedNumber": "2-508-3",
+      "roomId": "room_1049_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1579_mq8385xq",
+      "bedNumber": "2-508-4",
+      "roomId": "room_1049_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1580_mq8385xq",
+      "bedNumber": "2-508-5",
+      "roomId": "room_1049_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1581_mq8385xq",
+      "bedNumber": "2-601-1",
+      "roomId": "room_1050_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1582_mq8385xq",
+      "bedNumber": "2-601-2",
+      "roomId": "room_1050_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1583_mq8385xq",
+      "bedNumber": "2-601-3",
+      "roomId": "room_1050_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1584_mq8385xq",
+      "bedNumber": "2-601-4",
+      "roomId": "room_1050_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1585_mq8385xq",
+      "bedNumber": "2-601-5",
+      "roomId": "room_1050_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1586_mq8385xq",
+      "bedNumber": "2-601-6",
+      "roomId": "room_1050_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1587_mq8385xq",
+      "bedNumber": "2-602-1",
+      "roomId": "room_1051_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1588_mq8385xq",
+      "bedNumber": "2-602-2",
+      "roomId": "room_1051_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1589_mq8385xq",
+      "bedNumber": "2-602-3",
+      "roomId": "room_1051_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1590_mq8385xq",
+      "bedNumber": "2-602-4",
+      "roomId": "room_1051_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1591_mq8385xq",
+      "bedNumber": "2-602-5",
+      "roomId": "room_1051_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1592_mq8385xq",
+      "bedNumber": "2-603-1",
+      "roomId": "room_1052_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1878_mq8385xr",
+      "checkInDate": "2026-05-18T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1593_mq8385xq",
+      "bedNumber": "2-603-2",
+      "roomId": "room_1052_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1594_mq8385xq",
+      "bedNumber": "2-603-3",
+      "roomId": "room_1052_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1595_mq8385xq",
+      "bedNumber": "2-603-4",
+      "roomId": "room_1052_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1883_mq8385xr",
+      "checkInDate": "2026-03-31T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1596_mq8385xq",
+      "bedNumber": "2-603-5",
+      "roomId": "room_1052_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1597_mq8385xq",
+      "bedNumber": "2-603-6",
+      "roomId": "room_1052_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1598_mq8385xq",
+      "bedNumber": "2-604-1",
+      "roomId": "room_1053_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1599_mq8385xq",
+      "bedNumber": "2-604-2",
+      "roomId": "room_1053_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1600_mq8385xq",
+      "bedNumber": "2-604-3",
+      "roomId": "room_1053_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1601_mq8385xq",
+      "bedNumber": "2-604-4",
+      "roomId": "room_1053_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1853_mq8385xq",
+      "checkInDate": "2026-03-18T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1602_mq8385xq",
+      "bedNumber": "2-604-5",
+      "roomId": "room_1053_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1603_mq8385xq",
+      "bedNumber": "2-605-1",
+      "roomId": "room_1054_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1604_mq8385xq",
+      "bedNumber": "2-605-2",
+      "roomId": "room_1054_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1605_mq8385xq",
+      "bedNumber": "2-605-3",
+      "roomId": "room_1054_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1606_mq8385xq",
+      "bedNumber": "2-605-4",
+      "roomId": "room_1054_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1607_mq8385xq",
+      "bedNumber": "2-605-5",
+      "roomId": "room_1054_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1608_mq8385xq",
+      "bedNumber": "2-606-1",
+      "roomId": "room_1055_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1850_mq8385xq",
+      "checkInDate": "2026-04-07T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1609_mq8385xq",
+      "bedNumber": "2-606-2",
+      "roomId": "room_1055_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1610_mq8385xq",
+      "bedNumber": "2-606-3",
+      "roomId": "room_1055_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1611_mq8385xq",
+      "bedNumber": "2-606-4",
+      "roomId": "room_1055_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1612_mq8385xq",
+      "bedNumber": "2-606-5",
+      "roomId": "room_1055_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1613_mq8385xq",
+      "bedNumber": "2-607-1",
+      "roomId": "room_1056_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1863_mq8385xq",
+      "checkInDate": "2026-05-10T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1614_mq8385xq",
+      "bedNumber": "2-607-2",
+      "roomId": "room_1056_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1615_mq8385xq",
+      "bedNumber": "2-607-3",
+      "roomId": "room_1056_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1616_mq8385xq",
+      "bedNumber": "2-607-4",
+      "roomId": "room_1056_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1617_mq8385xq",
+      "bedNumber": "2-607-5",
+      "roomId": "room_1056_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1618_mq8385xq",
+      "bedNumber": "2-608-1",
+      "roomId": "room_1057_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1619_mq8385xq",
+      "bedNumber": "2-608-2",
+      "roomId": "room_1057_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1620_mq8385xq",
+      "bedNumber": "2-608-3",
+      "roomId": "room_1057_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1621_mq8385xq",
+      "bedNumber": "2-608-4",
+      "roomId": "room_1057_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1622_mq8385xq",
+      "bedNumber": "2-608-5",
+      "roomId": "room_1057_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1623_mq8385xq",
+      "bedNumber": "3-101-1",
+      "roomId": "room_1058_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1624_mq8385xq",
+      "bedNumber": "3-101-2",
+      "roomId": "room_1058_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1625_mq8385xq",
+      "bedNumber": "3-102-1",
+      "roomId": "room_1059_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1626_mq8385xq",
+      "bedNumber": "3-102-2",
+      "roomId": "room_1059_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1627_mq8385xq",
+      "bedNumber": "3-103-1",
+      "roomId": "room_1060_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1628_mq8385xq",
+      "bedNumber": "3-103-2",
+      "roomId": "room_1060_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1629_mq8385xq",
+      "bedNumber": "3-103-3",
+      "roomId": "room_1060_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1630_mq8385xq",
+      "bedNumber": "3-103-4",
+      "roomId": "room_1060_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1631_mq8385xq",
+      "bedNumber": "3-103-5",
+      "roomId": "room_1060_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1632_mq8385xq",
+      "bedNumber": "3-104-1",
+      "roomId": "room_1061_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1633_mq8385xq",
+      "bedNumber": "3-104-2",
+      "roomId": "room_1061_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1634_mq8385xq",
+      "bedNumber": "3-104-3",
+      "roomId": "room_1061_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1635_mq8385xq",
+      "bedNumber": "3-104-4",
+      "roomId": "room_1061_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1636_mq8385xq",
+      "bedNumber": "3-105-1",
+      "roomId": "room_1062_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1637_mq8385xq",
+      "bedNumber": "3-105-2",
+      "roomId": "room_1062_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1638_mq8385xq",
+      "bedNumber": "3-105-3",
+      "roomId": "room_1062_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1639_mq8385xq",
+      "bedNumber": "3-105-4",
+      "roomId": "room_1062_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1640_mq8385xq",
+      "bedNumber": "3-105-5",
+      "roomId": "room_1062_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1641_mq8385xq",
+      "bedNumber": "3-106-1",
+      "roomId": "room_1063_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1642_mq8385xq",
+      "bedNumber": "3-106-2",
+      "roomId": "room_1063_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1643_mq8385xq",
+      "bedNumber": "3-106-3",
+      "roomId": "room_1063_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1644_mq8385xq",
+      "bedNumber": "3-106-4",
+      "roomId": "room_1063_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1645_mq8385xq",
+      "bedNumber": "3-106-5",
+      "roomId": "room_1063_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1646_mq8385xq",
+      "bedNumber": "3-106-6",
+      "roomId": "room_1063_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1647_mq8385xq",
+      "bedNumber": "3-107-1",
+      "roomId": "room_1064_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1648_mq8385xq",
+      "bedNumber": "3-107-2",
+      "roomId": "room_1064_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1649_mq8385xq",
+      "bedNumber": "3-107-3",
+      "roomId": "room_1064_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1650_mq8385xq",
+      "bedNumber": "3-107-4",
+      "roomId": "room_1064_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1651_mq8385xq",
+      "bedNumber": "3-107-5",
+      "roomId": "room_1064_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1652_mq8385xq",
+      "bedNumber": "3-107-6",
+      "roomId": "room_1064_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1653_mq8385xq",
+      "bedNumber": "3-108-1",
+      "roomId": "room_1065_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1654_mq8385xq",
+      "bedNumber": "3-108-2",
+      "roomId": "room_1065_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1655_mq8385xq",
+      "bedNumber": "3-108-3",
+      "roomId": "room_1065_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1656_mq8385xq",
+      "bedNumber": "3-108-4",
+      "roomId": "room_1065_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1657_mq8385xq",
+      "bedNumber": "3-108-5",
+      "roomId": "room_1065_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1658_mq8385xq",
+      "bedNumber": "3-108-6",
+      "roomId": "room_1065_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1659_mq8385xq",
+      "bedNumber": "3-201-1",
+      "roomId": "room_1066_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1660_mq8385xq",
+      "bedNumber": "3-201-2",
+      "roomId": "room_1066_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1661_mq8385xq",
+      "bedNumber": "3-202-1",
+      "roomId": "room_1067_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1662_mq8385xq",
+      "bedNumber": "3-202-2",
+      "roomId": "room_1067_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1663_mq8385xq",
+      "bedNumber": "3-203-1",
+      "roomId": "room_1068_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1847_mq8385xq",
+      "checkInDate": "2026-05-29T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1664_mq8385xq",
+      "bedNumber": "3-203-2",
+      "roomId": "room_1068_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1665_mq8385xq",
+      "bedNumber": "3-203-3",
+      "roomId": "room_1068_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1666_mq8385xq",
+      "bedNumber": "3-203-4",
+      "roomId": "room_1068_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1667_mq8385xq",
+      "bedNumber": "3-203-5",
+      "roomId": "room_1068_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1668_mq8385xq",
+      "bedNumber": "3-204-1",
+      "roomId": "room_1069_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1669_mq8385xq",
+      "bedNumber": "3-204-2",
+      "roomId": "room_1069_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1670_mq8385xq",
+      "bedNumber": "3-204-3",
+      "roomId": "room_1069_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1671_mq8385xq",
+      "bedNumber": "3-204-4",
+      "roomId": "room_1069_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1672_mq8385xq",
+      "bedNumber": "3-204-5",
+      "roomId": "room_1069_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1673_mq8385xq",
+      "bedNumber": "3-205-1",
+      "roomId": "room_1070_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1674_mq8385xq",
+      "bedNumber": "3-205-2",
+      "roomId": "room_1070_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1675_mq8385xq",
+      "bedNumber": "3-205-3",
+      "roomId": "room_1070_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1676_mq8385xq",
+      "bedNumber": "3-205-4",
+      "roomId": "room_1070_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1677_mq8385xq",
+      "bedNumber": "3-205-5",
+      "roomId": "room_1070_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1678_mq8385xq",
+      "bedNumber": "3-205-6",
+      "roomId": "room_1070_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1679_mq8385xq",
+      "bedNumber": "3-206-1",
+      "roomId": "room_1071_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1680_mq8385xq",
+      "bedNumber": "3-206-2",
+      "roomId": "room_1071_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1681_mq8385xq",
+      "bedNumber": "3-206-3",
+      "roomId": "room_1071_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1682_mq8385xq",
+      "bedNumber": "3-206-4",
+      "roomId": "room_1071_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1683_mq8385xq",
+      "bedNumber": "3-206-5",
+      "roomId": "room_1071_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1684_mq8385xq",
+      "bedNumber": "3-207-1",
+      "roomId": "room_1072_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1685_mq8385xq",
+      "bedNumber": "3-207-2",
+      "roomId": "room_1072_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1686_mq8385xq",
+      "bedNumber": "3-207-3",
+      "roomId": "room_1072_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1687_mq8385xq",
+      "bedNumber": "3-207-4",
+      "roomId": "room_1072_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1688_mq8385xq",
+      "bedNumber": "3-207-5",
+      "roomId": "room_1072_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1689_mq8385xq",
+      "bedNumber": "3-208-1",
+      "roomId": "room_1073_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1690_mq8385xq",
+      "bedNumber": "3-208-2",
+      "roomId": "room_1073_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1691_mq8385xq",
+      "bedNumber": "3-208-3",
+      "roomId": "room_1073_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1692_mq8385xq",
+      "bedNumber": "3-208-4",
+      "roomId": "room_1073_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1693_mq8385xq",
+      "bedNumber": "3-208-5",
+      "roomId": "room_1073_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1694_mq8385xq",
+      "bedNumber": "3-208-6",
+      "roomId": "room_1073_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1695_mq8385xq",
+      "bedNumber": "3-301-1",
+      "roomId": "room_1074_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1696_mq8385xq",
+      "bedNumber": "3-301-2",
+      "roomId": "room_1074_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1697_mq8385xq",
+      "bedNumber": "3-301-3",
+      "roomId": "room_1074_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1698_mq8385xq",
+      "bedNumber": "3-302-1",
+      "roomId": "room_1075_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1699_mq8385xq",
+      "bedNumber": "3-302-2",
+      "roomId": "room_1075_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1700_mq8385xq",
+      "bedNumber": "3-303-1",
+      "roomId": "room_1076_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1701_mq8385xq",
+      "bedNumber": "3-303-2",
+      "roomId": "room_1076_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1702_mq8385xq",
+      "bedNumber": "3-303-3",
+      "roomId": "room_1076_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1703_mq8385xq",
+      "bedNumber": "3-303-4",
+      "roomId": "room_1076_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1704_mq8385xq",
+      "bedNumber": "3-304-1",
+      "roomId": "room_1077_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1705_mq8385xq",
+      "bedNumber": "3-304-2",
+      "roomId": "room_1077_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1706_mq8385xq",
+      "bedNumber": "3-304-3",
+      "roomId": "room_1077_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1707_mq8385xq",
+      "bedNumber": "3-304-4",
+      "roomId": "room_1077_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1708_mq8385xq",
+      "bedNumber": "3-305-1",
+      "roomId": "room_1078_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1709_mq8385xq",
+      "bedNumber": "3-305-2",
+      "roomId": "room_1078_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1710_mq8385xq",
+      "bedNumber": "3-305-3",
+      "roomId": "room_1078_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1711_mq8385xq",
+      "bedNumber": "3-305-4",
+      "roomId": "room_1078_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1712_mq8385xq",
+      "bedNumber": "3-305-5",
+      "roomId": "room_1078_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1713_mq8385xq",
+      "bedNumber": "3-305-6",
+      "roomId": "room_1078_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1714_mq8385xq",
+      "bedNumber": "3-306-1",
+      "roomId": "room_1079_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1715_mq8385xq",
+      "bedNumber": "3-306-2",
+      "roomId": "room_1079_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1716_mq8385xq",
+      "bedNumber": "3-306-3",
+      "roomId": "room_1079_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1717_mq8385xq",
+      "bedNumber": "3-306-4",
+      "roomId": "room_1079_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1718_mq8385xq",
+      "bedNumber": "3-306-5",
+      "roomId": "room_1079_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1719_mq8385xq",
+      "bedNumber": "3-307-1",
+      "roomId": "room_1080_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1720_mq8385xq",
+      "bedNumber": "3-307-2",
+      "roomId": "room_1080_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1721_mq8385xq",
+      "bedNumber": "3-307-3",
+      "roomId": "room_1080_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1722_mq8385xq",
+      "bedNumber": "3-307-4",
+      "roomId": "room_1080_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1723_mq8385xq",
+      "bedNumber": "3-307-5",
+      "roomId": "room_1080_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1724_mq8385xq",
+      "bedNumber": "3-308-1",
+      "roomId": "room_1081_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1725_mq8385xq",
+      "bedNumber": "3-308-2",
+      "roomId": "room_1081_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1726_mq8385xq",
+      "bedNumber": "3-308-3",
+      "roomId": "room_1081_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1727_mq8385xq",
+      "bedNumber": "3-308-4",
+      "roomId": "room_1081_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1728_mq8385xq",
+      "bedNumber": "3-308-5",
+      "roomId": "room_1081_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1729_mq8385xq",
+      "bedNumber": "3-401-1",
+      "roomId": "room_1082_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1730_mq8385xq",
+      "bedNumber": "3-401-2",
+      "roomId": "room_1082_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1731_mq8385xq",
+      "bedNumber": "3-401-3",
+      "roomId": "room_1082_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1732_mq8385xq",
+      "bedNumber": "3-402-1",
+      "roomId": "room_1083_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1733_mq8385xq",
+      "bedNumber": "3-402-2",
+      "roomId": "room_1083_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1734_mq8385xq",
+      "bedNumber": "3-402-3",
+      "roomId": "room_1083_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1735_mq8385xq",
+      "bedNumber": "3-403-1",
+      "roomId": "room_1084_mq8385xq",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1736_mq8385xq",
+      "bedNumber": "3-403-2",
+      "roomId": "room_1084_mq8385xq",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1737_mq8385xq",
+      "bedNumber": "3-403-3",
+      "roomId": "room_1084_mq8385xq",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1738_mq8385xq",
+      "bedNumber": "3-403-4",
+      "roomId": "room_1084_mq8385xq",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1739_mq8385xq",
+      "bedNumber": "3-403-5",
+      "roomId": "room_1084_mq8385xq",
+      "status": "maintenance",
+      "remark": "房间维修，暂不可用"
+    },
+    {
+      "id": "bed_1740_mq8385xq",
+      "bedNumber": "3-404-1",
+      "roomId": "room_1085_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1741_mq8385xq",
+      "bedNumber": "3-404-2",
+      "roomId": "room_1085_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1742_mq8385xq",
+      "bedNumber": "3-404-3",
+      "roomId": "room_1085_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1743_mq8385xq",
+      "bedNumber": "3-404-4",
+      "roomId": "room_1085_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1744_mq8385xq",
+      "bedNumber": "3-405-1",
+      "roomId": "room_1086_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1745_mq8385xq",
+      "bedNumber": "3-405-2",
+      "roomId": "room_1086_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1746_mq8385xq",
+      "bedNumber": "3-405-3",
+      "roomId": "room_1086_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1747_mq8385xq",
+      "bedNumber": "3-405-4",
+      "roomId": "room_1086_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1748_mq8385xq",
+      "bedNumber": "3-405-5",
+      "roomId": "room_1086_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1749_mq8385xq",
+      "bedNumber": "3-405-6",
+      "roomId": "room_1086_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1750_mq8385xq",
+      "bedNumber": "3-406-1",
+      "roomId": "room_1087_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1751_mq8385xq",
+      "bedNumber": "3-406-2",
+      "roomId": "room_1087_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1752_mq8385xq",
+      "bedNumber": "3-406-3",
+      "roomId": "room_1087_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1753_mq8385xq",
+      "bedNumber": "3-406-4",
+      "roomId": "room_1087_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1876_mq8385xr",
+      "checkInDate": "2026-05-18T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1754_mq8385xq",
+      "bedNumber": "3-406-5",
+      "roomId": "room_1087_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1755_mq8385xq",
+      "bedNumber": "3-407-1",
+      "roomId": "room_1088_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1756_mq8385xq",
+      "bedNumber": "3-407-2",
+      "roomId": "room_1088_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1869_mq8385xq",
+      "checkInDate": "2026-05-05T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1757_mq8385xq",
+      "bedNumber": "3-407-3",
+      "roomId": "room_1088_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1758_mq8385xq",
+      "bedNumber": "3-407-4",
+      "roomId": "room_1088_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1759_mq8385xq",
+      "bedNumber": "3-407-5",
+      "roomId": "room_1088_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1760_mq8385xq",
+      "bedNumber": "3-408-1",
+      "roomId": "room_1089_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1761_mq8385xq",
+      "bedNumber": "3-408-2",
+      "roomId": "room_1089_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1762_mq8385xq",
+      "bedNumber": "3-408-3",
+      "roomId": "room_1089_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1763_mq8385xq",
+      "bedNumber": "3-408-4",
+      "roomId": "room_1089_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1764_mq8385xq",
+      "bedNumber": "3-408-5",
+      "roomId": "room_1089_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1765_mq8385xq",
+      "bedNumber": "3-408-6",
+      "roomId": "room_1089_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1766_mq8385xq",
+      "bedNumber": "3-501-1",
+      "roomId": "room_1090_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1767_mq8385xq",
+      "bedNumber": "3-501-2",
+      "roomId": "room_1090_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1886_mq8385xr",
+      "checkInDate": "2026-05-01T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1768_mq8385xq",
+      "bedNumber": "3-501-3",
+      "roomId": "room_1090_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1769_mq8385xq",
+      "bedNumber": "3-502-1",
+      "roomId": "room_1091_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1770_mq8385xq",
+      "bedNumber": "3-502-2",
+      "roomId": "room_1091_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1771_mq8385xq",
+      "bedNumber": "3-503-1",
+      "roomId": "room_1092_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1772_mq8385xq",
+      "bedNumber": "3-503-2",
+      "roomId": "room_1092_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1773_mq8385xq",
+      "bedNumber": "3-503-3",
+      "roomId": "room_1092_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1774_mq8385xq",
+      "bedNumber": "3-503-4",
+      "roomId": "room_1092_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1775_mq8385xq",
+      "bedNumber": "3-503-5",
+      "roomId": "room_1092_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1776_mq8385xq",
+      "bedNumber": "3-504-1",
+      "roomId": "room_1093_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1777_mq8385xq",
+      "bedNumber": "3-504-2",
+      "roomId": "room_1093_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1778_mq8385xq",
+      "bedNumber": "3-504-3",
+      "roomId": "room_1093_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1779_mq8385xq",
+      "bedNumber": "3-504-4",
+      "roomId": "room_1093_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1862_mq8385xq",
+      "checkInDate": "2026-03-14T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1780_mq8385xq",
+      "bedNumber": "3-505-1",
+      "roomId": "room_1094_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1781_mq8385xq",
+      "bedNumber": "3-505-2",
+      "roomId": "room_1094_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1782_mq8385xq",
+      "bedNumber": "3-505-3",
+      "roomId": "room_1094_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1783_mq8385xq",
+      "bedNumber": "3-505-4",
+      "roomId": "room_1094_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1784_mq8385xq",
+      "bedNumber": "3-505-5",
+      "roomId": "room_1094_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1881_mq8385xr",
+      "checkInDate": "2026-05-10T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1785_mq8385xq",
+      "bedNumber": "3-505-6",
+      "roomId": "room_1094_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1865_mq8385xq",
+      "checkInDate": "2026-05-26T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1786_mq8385xq",
+      "bedNumber": "3-506-1",
+      "roomId": "room_1095_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1787_mq8385xq",
+      "bedNumber": "3-506-2",
+      "roomId": "room_1095_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1788_mq8385xq",
+      "bedNumber": "3-506-3",
+      "roomId": "room_1095_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1789_mq8385xq",
+      "bedNumber": "3-506-4",
+      "roomId": "room_1095_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1840_mq8385xq",
+      "checkInDate": "2026-04-20T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1790_mq8385xq",
+      "bedNumber": "3-506-5",
+      "roomId": "room_1095_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1791_mq8385xq",
+      "bedNumber": "3-506-6",
+      "roomId": "room_1095_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1792_mq8385xq",
+      "bedNumber": "3-507-1",
+      "roomId": "room_1096_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1793_mq8385xq",
+      "bedNumber": "3-507-2",
+      "roomId": "room_1096_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1794_mq8385xq",
+      "bedNumber": "3-507-3",
+      "roomId": "room_1096_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1795_mq8385xq",
+      "bedNumber": "3-507-4",
+      "roomId": "room_1096_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1796_mq8385xq",
+      "bedNumber": "3-507-5",
+      "roomId": "room_1096_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1797_mq8385xq",
+      "bedNumber": "3-508-1",
+      "roomId": "room_1097_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1798_mq8385xq",
+      "bedNumber": "3-508-2",
+      "roomId": "room_1097_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1799_mq8385xq",
+      "bedNumber": "3-508-3",
+      "roomId": "room_1097_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1800_mq8385xq",
+      "bedNumber": "3-508-4",
+      "roomId": "room_1097_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1801_mq8385xq",
+      "bedNumber": "3-508-5",
+      "roomId": "room_1097_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1802_mq8385xq",
+      "bedNumber": "3-508-6",
+      "roomId": "room_1097_mq8385xq",
+      "status": "occupied",
+      "workerId": "wk_1870_mq8385xq",
+      "checkInDate": "2026-04-30T13:11:39.899Z"
+    },
+    {
+      "id": "bed_1803_mq8385xq",
+      "bedNumber": "3-601-1",
+      "roomId": "room_1098_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1804_mq8385xq",
+      "bedNumber": "3-601-2",
+      "roomId": "room_1098_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1805_mq8385xq",
+      "bedNumber": "3-601-3",
+      "roomId": "room_1098_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1806_mq8385xq",
+      "bedNumber": "3-602-1",
+      "roomId": "room_1099_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1807_mq8385xq",
+      "bedNumber": "3-602-2",
+      "roomId": "room_1099_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1808_mq8385xq",
+      "bedNumber": "3-603-1",
+      "roomId": "room_1100_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1809_mq8385xq",
+      "bedNumber": "3-603-2",
+      "roomId": "room_1100_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1810_mq8385xq",
+      "bedNumber": "3-603-3",
+      "roomId": "room_1100_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1811_mq8385xq",
+      "bedNumber": "3-603-4",
+      "roomId": "room_1100_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1812_mq8385xq",
+      "bedNumber": "3-603-5",
+      "roomId": "room_1100_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1813_mq8385xq",
+      "bedNumber": "3-604-1",
+      "roomId": "room_1101_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1814_mq8385xq",
+      "bedNumber": "3-604-2",
+      "roomId": "room_1101_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1815_mq8385xq",
+      "bedNumber": "3-604-3",
+      "roomId": "room_1101_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1816_mq8385xq",
+      "bedNumber": "3-604-4",
+      "roomId": "room_1101_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1817_mq8385xq",
+      "bedNumber": "3-604-5",
+      "roomId": "room_1101_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1818_mq8385xq",
+      "bedNumber": "3-605-1",
+      "roomId": "room_1102_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1819_mq8385xq",
+      "bedNumber": "3-605-2",
+      "roomId": "room_1102_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1820_mq8385xq",
+      "bedNumber": "3-605-3",
+      "roomId": "room_1102_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1821_mq8385xq",
+      "bedNumber": "3-605-4",
+      "roomId": "room_1102_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1822_mq8385xq",
+      "bedNumber": "3-605-5",
+      "roomId": "room_1102_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1823_mq8385xq",
+      "bedNumber": "3-606-1",
+      "roomId": "room_1103_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1824_mq8385xq",
+      "bedNumber": "3-606-2",
+      "roomId": "room_1103_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1825_mq8385xq",
+      "bedNumber": "3-606-3",
+      "roomId": "room_1103_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1826_mq8385xq",
+      "bedNumber": "3-606-4",
+      "roomId": "room_1103_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1827_mq8385xq",
+      "bedNumber": "3-606-5",
+      "roomId": "room_1103_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1828_mq8385xq",
+      "bedNumber": "3-607-1",
+      "roomId": "room_1104_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1829_mq8385xq",
+      "bedNumber": "3-607-2",
+      "roomId": "room_1104_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1830_mq8385xq",
+      "bedNumber": "3-607-3",
+      "roomId": "room_1104_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1831_mq8385xq",
+      "bedNumber": "3-607-4",
+      "roomId": "room_1104_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1832_mq8385xq",
+      "bedNumber": "3-607-5",
+      "roomId": "room_1104_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1833_mq8385xq",
+      "bedNumber": "3-607-6",
+      "roomId": "room_1104_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1834_mq8385xq",
+      "bedNumber": "3-608-1",
+      "roomId": "room_1105_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1835_mq8385xq",
+      "bedNumber": "3-608-2",
+      "roomId": "room_1105_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1836_mq8385xq",
+      "bedNumber": "3-608-3",
+      "roomId": "room_1105_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1837_mq8385xq",
+      "bedNumber": "3-608-4",
+      "roomId": "room_1105_mq8385xq",
+      "status": "available"
+    },
+    {
+      "id": "bed_1838_mq8385xq",
+      "bedNumber": "3-608-5",
+      "roomId": "room_1105_mq8385xq",
+      "status": "available"
+    }
+  ],
+  "workers": [
+    {
+      "id": "wk_1839_mq8385xq",
+      "name": "何辉华",
+      "gender": "male",
+      "idCard": "61050019980415979X",
+      "workerNumber": "GD2024001",
+      "phone": "15068769908",
+      "team": "油漆班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "马飞",
+      "emergencyPhone": "18327928891",
+      "status": "active",
+      "createdAt": "2026-05-28T13:11:39.899Z",
+      "updatedAt": "2026-05-28T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1840_mq8385xq",
+      "name": "王桂莉",
+      "gender": "female",
+      "idCard": "371700199405287569",
+      "workerNumber": "GD2024002",
+      "phone": "18285051226",
+      "team": "瓦工班组",
+      "hometown": "贵州省遵义市",
+      "emergencyContact": "杨艳",
+      "emergencyPhone": "18951920657",
+      "status": "active",
+      "createdAt": "2026-02-20T13:11:39.899Z",
+      "updatedAt": "2026-02-20T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1841_mq8385xq",
+      "name": "赵芳",
+      "gender": "female",
+      "idCard": "13040019800524474X",
+      "workerNumber": "GD2024003",
+      "phone": "18871632481",
+      "team": "钢筋班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "杨慧",
+      "emergencyPhone": "18328077640",
+      "status": "active",
+      "createdAt": "2026-03-12T13:11:39.899Z",
+      "updatedAt": "2026-03-12T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1842_mq8385xq",
+      "name": "赵芳娟",
+      "gender": "female",
+      "idCard": "421100200007243103",
+      "workerNumber": "GD2024004",
+      "phone": "13639361881",
+      "team": "木工班组",
+      "hometown": "广西壮族自治区玉林市",
+      "emergencyContact": "黄雪",
+      "emergencyPhone": "18348153996",
+      "status": "inactive",
+      "createdAt": "2026-05-29T13:11:39.899Z",
+      "updatedAt": "2026-05-29T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1843_mq8385xq",
+      "name": "高明勇",
+      "gender": "male",
+      "idCard": "341200199501067774",
+      "workerNumber": "GD2024005",
+      "phone": "18352459627",
+      "team": "防水班组",
+      "hometown": "贵州省遵义市",
+      "emergencyContact": "陈亮",
+      "emergencyPhone": "15956505755",
+      "status": "active",
+      "createdAt": "2026-03-11T13:11:39.899Z",
+      "updatedAt": "2026-03-11T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1844_mq8385xq",
+      "name": "刘玲艳",
+      "gender": "female",
+      "idCard": "610500197908099526",
+      "workerNumber": "GD2024006",
+      "phone": "18989145271",
+      "team": "抹灰班组",
+      "hometown": "四川省南充市",
+      "emergencyContact": "李梅",
+      "emergencyPhone": "13940200529",
+      "status": "active",
+      "createdAt": "2026-02-03T13:11:39.899Z",
+      "updatedAt": "2026-02-03T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1845_mq8385xq",
+      "name": "罗杰强",
+      "gender": "male",
+      "idCard": "411600199412137099",
+      "workerNumber": "GD2024007",
+      "phone": "15817485380",
+      "team": "防水班组",
+      "hometown": "山东省菏泽市",
+      "emergencyContact": "罗磊",
+      "emergencyPhone": "18246203721",
+      "status": "active",
+      "createdAt": "2026-03-08T13:11:39.899Z",
+      "updatedAt": "2026-03-08T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1846_mq8385xq",
+      "name": "王刚峰",
+      "gender": "male",
+      "idCard": "34120019960510121X",
+      "workerNumber": "GD2024008",
+      "phone": "13874241638",
+      "team": "瓦工班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "赵志",
+      "emergencyPhone": "18922464102",
+      "status": "active",
+      "createdAt": "2026-02-18T13:11:39.899Z",
+      "updatedAt": "2026-02-18T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1847_mq8385xq",
+      "name": "王勇帅",
+      "gender": "male",
+      "idCard": "530600200107154513",
+      "workerNumber": "GD2024009",
+      "phone": "18823972342",
+      "team": "油漆班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "王强",
+      "emergencyPhone": "15068550573",
+      "status": "active",
+      "createdAt": "2026-03-04T13:11:39.899Z",
+      "updatedAt": "2026-03-04T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1848_mq8385xq",
+      "name": "朱华",
+      "gender": "male",
+      "idCard": "411600199701173512",
+      "workerNumber": "GD2024010",
+      "phone": "15149346967",
+      "team": "外墙班组",
+      "hometown": "贵州省遵义市",
+      "emergencyContact": "罗洋",
+      "emergencyPhone": "15097510652",
+      "status": "active",
+      "createdAt": "2026-01-17T13:11:39.899Z",
+      "updatedAt": "2026-01-17T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1849_mq8385xq",
+      "name": "孙亮",
+      "gender": "male",
+      "idCard": "520300199010146492",
+      "workerNumber": "GD2024011",
+      "phone": "13535809373",
+      "team": "测量班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "孙军",
+      "emergencyPhone": "15117257821",
+      "status": "active",
+      "createdAt": "2025-11-24T13:11:39.899Z",
+      "updatedAt": "2025-11-24T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1850_mq8385xq",
+      "name": "徐强",
+      "gender": "male",
+      "idCard": "511300198702078958",
+      "workerNumber": "GD2024012",
+      "phone": "15997338835",
+      "team": "水电班组",
+      "hometown": "江西省赣州市",
+      "emergencyContact": "陈明",
+      "emergencyPhone": "13679276443",
+      "status": "active",
+      "createdAt": "2026-05-09T13:11:39.899Z",
+      "updatedAt": "2026-05-09T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1851_mq8385xq",
+      "name": "陈珍梅",
+      "gender": "female",
+      "idCard": "130400199312231724",
+      "workerNumber": "GD2024013",
+      "phone": "13625272556",
+      "team": "杂工班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "李玲",
+      "emergencyPhone": "13620604275",
+      "status": "active",
+      "createdAt": "2026-02-14T13:11:39.899Z",
+      "updatedAt": "2026-02-14T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1852_mq8385xq",
+      "name": "张帅",
+      "gender": "male",
+      "idCard": "360700197611241850",
+      "workerNumber": "GD2024014",
+      "phone": "15040539070",
+      "team": "抹灰班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "赵杰",
+      "emergencyPhone": "13598696933",
+      "status": "active",
+      "createdAt": "2026-04-17T13:11:39.899Z",
+      "updatedAt": "2026-04-17T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1853_mq8385xq",
+      "name": "郭龙",
+      "gender": "male",
+      "idCard": "371700199111135850",
+      "workerNumber": "GD2024015",
+      "phone": "13598432462",
+      "team": "测量班组",
+      "hometown": "安徽省阜阳市",
+      "emergencyContact": "吴军",
+      "emergencyPhone": "13984155507",
+      "status": "active",
+      "createdAt": "2025-12-06T13:11:39.899Z",
+      "updatedAt": "2025-12-06T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1854_mq8385xq",
+      "name": "李霞",
+      "gender": "female",
+      "idCard": "130400199111043209",
+      "workerNumber": "GD2024016",
+      "phone": "13582315723",
+      "team": "外墙班组",
+      "hometown": "广西壮族自治区玉林市",
+      "emergencyContact": "刘敏",
+      "emergencyPhone": "18224023608",
+      "status": "active",
+      "createdAt": "2026-02-06T13:11:39.899Z",
+      "updatedAt": "2026-02-06T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1855_mq8385xq",
+      "name": "孙鹏",
+      "gender": "male",
+      "idCard": "430500198504096872",
+      "workerNumber": "GD2024017",
+      "phone": "13587624883",
+      "team": "测量班组",
+      "hometown": "江西省赣州市",
+      "emergencyContact": "高峰",
+      "emergencyPhone": "18378217658",
+      "status": "inactive",
+      "createdAt": "2025-11-27T13:11:39.899Z",
+      "updatedAt": "2025-11-27T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1856_mq8385xq",
+      "name": "周飞",
+      "gender": "male",
+      "idCard": "610500200105035793",
+      "workerNumber": "GD2024018",
+      "phone": "13829360872",
+      "team": "木工班组",
+      "hometown": "河北省邯郸市",
+      "emergencyContact": "高志",
+      "emergencyPhone": "18912629243",
+      "status": "active",
+      "createdAt": "2025-12-25T13:11:39.899Z",
+      "updatedAt": "2025-12-25T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1857_mq8385xq",
+      "name": "杨建",
+      "gender": "male",
+      "idCard": "511300197808016590",
+      "workerNumber": "GD2024019",
+      "phone": "15897256553",
+      "team": "杂工班组",
+      "hometown": "陕西省渭南市",
+      "emergencyContact": "孙杰",
+      "emergencyPhone": "18246559267",
+      "status": "active",
+      "createdAt": "2026-02-27T13:11:39.899Z",
+      "updatedAt": "2026-02-27T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1858_mq8385xq",
+      "name": "刘建志",
+      "gender": "male",
+      "idCard": "610500198701155337",
+      "workerNumber": "GD2024020",
+      "phone": "15995362984",
+      "team": "外墙班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "周军",
+      "emergencyPhone": "18993160655",
+      "status": "active",
+      "createdAt": "2026-01-21T13:11:39.899Z",
+      "updatedAt": "2026-01-21T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1859_mq8385xq",
+      "name": "杨亮洋",
+      "gender": "male",
+      "idCard": "610500198602091390",
+      "workerNumber": "GD2024021",
+      "phone": "15177104755",
+      "team": "水电班组",
+      "hometown": "广西壮族自治区玉林市",
+      "emergencyContact": "杨强",
+      "emergencyPhone": "15077417212",
+      "status": "active",
+      "remark": "特殊情况备注",
+      "createdAt": "2026-05-01T13:11:39.899Z",
+      "updatedAt": "2026-05-01T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1860_mq8385xq",
+      "name": "王磊",
+      "gender": "male",
+      "idCard": "341200199311058797",
+      "workerNumber": "GD2024022",
+      "phone": "18201284104",
+      "team": "抹灰班组",
+      "hometown": "河南省周口市",
+      "emergencyContact": "徐健",
+      "emergencyPhone": "13845557361",
+      "status": "active",
+      "createdAt": "2025-12-25T13:11:39.899Z",
+      "updatedAt": "2025-12-25T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1861_mq8385xq",
+      "name": "何军",
+      "gender": "male",
+      "idCard": "341200199811232034",
+      "workerNumber": "GD2024023",
+      "phone": "13924092053",
+      "team": "架子班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "陈帅",
+      "emergencyPhone": "18867302107",
+      "status": "active",
+      "createdAt": "2025-11-27T13:11:39.899Z",
+      "updatedAt": "2025-11-27T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1862_mq8385xq",
+      "name": "杨华",
+      "gender": "male",
+      "idCard": "341200198802034015",
+      "workerNumber": "GD2024024",
+      "phone": "18394985829",
+      "team": "防水班组",
+      "hometown": "陕西省渭南市",
+      "emergencyContact": "周磊",
+      "emergencyPhone": "15100787543",
+      "status": "active",
+      "createdAt": "2026-04-16T13:11:39.899Z",
+      "updatedAt": "2026-04-16T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1863_mq8385xq",
+      "name": "徐华",
+      "gender": "male",
+      "idCard": "430500198210282557",
+      "workerNumber": "GD2024025",
+      "phone": "18373707135",
+      "team": "外墙班组",
+      "hometown": "贵州省遵义市",
+      "emergencyContact": "刘飞",
+      "emergencyPhone": "13651904373",
+      "status": "active",
+      "createdAt": "2025-11-23T13:11:39.899Z",
+      "updatedAt": "2025-11-23T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1864_mq8385xq",
+      "name": "赵强",
+      "gender": "male",
+      "idCard": "341200197806234490",
+      "workerNumber": "GD2024026",
+      "phone": "18911253431",
+      "team": "架子班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "王平",
+      "emergencyPhone": "15857360599",
+      "status": "active",
+      "createdAt": "2025-12-19T13:11:39.899Z",
+      "updatedAt": "2025-12-19T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1865_mq8385xq",
+      "name": "周超",
+      "gender": "male",
+      "idCard": "530600199002177211",
+      "workerNumber": "GD2024027",
+      "phone": "18371428442",
+      "team": "架子班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "徐强",
+      "emergencyPhone": "18896812092",
+      "status": "active",
+      "createdAt": "2026-03-30T13:11:39.899Z",
+      "updatedAt": "2026-03-30T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1866_mq8385xq",
+      "name": "王刚",
+      "gender": "male",
+      "idCard": "430500199104039734",
+      "workerNumber": "GD2024028",
+      "phone": "18949585629",
+      "team": "钢筋班组",
+      "hometown": "陕西省渭南市",
+      "emergencyContact": "高峰",
+      "emergencyPhone": "13648095862",
+      "status": "active",
+      "createdAt": "2026-04-05T13:11:39.899Z",
+      "updatedAt": "2026-04-05T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1867_mq8385xq",
+      "name": "王婷",
+      "gender": "female",
+      "idCard": "34120019900303120X",
+      "workerNumber": "GD2024029",
+      "phone": "15171239758",
+      "team": "水电班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "陈静",
+      "emergencyPhone": "15817015226",
+      "status": "active",
+      "createdAt": "2026-03-31T13:11:39.899Z",
+      "updatedAt": "2026-03-31T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1868_mq8385xq",
+      "name": "杨超",
+      "gender": "male",
+      "idCard": "130400199012179952",
+      "workerNumber": "GD2024030",
+      "phone": "13806089912",
+      "team": "钢筋班组",
+      "hometown": "江西省赣州市",
+      "emergencyContact": "吴洋",
+      "emergencyPhone": "15975119156",
+      "status": "active",
+      "createdAt": "2026-04-27T13:11:39.899Z",
+      "updatedAt": "2026-04-27T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1869_mq8385xq",
+      "name": "黄娟芳",
+      "gender": "female",
+      "idCard": "341200197503107988",
+      "workerNumber": "GD2024031",
+      "phone": "18222569893",
+      "team": "水电班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "李玲",
+      "emergencyPhone": "13992855413",
+      "status": "active",
+      "createdAt": "2026-04-15T13:11:39.899Z",
+      "updatedAt": "2026-04-15T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1870_mq8385xq",
+      "name": "刘婷",
+      "gender": "female",
+      "idCard": "130400200009044163",
+      "workerNumber": "GD2024032",
+      "phone": "13559541366",
+      "team": "抹灰班组",
+      "hometown": "云南省昭通市",
+      "emergencyContact": "吴娣",
+      "emergencyPhone": "13898758633",
+      "status": "active",
+      "createdAt": "2026-06-05T13:11:39.899Z",
+      "updatedAt": "2026-06-05T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1871_mq8385xr",
+      "name": "杨东军",
+      "gender": "male",
+      "idCard": "130400197811262876",
+      "workerNumber": "GD2024033",
+      "phone": "15146383657",
+      "team": "测量班组",
+      "hometown": "河南省周口市",
+      "emergencyContact": "郭磊",
+      "emergencyPhone": "13942545921",
+      "status": "active",
+      "createdAt": "2026-05-04T13:11:39.899Z",
+      "updatedAt": "2026-05-04T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1872_mq8385xr",
+      "name": "杨平勇",
+      "gender": "male",
+      "idCard": "341200199211096534",
+      "workerNumber": "GD2024034",
+      "phone": "13848659447",
+      "team": "瓦工班组",
+      "hometown": "山东省菏泽市",
+      "emergencyContact": "何超",
+      "emergencyPhone": "18921745215",
+      "status": "active",
+      "createdAt": "2025-12-05T13:11:39.899Z",
+      "updatedAt": "2025-12-05T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1873_mq8385xr",
+      "name": "徐华",
+      "gender": "male",
+      "idCard": "511300199112033279",
+      "workerNumber": "GD2024035",
+      "phone": "18334604273",
+      "team": "油漆班组",
+      "hometown": "河南省周口市",
+      "emergencyContact": "马刚",
+      "emergencyPhone": "15907399032",
+      "status": "active",
+      "createdAt": "2026-02-19T13:11:39.899Z",
+      "updatedAt": "2026-02-19T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1874_mq8385xr",
+      "name": "何军帅",
+      "gender": "male",
+      "idCard": "430500197808169052",
+      "workerNumber": "GD2024036",
+      "phone": "15854552157",
+      "team": "水电班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "马平",
+      "emergencyPhone": "13917828285",
+      "status": "active",
+      "createdAt": "2026-01-30T13:11:39.899Z",
+      "updatedAt": "2026-01-30T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1875_mq8385xr",
+      "name": "陈洋明",
+      "gender": "male",
+      "idCard": "530600200211096894",
+      "workerNumber": "GD2024037",
+      "phone": "15888501078",
+      "team": "架子班组",
+      "hometown": "广西壮族自治区玉林市",
+      "emergencyContact": "陈刚",
+      "emergencyPhone": "15094991482",
+      "status": "active",
+      "createdAt": "2026-03-21T13:11:39.899Z",
+      "updatedAt": "2026-03-21T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1876_mq8385xr",
+      "name": "徐亮",
+      "gender": "male",
+      "idCard": "610500199809223711",
+      "workerNumber": "GD2024038",
+      "phone": "18359244145",
+      "team": "抹灰班组",
+      "hometown": "山东省菏泽市",
+      "emergencyContact": "林军",
+      "emergencyPhone": "18936513869",
+      "status": "active",
+      "createdAt": "2025-12-01T13:11:39.899Z",
+      "updatedAt": "2025-12-01T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1877_mq8385xr",
+      "name": "郭洋",
+      "gender": "male",
+      "idCard": "42110019950121357X",
+      "workerNumber": "GD2024039",
+      "phone": "13977610251",
+      "team": "测量班组",
+      "hometown": "陕西省渭南市",
+      "emergencyContact": "胡飞",
+      "emergencyPhone": "15094977922",
+      "status": "inactive",
+      "createdAt": "2026-05-13T13:11:39.899Z",
+      "updatedAt": "2026-05-13T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1878_mq8385xr",
+      "name": "张军军",
+      "gender": "male",
+      "idCard": "45090019811016847X",
+      "workerNumber": "GD2024040",
+      "phone": "18269117498",
+      "team": "油漆班组",
+      "hometown": "湖北省黄冈市",
+      "emergencyContact": "徐志",
+      "emergencyPhone": "15022134021",
+      "status": "active",
+      "createdAt": "2025-12-17T13:11:39.899Z",
+      "updatedAt": "2025-12-17T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1879_mq8385xr",
+      "name": "孙磊刚",
+      "gender": "male",
+      "idCard": "37170019910928737X",
+      "workerNumber": "GD2024041",
+      "phone": "18893411348",
+      "team": "钢筋班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "陈平",
+      "emergencyPhone": "18259018561",
+      "status": "active",
+      "createdAt": "2026-01-03T13:11:39.899Z",
+      "updatedAt": "2026-01-03T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1880_mq8385xr",
+      "name": "孙辉",
+      "gender": "male",
+      "idCard": "530600199906039014",
+      "workerNumber": "GD2024042",
+      "phone": "18897095980",
+      "team": "杂工班组",
+      "hometown": "湖南省邵阳市",
+      "emergencyContact": "孙帅",
+      "emergencyPhone": "18268001842",
+      "status": "active",
+      "createdAt": "2026-04-21T13:11:39.899Z",
+      "updatedAt": "2026-04-21T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1881_mq8385xr",
+      "name": "徐龙",
+      "gender": "male",
+      "idCard": "430500198512186050",
+      "workerNumber": "GD2024043",
+      "phone": "18953330475",
+      "team": "抹灰班组",
+      "hometown": "广西壮族自治区玉林市",
+      "emergencyContact": "胡超",
+      "emergencyPhone": "15856916588",
+      "status": "active",
+      "createdAt": "2026-01-21T13:11:39.899Z",
+      "updatedAt": "2026-01-21T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1882_mq8385xr",
+      "name": "李鹏",
+      "gender": "male",
+      "idCard": "430500199504025497",
+      "workerNumber": "GD2024044",
+      "phone": "18836495124",
+      "team": "消防班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "林伟",
+      "emergencyPhone": "18396624649",
+      "status": "active",
+      "createdAt": "2026-03-30T13:11:39.899Z",
+      "updatedAt": "2026-03-30T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1883_mq8385xr",
+      "name": "郭亮平",
+      "gender": "male",
+      "idCard": "610500198407051094",
+      "workerNumber": "GD2024045",
+      "phone": "15069892765",
+      "team": "油漆班组",
+      "hometown": "黑龙江省绥化市",
+      "emergencyContact": "杨建",
+      "emergencyPhone": "18998803581",
+      "status": "active",
+      "createdAt": "2026-06-04T13:11:39.899Z",
+      "updatedAt": "2026-06-04T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1884_mq8385xr",
+      "name": "张超",
+      "gender": "male",
+      "idCard": "530600197503237658",
+      "workerNumber": "GD2024046",
+      "phone": "15810110561",
+      "team": "油漆班组",
+      "hometown": "云南省昭通市",
+      "emergencyContact": "何东",
+      "emergencyPhone": "18208574236",
+      "status": "active",
+      "createdAt": "2025-11-25T13:11:39.899Z",
+      "updatedAt": "2025-11-25T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1885_mq8385xr",
+      "name": "李洋",
+      "gender": "male",
+      "idCard": "53060019830714597X",
+      "workerNumber": "GD2024047",
+      "phone": "13878644412",
+      "team": "木工班组",
+      "hometown": "吉林省四平市",
+      "emergencyContact": "林磊",
+      "emergencyPhone": "15891978799",
+      "status": "active",
+      "createdAt": "2026-02-28T13:11:39.899Z",
+      "updatedAt": "2026-02-28T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1886_mq8385xr",
+      "name": "胡辉峰",
+      "gender": "male",
+      "idCard": "421100199110026136",
+      "workerNumber": "GD2024048",
+      "phone": "18897849028",
+      "team": "架子班组",
+      "hometown": "四川省南充市",
+      "emergencyContact": "高龙",
+      "emergencyPhone": "18337520404",
+      "status": "active",
+      "createdAt": "2026-03-02T13:11:39.899Z",
+      "updatedAt": "2026-03-02T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1887_mq8385xr",
+      "name": "陈东斌",
+      "gender": "male",
+      "idCard": "13040019880614305X",
+      "workerNumber": "GD2024049",
+      "phone": "15908893208",
+      "team": "木工班组",
+      "hometown": "云南省昭通市",
+      "emergencyContact": "吴伟",
+      "emergencyPhone": "18829083160",
+      "status": "active",
+      "createdAt": "2025-12-18T13:11:39.899Z",
+      "updatedAt": "2025-12-18T13:11:39.899Z"
+    },
+    {
+      "id": "wk_1888_mq8385xr",
+      "name": "吴磊洋",
+      "gender": "male",
+      "idCard": "53060020020221289X",
+      "workerNumber": "GD2024050",
+      "phone": "18222440975",
+      "team": "瓦工班组",
+      "hometown": "河北省邯郸市",
+      "emergencyContact": "王磊",
+      "emergencyPhone": "13987343313",
+      "status": "active",
+      "createdAt": "2026-03-08T13:11:39.899Z",
+      "updatedAt": "2026-03-08T13:11:39.899Z"
+    }
+  ],
+  "records": [
+    {
+      "id": "rec_1917_mq8385xs",
+      "type": "transfer",
+      "workerId": "wk_1854_mq8385xq",
+      "workerName": "李霞",
+      "fromBedId": "bed_1508_mq8385xq",
+      "toBedId": "bed_1651_mq8385xq",
+      "roomNumber": "3-107",
+      "reason": "身体原因换低层",
+      "operator": "张工",
+      "operatedAt": "2026-02-28T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1903_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1875_mq8385xr",
+      "workerName": "陈洋明",
+      "bedId": "bed_1520_mq8385xq",
+      "roomNumber": "2-405",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-03-12T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1901_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1862_mq8385xq",
+      "workerName": "杨华",
+      "bedId": "bed_1779_mq8385xq",
+      "roomNumber": "3-504",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-03-14T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1890_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1853_mq8385xq",
+      "workerName": "郭龙",
+      "bedId": "bed_1601_mq8385xq",
+      "roomNumber": "2-604",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-03-18T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1913_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1851_mq8385xq",
+      "workerName": "陈珍梅",
+      "bedId": "bed_1526_mq8385xq",
+      "roomNumber": "2-407",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-03-19T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1905_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1868_mq8385xq",
+      "workerName": "杨超",
+      "bedId": "bed_1510_mq8385xq",
+      "roomNumber": "2-403",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-03-23T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1909_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1883_mq8385xr",
+      "workerName": "郭亮平",
+      "bedId": "bed_1595_mq8385xq",
+      "roomNumber": "2-603",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-03-31T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1912_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1839_mq8385xq",
+      "workerName": "何辉华",
+      "bedId": "bed_1515_mq8385xq",
+      "roomNumber": "2-404",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-04-01T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1914_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1885_mq8385xr",
+      "workerName": "李洋",
+      "bedId": "bed_1513_mq8385xq",
+      "roomNumber": "2-404",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-04-02T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1908_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1850_mq8385xq",
+      "workerName": "徐强",
+      "bedId": "bed_1608_mq8385xq",
+      "roomNumber": "2-606",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-04-07T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1894_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1845_mq8385xq",
+      "workerName": "罗杰强",
+      "bedId": "bed_1511_mq8385xq",
+      "roomNumber": "2-404",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-04-11T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1904_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1849_mq8385xq",
+      "workerName": "孙亮",
+      "bedId": "bed_1496_mq8385xq",
+      "roomNumber": "2-401",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-04-15T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1900_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1840_mq8385xq",
+      "workerName": "王桂莉",
+      "bedId": "bed_1789_mq8385xq",
+      "roomNumber": "3-506",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-04-20T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1889_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1844_mq8385xq",
+      "workerName": "刘玲艳",
+      "bedId": "bed_1561_mq8385xq",
+      "roomNumber": "2-505",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-04-29T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1893_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1870_mq8385xq",
+      "workerName": "刘婷",
+      "bedId": "bed_1802_mq8385xq",
+      "roomNumber": "3-508",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-04-30T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1895_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1886_mq8385xr",
+      "workerName": "胡辉峰",
+      "bedId": "bed_1767_mq8385xq",
+      "roomNumber": "3-501",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-05-01T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1896_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1869_mq8385xq",
+      "workerName": "黄娟芳",
+      "bedId": "bed_1756_mq8385xq",
+      "roomNumber": "3-407",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-05-05T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1907_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1881_mq8385xr",
+      "workerName": "徐龙",
+      "bedId": "bed_1784_mq8385xq",
+      "roomNumber": "3-505",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-05-10T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1910_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1863_mq8385xq",
+      "workerName": "徐华",
+      "bedId": "bed_1613_mq8385xq",
+      "roomNumber": "2-607",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-05-10T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1918_mq8385xs",
+      "type": "transfer",
+      "workerId": "wk_1850_mq8385xq",
+      "workerName": "徐强",
+      "fromBedId": "bed_1608_mq8385xq",
+      "toBedId": "bed_1176_mq8385xq",
+      "roomNumber": "1-206",
+      "reason": "房间调整",
+      "operator": "李管理员",
+      "operatedAt": "2026-05-11T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1898_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1878_mq8385xr",
+      "workerName": "张军军",
+      "bedId": "bed_1592_mq8385xq",
+      "roomNumber": "2-603",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-05-18T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1916_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1876_mq8385xr",
+      "workerName": "徐亮",
+      "bedId": "bed_1753_mq8385xq",
+      "roomNumber": "3-406",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-05-18T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1897_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1856_mq8385xq",
+      "workerName": "周飞",
+      "bedId": "bed_1482_mq8385xq",
+      "roomNumber": "2-306",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-05-21T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1891_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1872_mq8385xr",
+      "workerName": "杨平勇",
+      "bedId": "bed_1485_mq8385xq",
+      "roomNumber": "2-306",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-05-23T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1902_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1852_mq8385xq",
+      "workerName": "张帅",
+      "bedId": "bed_1492_mq8385xq",
+      "roomNumber": "2-308",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-05-25T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1906_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1854_mq8385xq",
+      "workerName": "李霞",
+      "bedId": "bed_1508_mq8385xq",
+      "roomNumber": "2-403",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-05-25T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1911_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1865_mq8385xq",
+      "workerName": "周超",
+      "bedId": "bed_1785_mq8385xq",
+      "roomNumber": "3-505",
+      "reason": "新工人入住",
+      "operator": "张工",
+      "operatedAt": "2026-05-26T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1892_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1847_mq8385xq",
+      "workerName": "王勇帅",
+      "bedId": "bed_1663_mq8385xq",
+      "roomNumber": "3-203",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-05-29T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1899_mq8385xr",
+      "type": "checkin",
+      "workerId": "wk_1880_mq8385xr",
+      "workerName": "孙辉",
+      "bedId": "bed_1523_mq8385xq",
+      "roomNumber": "2-406",
+      "reason": "新工人入住",
+      "operator": "王主管",
+      "operatedAt": "2026-06-06T13:11:39.899Z"
+    },
+    {
+      "id": "rec_1915_mq8385xs",
+      "type": "checkin",
+      "workerId": "wk_1864_mq8385xq",
+      "workerName": "赵强",
+      "bedId": "bed_1480_mq8385xq",
+      "roomNumber": "2-306",
+      "reason": "新工人入住",
+      "operator": "李管理员",
+      "operatedAt": "2026-06-09T13:11:39.899Z"
+    }
+  ]
+}
