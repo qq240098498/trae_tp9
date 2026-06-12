@@ -14964,5 +14964,11 @@
     "electricityPrice": 1.2,
     "waterPrice": 4.5,
     "updatedAt": "2026-06-12T01:31:05.971Z"
-  }
+  },
+  "utilityArrears": [],
+  "collectionRecords": [],
+  "deposits": [],
+  "depositAccounts": [],
+  "feeSupplements": [],
+  "receipts": []
 }

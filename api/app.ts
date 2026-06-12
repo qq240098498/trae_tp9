@@ -23,6 +23,9 @@ import utilityRoutes from './routes/utility.js'
 import billsRoutes from './routes/bills.js'
 import expenseRoutes from './routes/expense.js'
 import remindersRoutes from './routes/reminders.js'
+import arrearsRoutes from './routes/arrears.js'
+import depositsRoutes from './routes/deposits.js'
+import feeSupplementsRoutes from './routes/fee-supplements.js'
 
 // for esm mode
 const __filename = fileURLToPath(import.meta.url)
@@ -52,6 +55,9 @@ app.use('/api/utility', utilityRoutes)
 app.use('/api/bills', billsRoutes)
 app.use('/api/expense', expenseRoutes)
 app.use('/api/reminders', remindersRoutes)
+app.use('/api/arrears', arrearsRoutes)
+app.use('/api/deposits', depositsRoutes)
+app.use('/api/fee-supplements', feeSupplementsRoutes)
 
 /**
  * health

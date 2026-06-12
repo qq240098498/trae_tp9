@@ -13,6 +13,9 @@ import UtilityReading from '@/pages/UtilityReading'
 import Bills from '@/pages/Bills'
 import ExpenseLedger from '@/pages/ExpenseLedger'
 import Reminders from '@/pages/Reminders'
+import Arrears from '@/pages/Arrears'
+import Deposit from '@/pages/Deposit'
+import FeeSupplement from '@/pages/FeeSupplement'
 
 export default function App() {
   return (
@@ -31,6 +34,9 @@ export default function App() {
           <Route path="bills" element={<Bills />} />
           <Route path="expense-ledger" element={<ExpenseLedger />} />
           <Route path="reminders" element={<Reminders />} />
+          <Route path="arrears" element={<Arrears />} />
+          <Route path="deposit" element={<Deposit />} />
+          <Route path="fee-supplement" element={<FeeSupplement />} />
           <Route path="records" element={<Records />} />
         </Route>
       </Routes>

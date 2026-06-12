@@ -16,6 +16,9 @@ import {
   BookOpen,
   Gauge,
   DollarSign,
+  AlertTriangle,
+  Wallet,
+  FileCheck,
 } from 'lucide-react'
 import { cn } from '../lib/utils'
 
@@ -30,6 +33,9 @@ const navItems = [
   { to: '/bills', label: '费用核算', icon: DollarSign },
   { to: '/expense-ledger', label: '费用台账', icon: BookOpen },
   { to: '/reminders', label: '到期提醒', icon: Bell },
+  { to: '/arrears', label: '欠费预警催收', icon: AlertTriangle },
+  { to: '/deposit', label: '押金收支管理', icon: Wallet },
+  { to: '/fee-supplement', label: '补缴与票据', icon: FileCheck },
   { to: '/devices', label: '设备管理', icon: Wrench },
   { to: '/maintenance', label: '维修工单', icon: ClipboardList },
   { to: '/records', label: '异动记录', icon: FileText },

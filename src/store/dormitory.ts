@@ -10,6 +10,12 @@ import type {
   ExpenseLedger,
   StayReminder,
   UtilityPrice,
+  UtilityArrear,
+  CollectionRecord,
+  Deposit,
+  DepositAccount,
+  FeeSupplement,
+  Receipt,
 } from '../types'
 
 interface DormitoryState {
@@ -31,6 +37,16 @@ interface DormitoryState {
   reminderStats: any
   loading: boolean
   error: string | null
+
+  utilityArrears: UtilityArrear[]
+  arrearStats: any
+  depositAccounts: DepositAccount[]
+  depositTransactions: Deposit[]
+  depositStats: any
+  feeSupplements: FeeSupplement[]
+  feeSupplementStats: any
+  receipts: Receipt[]
+  receiptStats: any
 
   fetchBuildings: () => Promise<void>
   fetchRooms: (params?: Record<string, string | number>) => Promise<void>
@@ -91,6 +107,37 @@ interface DormitoryState {
   updateReminder: (id: string, data: Partial<StayReminder>) => Promise<void>
   removeReminder: (id: string) => Promise<void>
   fetchReminderStats: () => Promise<void>
+
+  fetchArrears: (params?: Record<string, string | number>) => Promise<void>
+  createArrear: (data: { billId: string; operator?: string }) => Promise<void>
+  collectArrear: (id: string, data: { collectionType: string; content: string; operator: string; workerId?: string; response?: string; effect?: string; remark?: string }) => Promise<void>
+  payArrear: (id: string, data: { paidAmount: number; operator?: string }) => Promise<void>
+  writeOffArrear: (id: string) => Promise<void>
+  removeArrear: (id: string) => Promise<void>
+
+  fetchDepositAccounts: (params?: Record<string, string | number>) => Promise<void>
+  initializeDepositAccount: (data: { workerId: string; remark?: string }) => Promise<void>
+  updateDepositAccount: (workerId: string, data: Partial<DepositAccount>) => Promise<void>
+  fetchDepositTransactions: (params?: Record<string, string | number>) => Promise<void>
+  createDepositTransaction: (data: Partial<Deposit>) => Promise<void>
+  updateDepositTransaction: (id: string, data: Partial<Deposit>) => Promise<void>
+  removeDepositTransaction: (id: string) => Promise<void>
+  fetchDepositStats: () => Promise<void>
+
+  fetchFeeSupplements: (params?: Record<string, string | number>) => Promise<void>
+  createFeeSupplement: (data: Partial<FeeSupplement>) => Promise<void>
+  updateFeeSupplement: (id: string, data: Partial<FeeSupplement>) => Promise<void>
+  confirmFeeSupplement: (id: string) => Promise<void>
+  payFeeSupplement: (id: string, data: { payMethod: string; transactionNo?: string; operator?: string }) => Promise<void>
+  removeFeeSupplement: (id: string) => Promise<void>
+  fetchFeeSupplementStats: (params?: Record<string, string | number>) => Promise<void>
+
+  fetchReceipts: (params?: Record<string, string | number>) => Promise<void>
+  createReceipt: (data: Partial<Receipt>) => Promise<void>
+  updateReceipt: (id: string, data: Partial<Receipt>) => Promise<void>
+  printReceipt: (id: string) => Promise<void>
+  removeReceipt: (id: string) => Promise<void>
+  fetchReceiptStats: (params?: Record<string, string | number>) => Promise<void>
 }
 
 export const useDormitoryStore = create<DormitoryState>((set, get) => ({
@@ -112,6 +159,16 @@ export const useDormitoryStore = create<DormitoryState>((set, get) => ({
   reminderStats: null,
   loading: false,
   error: null,
+
+  utilityArrears: [],
+  arrearStats: null,
+  depositAccounts: [],
+  depositTransactions: [],
+  depositStats: null,
+  feeSupplements: [],
+  feeSupplementStats: null,
+  receipts: [],
+  receiptStats: null,
 
   fetchBuildings: async () => {
     set({ loading: true, error: null })
@@ -530,6 +587,201 @@ export const useDormitoryStore = create<DormitoryState>((set, get) => ({
     try {
       const data = await api.getReminderStats()
       set({ reminderStats: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    }
+  },
+
+  fetchArrears: async (params) => {
+    set({ loading: true, error: null })
+    try {
+      const data = await api.getArrears(params)
+      set({ utilityArrears: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    } finally {
+      set({ loading: false })
+    }
+  },
+
+  createArrear: async (data) => {
+    await api.createArrear(data)
+    await get().fetchArrears()
+  },
+
+  collectArrear: async (id, data) => {
+    await api.collectArrear(id, data)
+    await get().fetchArrears()
+  },
+
+  payArrear: async (id, data) => {
+    await api.payArrear(id, data)
+    await get().fetchArrears()
+  },
+
+  writeOffArrear: async (id) => {
+    await api.writeOffArrear(id)
+    await get().fetchArrears()
+  },
+
+  removeArrear: async (id) => {
+    await api.deleteArrear(id)
+    await get().fetchArrears()
+  },
+
+  fetchDepositAccounts: async (params) => {
+    set({ loading: true, error: null })
+    try {
+      const data = await api.getDepositAccounts(params)
+      set({ depositAccounts: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    } finally {
+      set({ loading: false })
+    }
+  },
+
+  initializeDepositAccount: async (data) => {
+    await api.initializeDepositAccount(data)
+    await get().fetchDepositAccounts()
+    await get().fetchDepositStats()
+  },
+
+  updateDepositAccount: async (workerId, data) => {
+    await api.updateDepositAccount(workerId, data)
+    await get().fetchDepositAccounts()
+  },
+
+  fetchDepositTransactions: async (params) => {
+    set({ loading: true, error: null })
+    try {
+      const data = await api.getDepositTransactions(params)
+      set({ depositTransactions: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    } finally {
+      set({ loading: false })
+    }
+  },
+
+  createDepositTransaction: async (data) => {
+    await api.createDepositTransaction(data)
+    await get().fetchDepositTransactions()
+    await get().fetchDepositAccounts()
+    await get().fetchDepositStats()
+  },
+
+  updateDepositTransaction: async (id, data) => {
+    await api.updateDepositTransaction(id, data)
+    await get().fetchDepositTransactions()
+    await get().fetchDepositAccounts()
+  },
+
+  removeDepositTransaction: async (id) => {
+    await api.deleteDepositTransaction(id)
+    await get().fetchDepositTransactions()
+    await get().fetchDepositAccounts()
+    await get().fetchDepositStats()
+  },
+
+  fetchDepositStats: async () => {
+    try {
+      const data = await api.getDepositStats()
+      set({ depositStats: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    }
+  },
+
+  fetchFeeSupplements: async (params) => {
+    set({ loading: true, error: null })
+    try {
+      const data = await api.getFeeSupplements(params)
+      set({ feeSupplements: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    } finally {
+      set({ loading: false })
+    }
+  },
+
+  createFeeSupplement: async (data) => {
+    await api.createFeeSupplement(data)
+    await get().fetchFeeSupplements()
+    await get().fetchFeeSupplementStats()
+  },
+
+  updateFeeSupplement: async (id, data) => {
+    await api.updateFeeSupplement(id, data)
+    await get().fetchFeeSupplements()
+  },
+
+  confirmFeeSupplement: async (id) => {
+    await api.confirmFeeSupplement(id)
+    await get().fetchFeeSupplements()
+    await get().fetchFeeSupplementStats()
+  },
+
+  payFeeSupplement: async (id, data) => {
+    await api.payFeeSupplement(id, data)
+    await get().fetchFeeSupplements()
+    await get().fetchFeeSupplementStats()
+    await get().fetchReceipts()
+  },
+
+  removeFeeSupplement: async (id) => {
+    await api.deleteFeeSupplement(id)
+    await get().fetchFeeSupplements()
+    await get().fetchFeeSupplementStats()
+  },
+
+  fetchFeeSupplementStats: async (params) => {
+    try {
+      const data = await api.getFeeSupplementStats(params)
+      set({ feeSupplementStats: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    }
+  },
+
+  fetchReceipts: async (params) => {
+    set({ loading: true, error: null })
+    try {
+      const data = await api.getReceipts(params)
+      set({ receipts: data })
+    } catch (e: any) {
+      set({ error: e.message })
+    } finally {
+      set({ loading: false })
+    }
+  },
+
+  createReceipt: async (data) => {
+    await api.createReceipt(data)
+    await get().fetchReceipts()
+    await get().fetchReceiptStats()
+  },
+
+  updateReceipt: async (id, data) => {
+    await api.updateReceipt(id, data)
+    await get().fetchReceipts()
+  },
+
+  printReceipt: async (id) => {
+    await api.printReceipt(id)
+    await get().fetchReceipts()
+  },
+
+  removeReceipt: async (id) => {
+    await api.deleteReceipt(id)
+    await get().fetchReceipts()
+    await get().fetchReceiptStats()
+  },
+
+  fetchReceiptStats: async (params) => {
+    try {
+      const data = await api.getReceiptStats(params)
+      set({ receiptStats: data })
     } catch (e: any) {
       set({ error: e.message })
     }

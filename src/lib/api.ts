@@ -11,6 +11,12 @@ import type {
   UtilityBill,
   ExpenseLedger,
   StayReminder,
+  UtilityArrear,
+  CollectionRecord,
+  Deposit,
+  DepositAccount,
+  FeeSupplement,
+  Receipt,
 } from '../types'
 
 const BASE_URL = '/api'
@@ -195,4 +201,81 @@ export const api = {
   deleteReminder: (id: string) =>
     request<void>(`/reminders/${id}`, { method: 'DELETE' }),
   getReminderStats: () => request<any>('/reminders/stats/count'),
+
+  getArrears: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<UtilityArrear[]>(`/arrears${qs}`)
+  },
+  getArrear: (id: string) => request<UtilityArrear>(`/arrears/${id}`),
+  getArrearCollections: (id: string) => request<CollectionRecord[]>(`/arrears/${id}/collections`),
+  createArrear: (data: { billId: string; operator?: string }) =>
+    request<UtilityArrear>('/arrears', { method: 'POST', body: JSON.stringify(data) }),
+  collectArrear: (id: string, data: { collectionType: string; content: string; operator: string; workerId?: string; response?: string; effect?: string; remark?: string }) =>
+    request<CollectionRecord>(`/arrears/${id}/collect`, { method: 'POST', body: JSON.stringify(data) }),
+  payArrear: (id: string, data: { paidAmount: number; operator?: string }) =>
+    request<UtilityArrear>(`/arrears/${id}/pay`, { method: 'PUT', body: JSON.stringify(data) }),
+  writeOffArrear: (id: string) =>
+    request<UtilityArrear>(`/arrears/${id}/write-off`, { method: 'PUT' }),
+  deleteArrear: (id: string) =>
+    request<void>(`/arrears/${id}`, { method: 'DELETE' }),
+
+  getDepositAccounts: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<DepositAccount[]>(`/deposits/accounts${qs}`)
+  },
+  getDepositAccount: (workerId: string) => request<DepositAccount>(`/deposits/accounts/${workerId}`),
+  initializeDepositAccount: (data: { workerId: string; remark?: string }) =>
+    request<DepositAccount>('/deposits/accounts/initialize', { method: 'POST', body: JSON.stringify(data) }),
+  updateDepositAccount: (workerId: string, data: Partial<DepositAccount>) =>
+    request<DepositAccount>(`/deposits/accounts/${workerId}`, { method: 'PUT', body: JSON.stringify(data) }),
+  getDepositTransactions: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<Deposit[]>(`/deposits/transactions${qs}`)
+  },
+  getDepositTransaction: (id: string) => request<Deposit>(`/deposits/transactions/${id}`),
+  createDepositTransaction: (data: Partial<Deposit>) =>
+    request<Deposit>('/deposits/transactions', { method: 'POST', body: JSON.stringify(data) }),
+  updateDepositTransaction: (id: string, data: Partial<Deposit>) =>
+    request<Deposit>(`/deposits/transactions/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteDepositTransaction: (id: string) =>
+    request<void>(`/deposits/transactions/${id}`, { method: 'DELETE' }),
+  getDepositStats: () => request<any>('/deposits/stats/summary'),
+
+  getFeeSupplements: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<FeeSupplement[]>(`/fee-supplements/supplements${qs}`)
+  },
+  getFeeSupplement: (id: string) => request<FeeSupplement>(`/fee-supplements/supplements/${id}`),
+  createFeeSupplement: (data: Partial<FeeSupplement>) =>
+    request<FeeSupplement>('/fee-supplements/supplements', { method: 'POST', body: JSON.stringify(data) }),
+  updateFeeSupplement: (id: string, data: Partial<FeeSupplement>) =>
+    request<FeeSupplement>(`/fee-supplements/supplements/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  confirmFeeSupplement: (id: string) =>
+    request<FeeSupplement>(`/fee-supplements/supplements/${id}/confirm`, { method: 'PUT' }),
+  payFeeSupplement: (id: string, data: { payMethod: string; transactionNo?: string; operator?: string }) =>
+    request<FeeSupplement>(`/fee-supplements/supplements/${id}/pay`, { method: 'PUT', body: JSON.stringify(data) }),
+  deleteFeeSupplement: (id: string) =>
+    request<void>(`/fee-supplements/supplements/${id}`, { method: 'DELETE' }),
+  getFeeSupplementStats: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<any>(`/fee-supplements/supplements/stats/summary${qs}`)
+  },
+
+  getReceipts: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<Receipt[]>(`/fee-supplements/receipts${qs}`)
+  },
+  getReceipt: (id: string) => request<Receipt>(`/fee-supplements/receipts/${id}`),
+  createReceipt: (data: Partial<Receipt>) =>
+    request<Receipt>('/fee-supplements/receipts', { method: 'POST', body: JSON.stringify(data) }),
+  updateReceipt: (id: string, data: Partial<Receipt>) =>
+    request<Receipt>(`/fee-supplements/receipts/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+  printReceipt: (id: string) =>
+    request<Receipt>(`/fee-supplements/receipts/${id}/print`, { method: 'PUT' }),
+  deleteReceipt: (id: string) =>
+    request<void>(`/fee-supplements/receipts/${id}`, { method: 'DELETE' }),
+  getReceiptStats: (params?: Record<string, string | number>) => {
+    const qs = params ? '?' + new URLSearchParams(params as Record<string, string>).toString() : ''
+    return request<any>(`/fee-supplements/receipts/stats/summary${qs}`)
+  },
 }
