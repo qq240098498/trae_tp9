@@ -71,8 +71,17 @@ router.post('/readings', async (req: Request, res: Response): Promise<void> => {
   const lastElectricityReading = lastReading?.electricityReading || 0
   const lastWaterReading = lastReading?.waterReading || 0
 
-  const electricityUsage = Math.max(0, electricityReading - lastElectricityReading)
-  const waterUsage = Math.max(0, waterReading - lastWaterReading)
+  if (electricityReading < lastElectricityReading) {
+    res.status(400).json({ success: false, error: `本次电表读数（${electricityReading} 度）不能小于上次读数（${lastElectricityReading} 度）` })
+    return
+  }
+  if (waterReading < lastWaterReading) {
+    res.status(400).json({ success: false, error: `本次水表读数（${waterReading} 吨）不能小于上次读数（${lastWaterReading} 吨）` })
+    return
+  }
+
+  const electricityUsage = electricityReading - lastElectricityReading
+  const waterUsage = waterReading - lastWaterReading
 
   const now = new Date().toISOString()
   const newReading: UtilityReading = {
@@ -110,12 +119,26 @@ router.put('/readings/:id', async (req: Request, res: Response): Promise<void> =
   const { electricityReading, waterReading } = req.body
   const reading = db.utilityReadings[idx]
 
-  const electricityUsage = Math.max(0, (electricityReading ?? reading.electricityReading) - reading.lastElectricityReading)
-  const waterUsage = Math.max(0, (waterReading ?? reading.waterReading) - reading.lastWaterReading)
+  const newElectricityReading = electricityReading ?? reading.electricityReading
+  const newWaterReading = waterReading ?? reading.waterReading
+
+  if (newElectricityReading < reading.lastElectricityReading) {
+    res.status(400).json({ success: false, error: `本次电表读数（${newElectricityReading} 度）不能小于上次读数（${reading.lastElectricityReading} 度）` })
+    return
+  }
+  if (newWaterReading < reading.lastWaterReading) {
+    res.status(400).json({ success: false, error: `本次水表读数（${newWaterReading} 吨）不能小于上次读数（${reading.lastWaterReading} 吨）` })
+    return
+  }
+
+  const electricityUsage = newElectricityReading - reading.lastElectricityReading
+  const waterUsage = newWaterReading - reading.lastWaterReading
 
   db.utilityReadings[idx] = {
     ...reading,
     ...req.body,
+    electricityReading: newElectricityReading,
+    waterReading: newWaterReading,
     electricityUsage,
     waterUsage,
     updatedAt: new Date().toISOString(),

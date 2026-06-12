@@ -14878,13 +14878,91 @@
       "remark": ""
     }
   ],
-  "utilityReadings": [],
-  "utilityBills": [],
-  "expenseLedgers": [],
+  "utilityReadings": [
+    {
+      "id": "util_rd_1781188466638_7x0uq7k8",
+      "roomId": "room_1011_mq8385xp",
+      "roomNumber": "2-102",
+      "buildingId": "bld_960_mq8385xp",
+      "buildingName": "2号楼",
+      "readingDate": "2026-06-11",
+      "electricityReading": 132,
+      "waterReading": 123,
+      "lastElectricityReading": 0,
+      "lastWaterReading": 0,
+      "electricityUsage": 132,
+      "waterUsage": 123,
+      "operator": "13",
+      "remark": "123",
+      "createdAt": "2026-06-11T14:34:26.638Z",
+      "updatedAt": "2026-06-11T14:34:26.638Z"
+    },
+    {
+      "id": "util_rd_1781227887621_p1wzyh98",
+      "roomId": "room_1011_mq8385xp",
+      "roomNumber": "2-102",
+      "buildingId": "bld_960_mq8385xp",
+      "buildingName": "2号楼",
+      "readingDate": "2026-06-12",
+      "electricityReading": 111,
+      "waterReading": 109,
+      "lastElectricityReading": 132,
+      "lastWaterReading": 123,
+      "electricityUsage": 0,
+      "waterUsage": 0,
+      "operator": "1231",
+      "remark": "",
+      "createdAt": "2026-06-12T01:31:27.621Z",
+      "updatedAt": "2026-06-12T01:31:27.621Z"
+    }
+  ],
+  "utilityBills": [
+    {
+      "id": "bill_1781188471822_nu9htgj8",
+      "roomId": "room_1011_mq8385xp",
+      "roomNumber": "2-102",
+      "buildingId": "bld_960_mq8385xp",
+      "buildingName": "2号楼",
+      "billingPeriod": "2026-06",
+      "startDate": "2026-05-11",
+      "endDate": "2026-06-11",
+      "electricityUsage": 132,
+      "waterUsage": 123,
+      "electricityCost": 158.4,
+      "waterCost": 553.5,
+      "totalCost": 711.9,
+      "readingId": "util_rd_1781188466638_7x0uq7k8",
+      "status": "paid",
+      "operator": "管理员",
+      "createdAt": "2026-06-11T14:34:31.822Z",
+      "updatedAt": "2026-06-11T14:34:38.332Z",
+      "confirmedAt": "2026-06-11T14:34:35.565Z",
+      "paidAt": "2026-06-11T14:34:38.332Z"
+    }
+  ],
+  "expenseLedgers": [
+    {
+      "id": "ledger_1781188475566_hzb7ppbo",
+      "type": "electricity",
+      "roomId": "room_1011_mq8385xp",
+      "roomNumber": "2-102",
+      "buildingId": "bld_960_mq8385xp",
+      "buildingName": "2号楼",
+      "amount": 711.9,
+      "description": "2026-06 水电费账单 - 2-102",
+      "billingPeriod": "2026-06",
+      "recordDate": "2026-06-11T14:34:35.565Z",
+      "operator": "管理员",
+      "status": "paid",
+      "relatedBillId": "bill_1781188471822_nu9htgj8",
+      "createdAt": "2026-06-11T14:34:35.565Z",
+      "updatedAt": "2026-06-11T14:34:38.332Z"
+    }
+  ],
   "stayReminders": [],
   "utilityPrice": {
     "electricityPrice": 1.2,
     "waterPrice": 4.5,
-    "updatedAt": "2026-06-01T00:00:00.000Z"
+    "updatedAt": "2026-06-12T01:31:05.971Z"
   }
 }

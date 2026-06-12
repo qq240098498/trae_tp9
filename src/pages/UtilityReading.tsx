@@ -252,6 +252,18 @@ export default function UtilityReadingPage() {
       alert('请填写抄表人')
       return false
     }
+    const lastElec = formData.lastElectricityReading || 0
+    const lastWater = formData.lastWaterReading || 0
+    const currElec = formData.electricityReading
+    const currWater = formData.waterReading
+    if (currElec < lastElec) {
+      alert(`本次电表读数（${currElec} 度）不能小于上次读数（${lastElec} 度）`)
+      return false
+    }
+    if (currWater < lastWater) {
+      alert(`本次水表读数（${currWater} 吨）不能小于上次读数（${lastWater} 吨）`)
+      return false
+    }
     const building = buildings.find((b) => b.id === formBuildingId)
     const room = formRooms.find((r) => r.id === formRoomId)
     if (!building || !room) {
